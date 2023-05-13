@@ -1,0 +1,227 @@
+{
+	"type": "trait_list",
+	"version": 4,
+	"rows": [
+		{
+			"id": "730843bd-b2ad-4302-a765-c8a4157dc029",
+			"type": "trait",
+			"name": "KEF Seeker Rank",
+			"reference": "B29",
+			"tags": [
+				"Advantage",
+				"Social"
+			],
+			"modifiers": [
+				{
+					"id": "f2152f52-b337-4072-ab43-d66afcbc319e",
+					"type": "modifier",
+					"name": "Replaces Status",
+					"reference": "B29",
+					"cost": 5,
+					"affects": "levels_only",
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "42caab58-9f7b-4911-9ef0-a47a92e63801",
+					"type": "modifier",
+					"name": "Courtesy",
+					"reference": "B29",
+					"cost": -4,
+					"affects": "levels_only",
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "3498ff0f-f1c6-467a-a3eb-992997cf3d52",
+					"type": "modifier_container",
+					"open": true,
+					"children": [
+						{
+							"id": "4bd39498-eb13-4f41-8901-40c55697abd5",
+							"type": "modifier",
+							"name": "1 - Initiate",
+							"disabled": true
+						},
+						{
+							"id": "b427be8d-58a2-484b-8aff-6cca649da86b",
+							"type": "modifier",
+							"name": "2 - Apprentice",
+							"disabled": true
+						},
+						{
+							"id": "4eb45029-d0d1-4834-961c-be08cff5230c",
+							"type": "modifier",
+							"name": "3 - Seeker",
+							"disabled": true
+						},
+						{
+							"id": "9406527f-a770-4b77-9a07-c97c03487e8c",
+							"type": "modifier",
+							"name": "4 - High Seeker",
+							"disabled": true
+						},
+						{
+							"id": "9330fc7e-789f-4332-ad9f-3432a992500c",
+							"type": "modifier",
+							"name": "5 - Master Seeker",
+							"disabled": true
+						},
+						{
+							"id": "514f2454-7a1b-47d9-b0ba-280842141c9e",
+							"type": "modifier",
+							"name": "6 - Grand Seeker",
+							"disabled": true
+						}
+					],
+					"name": "KEF Seeker Ranks"
+				}
+			],
+			"levels": 1,
+			"points_per_level": 5,
+			"can_level": true,
+			"calc": {
+				"points": 5
+			}
+		},
+		{
+			"id": "cf558fe8-b645-4098-b125-133105ee7fd0",
+			"type": "trait",
+			"name": "Legal Enforcement Powers (KEF)",
+			"reference": "B65",
+			"notes": "KEF: International, Covert Ops, License to Kill",
+			"tags": [
+				"Advantage",
+				"Social"
+			],
+			"modifiers": [
+				{
+					"id": "887fa016-48dc-4535-ab43-6744932b8940",
+					"type": "modifier",
+					"name": "Informal",
+					"reference": "SU33",
+					"cost": -50
+				}
+			],
+			"levels": 1,
+			"points_per_level": 5,
+			"can_level": true,
+			"calc": {
+				"points": 3
+			}
+		},
+		{
+			"id": "b74d3393-6905-45d5-94d5-d47f12da75e1",
+			"type": "trait",
+			"name": "Threshold Magery 0",
+			"base_points": 5,
+			"calc": {
+				"points": 5
+			}
+		},
+		{
+			"id": "efd45c71-582e-4b37-aea5-886670e82d3e",
+			"type": "trait",
+			"name": "Threshold Magery",
+			"reference": "Th77",
+			"levels": 1,
+			"points_per_level": 10,
+			"can_level": true,
+			"calc": {
+				"points": 10
+			}
+		},
+		{
+			"id": "6baae121-3966-4740-bf22-d65010821604",
+			"type": "trait",
+			"name": "KEF Wizard Rank",
+			"reference": "B29",
+			"tags": [
+				"Advantage",
+				"Social"
+			],
+			"modifiers": [
+				{
+					"id": "f2152f52-b337-4072-ab43-d66afcbc319e",
+					"type": "modifier",
+					"name": "Replaces Status",
+					"reference": "B29",
+					"cost": 5,
+					"affects": "levels_only",
+					"cost_type": "points"
+				},
+				{
+					"id": "42caab58-9f7b-4911-9ef0-a47a92e63801",
+					"type": "modifier",
+					"name": "Courtesy",
+					"reference": "B29",
+					"cost": -4,
+					"affects": "levels_only",
+					"cost_type": "points",
+					"disabled": true
+				},
+				{
+					"id": "f2a832c9-2d27-4dc5-a4fb-a0f20aaeb3fb",
+					"type": "modifier_container",
+					"open": true,
+					"children": [
+						{
+							"id": "804c7420-1955-45a9-a092-5ee0bbd50101",
+							"type": "modifier",
+							"name": "1 - Initiate"
+						},
+						{
+							"id": "88aad3da-1834-4ac6-a838-539e87539ed1",
+							"type": "modifier",
+							"name": "2 - Apprentice",
+							"disabled": true
+						},
+						{
+							"id": "87d309a6-6c8e-4b27-8dc3-77a16574e361",
+							"type": "modifier",
+							"name": "3 - Journeyman",
+							"disabled": true
+						},
+						{
+							"id": "7df7d25d-646d-4b8a-8d77-3c07088a2b05",
+							"type": "modifier",
+							"name": "4 -  Laureate",
+							"disabled": true
+						},
+						{
+							"id": "9750913a-b4ab-4704-be4a-45520ec41cae",
+							"type": "modifier",
+							"name": "5 - Wizard",
+							"disabled": true
+						},
+						{
+							"id": "c1bb8489-42ac-42c3-a3e9-07b482f1e620",
+							"type": "modifier",
+							"name": "6 - High Wizard",
+							"disabled": true
+						},
+						{
+							"id": "9211963e-6e88-4ab7-9d4e-9b64d32c48c0",
+							"type": "modifier",
+							"name": "7 - Mage",
+							"disabled": true
+						},
+						{
+							"id": "5f1a5c7d-eb6a-496d-8fad-737ec18aeb7e",
+							"type": "modifier",
+							"name": "8 - Archmage",
+							"disabled": true
+						}
+					],
+					"name": "KEF Wizard Rank Names"
+				}
+			],
+			"levels": 1,
+			"points_per_level": 5,
+			"can_level": true,
+			"calc": {
+				"points": 10
+			}
+		}
+	]
+}

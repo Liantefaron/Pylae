@@ -1,0 +1,201 @@
+{
+	"type": "template",
+	"version": 4,
+	"id": "cb38ef8a-aa8a-4ebf-ab58-88b2339f1337",
+	"traits": [
+		{
+			"id": "042820e3-bdee-427e-bb9f-2c3273dfb5f1",
+			"type": "trait_container",
+			"open": true,
+			"children": [
+				{
+					"id": "3e1ae9d3-8572-418a-867b-d8810ab2ea09",
+					"type": "trait",
+					"name": "Duty (KEF)",
+					"reference": "B133",
+					"tags": [
+						"Disadvantage",
+						"Social"
+					],
+					"modifiers": [
+						{
+							"id": "fb0c80a4-4c65-4521-9e18-7378dda34a46",
+							"type": "modifier",
+							"name": "FR: 6",
+							"cost": -2,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "92ade39a-a64c-4ff4-a84b-89ab92a6e217",
+							"type": "modifier",
+							"name": "FR: 9",
+							"cost": -5,
+							"cost_type": "points"
+						},
+						{
+							"id": "80577150-cbdb-4c26-bde4-1ad85a7deec2",
+							"type": "modifier",
+							"name": "FR: 12",
+							"cost": -10,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "d6406b89-6289-4b8c-b7c7-4d25add3c352",
+							"type": "modifier",
+							"name": "FR: 15",
+							"cost": -15,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "f4458d02-9b67-42f8-8f31-5837064fb751",
+							"type": "modifier",
+							"name": "Extremely Hazardous",
+							"cost": -5,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "814f2484-cac1-4eca-af21-f9eaca8c0d0a",
+							"type": "modifier",
+							"name": "Involuntary",
+							"cost": -5,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "5d87b90f-fc68-4d78-8547-7c2ef58ae7bd",
+							"type": "modifier",
+							"name": "Nonhazardous",
+							"cost": 5,
+							"cost_type": "points",
+							"disabled": true
+						}
+					],
+					"calc": {
+						"points": -5
+					}
+				},
+				{
+					"id": "ad32997e-a4f1-457d-bde8-1b4f8e7d14e1",
+					"type": "trait",
+					"name": "KEF Wizard Rank",
+					"reference": "B29",
+					"tags": [
+						"Advantage",
+						"Social"
+					],
+					"modifiers": [
+						{
+							"id": "f2152f52-b337-4072-ab43-d66afcbc319e",
+							"type": "modifier",
+							"name": "Replaces Status",
+							"reference": "B29",
+							"cost": 5,
+							"affects": "levels_only",
+							"cost_type": "points"
+						},
+						{
+							"id": "42caab58-9f7b-4911-9ef0-a47a92e63801",
+							"type": "modifier",
+							"name": "Courtesy",
+							"reference": "B29",
+							"cost": -4,
+							"affects": "levels_only",
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "f2a832c9-2d27-4dc5-a4fb-a0f20aaeb3fb",
+							"type": "modifier_container",
+							"open": true,
+							"children": [
+								{
+									"id": "804c7420-1955-45a9-a092-5ee0bbd50101",
+									"type": "modifier",
+									"name": "1 - Initiate"
+								},
+								{
+									"id": "88aad3da-1834-4ac6-a838-539e87539ed1",
+									"type": "modifier",
+									"name": "2 - Apprentice",
+									"disabled": true
+								},
+								{
+									"id": "87d309a6-6c8e-4b27-8dc3-77a16574e361",
+									"type": "modifier",
+									"name": "3 - Journeyman",
+									"disabled": true
+								},
+								{
+									"id": "7df7d25d-646d-4b8a-8d77-3c07088a2b05",
+									"type": "modifier",
+									"name": "4 -  Laureate",
+									"disabled": true
+								},
+								{
+									"id": "9750913a-b4ab-4704-be4a-45520ec41cae",
+									"type": "modifier",
+									"name": "5 - Wizard",
+									"disabled": true
+								},
+								{
+									"id": "c1bb8489-42ac-42c3-a3e9-07b482f1e620",
+									"type": "modifier",
+									"name": "6 - High Wizard",
+									"disabled": true
+								},
+								{
+									"id": "9211963e-6e88-4ab7-9d4e-9b64d32c48c0",
+									"type": "modifier",
+									"name": "7 - Mage",
+									"disabled": true
+								},
+								{
+									"id": "5f1a5c7d-eb6a-496d-8fad-737ec18aeb7e",
+									"type": "modifier",
+									"name": "8 - Archmage",
+									"disabled": true
+								}
+							],
+							"name": "KEF Wizard Rank Names"
+						}
+					],
+					"levels": 1,
+					"points_per_level": 5,
+					"can_level": true,
+					"calc": {
+						"points": 10
+					}
+				},
+				{
+					"id": "169e8353-62e6-42c1-abdd-5bab12641797",
+					"type": "trait",
+					"name": "Threshold Magery 0",
+					"base_points": 5,
+					"calc": {
+						"points": 5
+					}
+				},
+				{
+					"id": "1e134e28-b01b-4992-8e5f-e97b9eb140bd",
+					"type": "trait",
+					"name": "Threshold Magery",
+					"reference": "Th77",
+					"levels": 1,
+					"points_per_level": 10,
+					"can_level": true,
+					"calc": {
+						"points": 10
+					}
+				}
+			],
+			"name": "KEF Mage",
+			"calc": {
+				"points": 20
+			}
+		}
+	]
+}

@@ -1,0 +1,678 @@
+{
+	"type": "template",
+	"version": 4,
+	"id": "0609bbad-fae1-437d-9109-e4983f5165cc",
+	"traits": [
+		{
+			"id": "21cc0ff6-a83b-48e6-9334-ad2697edd413",
+			"type": "trait_container",
+			"open": true,
+			"children": [
+				{
+					"id": "e2d076f1-0890-494f-8d44-7856bbeb0de8",
+					"type": "trait",
+					"name": "Duty (KEF)",
+					"reference": "B133",
+					"tags": [
+						"Disadvantage",
+						"Social"
+					],
+					"modifiers": [
+						{
+							"id": "fb0c80a4-4c65-4521-9e18-7378dda34a46",
+							"type": "modifier",
+							"name": "FR: 6",
+							"cost": -2,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "92ade39a-a64c-4ff4-a84b-89ab92a6e217",
+							"type": "modifier",
+							"name": "FR: 9",
+							"cost": -5,
+							"cost_type": "points"
+						},
+						{
+							"id": "80577150-cbdb-4c26-bde4-1ad85a7deec2",
+							"type": "modifier",
+							"name": "FR: 12",
+							"cost": -10,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "d6406b89-6289-4b8c-b7c7-4d25add3c352",
+							"type": "modifier",
+							"name": "FR: 15",
+							"cost": -15,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "f4458d02-9b67-42f8-8f31-5837064fb751",
+							"type": "modifier",
+							"name": "Extremely Hazardous",
+							"cost": -5,
+							"cost_type": "points"
+						},
+						{
+							"id": "814f2484-cac1-4eca-af21-f9eaca8c0d0a",
+							"type": "modifier",
+							"name": "Involuntary",
+							"cost": -5,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "5d87b90f-fc68-4d78-8547-7c2ef58ae7bd",
+							"type": "modifier",
+							"name": "Nonhazardous",
+							"cost": 5,
+							"cost_type": "points",
+							"disabled": true
+						}
+					],
+					"calc": {
+						"points": -10
+					}
+				},
+				{
+					"id": "553f0efe-50bc-4e19-8b2c-393cbfe0bf36",
+					"type": "trait",
+					"name": "KEF Seeker Rank",
+					"reference": "B29",
+					"tags": [
+						"Advantage",
+						"Social"
+					],
+					"modifiers": [
+						{
+							"id": "f2152f52-b337-4072-ab43-d66afcbc319e",
+							"type": "modifier",
+							"name": "Replaces Status",
+							"reference": "B29",
+							"cost": 5,
+							"affects": "levels_only",
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "42caab58-9f7b-4911-9ef0-a47a92e63801",
+							"type": "modifier",
+							"name": "Courtesy",
+							"reference": "B29",
+							"cost": -4,
+							"affects": "levels_only",
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "3498ff0f-f1c6-467a-a3eb-992997cf3d52",
+							"type": "modifier_container",
+							"open": true,
+							"children": [
+								{
+									"id": "4bd39498-eb13-4f41-8901-40c55697abd5",
+									"type": "modifier",
+									"name": "1 - Initiate",
+									"disabled": true
+								},
+								{
+									"id": "b427be8d-58a2-484b-8aff-6cca649da86b",
+									"type": "modifier",
+									"name": "2 - Apprentice",
+									"disabled": true
+								},
+								{
+									"id": "4eb45029-d0d1-4834-961c-be08cff5230c",
+									"type": "modifier",
+									"name": "3 - Seeker",
+									"disabled": true
+								},
+								{
+									"id": "9406527f-a770-4b77-9a07-c97c03487e8c",
+									"type": "modifier",
+									"name": "4 - High Seeker",
+									"disabled": true
+								},
+								{
+									"id": "9330fc7e-789f-4332-ad9f-3432a992500c",
+									"type": "modifier",
+									"name": "5 - Master Seeker",
+									"disabled": true
+								},
+								{
+									"id": "514f2454-7a1b-47d9-b0ba-280842141c9e",
+									"type": "modifier",
+									"name": "6 - Grand Seeker",
+									"disabled": true
+								}
+							],
+							"name": "KEF Seeker Ranks"
+						}
+					],
+					"levels": 1,
+					"points_per_level": 5,
+					"can_level": true,
+					"calc": {
+						"points": 5
+					}
+				},
+				{
+					"id": "e02c93d4-0114-42af-9355-ff16d048e0cc",
+					"type": "trait",
+					"name": "Legal Enforcement Powers",
+					"reference": "B65",
+					"notes": "KEF: International, Covert Ops, License to Kill",
+					"tags": [
+						"Advantage",
+						"Social"
+					],
+					"modifiers": [
+						{
+							"id": "e5a246b8-1e9d-4d73-b3dc-64861848a337",
+							"type": "modifier",
+							"name": "Informal",
+							"reference": "SU33",
+							"cost": -50
+						}
+					],
+					"levels": 3,
+					"points_per_level": 5,
+					"can_level": true,
+					"calc": {
+						"points": 8
+					}
+				},
+				{
+					"id": "b64a7758-10e8-4d1b-be71-1a0b79afe725",
+					"type": "trait",
+					"name": "Legal Immunity (KEF)",
+					"reference": "B65",
+					"tags": [
+						"Advantage",
+						"Social"
+					],
+					"modifiers": [
+						{
+							"id": "4c33aae9-c577-4718-a4dd-b5d2cd18d761",
+							"type": "modifier",
+							"name": "Bard",
+							"reference": "B65",
+							"cost": 10,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "979e2375-eaca-4948-baa3-670dbcd4f9d6",
+							"type": "modifier",
+							"name": "KEF Member",
+							"cost": 15,
+							"cost_type": "points"
+						},
+						{
+							"id": "5efbc992-d4b8-4cdc-a837-9c04e9b3be71",
+							"type": "modifier",
+							"name": "Informal",
+							"reference": "SU33",
+							"cost": -50
+						},
+						{
+							"id": "df9f3531-9442-440a-a185-ca308d1e67c9",
+							"type": "modifier",
+							"name": "Diplomatic Immunity",
+							"reference": "B65",
+							"cost": 20,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "4b4d2cb4-eb5a-4d00-8951-08f34203c6ac",
+							"type": "modifier",
+							"name": "Petty Diplomat",
+							"reference": "B65",
+							"cost": 15,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "ad77339d-edfa-48d0-b3f2-7c22ea8e8469",
+							"type": "modifier",
+							"name": "UN Observer",
+							"reference": "B65",
+							"cost": 5,
+							"cost_type": "points",
+							"disabled": true
+						}
+					],
+					"calc": {
+						"points": 8
+					}
+				}
+			],
+			"name": "KEF Seeker",
+			"calc": {
+				"points": 11
+			}
+		}
+	],
+	"skills": [
+		{
+			"id": "1dccaf11-d1d6-4ef9-8668-3da3954dbc66",
+			"type": "skill_container",
+			"open": true,
+			"children": [
+				{
+					"id": "975614f3-0a6c-47d4-93c4-f04d010b2af4",
+					"type": "skill_container",
+					"open": true,
+					"children": [
+						{
+							"id": "1757f49b-beac-42d8-8020-87a7e055c567",
+							"type": "skill",
+							"name": "Brawling",
+							"reference": "B182,MA55",
+							"tags": [
+								"Combat",
+								"Melee Combat",
+								"Weapon"
+							],
+							"difficulty": "dx/e",
+							"points": 1,
+							"features": [
+								{
+									"type": "weapon_bonus",
+									"selection_type": "weapons_with_required_skill",
+									"name": {
+										"compare": "is",
+										"qualifier": "Brawling"
+									},
+									"level": {
+										"compare": "at_least",
+										"qualifier": 2
+									},
+									"amount": 1,
+									"per_level": true
+								}
+							]
+						},
+						{
+							"id": "a9c1361e-92f9-4824-9ca6-0a380c880e9b",
+							"type": "skill",
+							"name": "First Aid",
+							"reference": "B195",
+							"tags": [
+								"Everyman",
+								"Medical"
+							],
+							"tech_level": "",
+							"difficulty": "iq/e",
+							"points": 1,
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Esoteric Medicine"
+								},
+								{
+									"type": "skill",
+									"name": "Physician"
+								},
+								{
+									"type": "skill",
+									"name": "Veterinary",
+									"modifier": -4
+								}
+							]
+						},
+						{
+							"id": "8411782f-d3c9-45aa-befc-7890be2e597b",
+							"type": "skill",
+							"name": "Law",
+							"reference": "B204",
+							"tags": [
+								"Business",
+								"Humanities",
+								"Police",
+								"Social Sciences"
+							],
+							"specialization": "KEF",
+							"difficulty": "iq/h",
+							"points": 1,
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -6
+								}
+							]
+						},
+						{
+							"id": "c70a35f4-ceb9-46c3-bce7-352a044aa6f5",
+							"type": "skill",
+							"name": "Shield",
+							"reference": "B220",
+							"tags": [
+								"Combat",
+								"Melee Combat",
+								"Weapon"
+							],
+							"specialization": "Shield",
+							"difficulty": "dx/e",
+							"points": 1,
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -4
+								}
+							]
+						},
+						{
+							"id": "13115074-3e83-4b89-9963-1ea41279049e",
+							"type": "skill",
+							"name": "Shortsword",
+							"reference": "B209",
+							"tags": [
+								"Combat",
+								"Melee Combat",
+								"Weapon"
+							],
+							"difficulty": "dx/a",
+							"points": 1,
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Broadsword",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Force Sword",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Jitte/Sai",
+									"modifier": -3
+								},
+								{
+									"type": "skill",
+									"name": "Knife",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Saber",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Smallsword",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Tonfa",
+									"modifier": -3
+								},
+								{
+									"type": "dx",
+									"modifier": -5
+								}
+							]
+						},
+						{
+							"id": "17c80e72-9674-4ca7-afab-bb80441f8c54",
+							"type": "skill",
+							"name": "Soldier",
+							"reference": "B221",
+							"tags": [
+								"Military"
+							],
+							"tech_level": "",
+							"difficulty": "iq/a",
+							"points": 1,
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -5
+								}
+							]
+						},
+						{
+							"id": "a549472e-33cb-487a-99cc-ab3ed9189bda",
+							"type": "skill",
+							"name": "Thaumatology",
+							"reference": "B225",
+							"tags": [
+								"Magical",
+								"Occult"
+							],
+							"difficulty": "iq/vh",
+							"points": 1,
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -7
+								}
+							]
+						}
+					],
+					"name": "8 points chosen from…",
+					"notes": "min. 1 point in each, 2 points in one of them"
+				},
+				{
+					"id": "289ab9df-85e3-4918-87bd-9902d9b18cad",
+					"type": "skill_container",
+					"open": true,
+					"children": [
+						{
+							"id": "63187966-a490-4a8c-a227-4f33d04409b5",
+							"type": "skill",
+							"name": "Administration",
+							"reference": "B174",
+							"tags": [
+								"Business",
+								"Social"
+							],
+							"difficulty": "iq/a",
+							"points": 1,
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Merchant",
+									"modifier": -3
+								},
+								{
+									"type": "iq",
+									"modifier": -5
+								}
+							]
+						},
+						{
+							"id": "c30ebd75-e135-4eeb-bb16-edaf468ac100",
+							"type": "skill",
+							"name": "Hidden Lore",
+							"reference": "B199,MA57",
+							"tags": [
+								"Knowledge",
+								"Magical",
+								"Occult"
+							],
+							"specialization": "Demon Lore",
+							"difficulty": "iq/a",
+							"points": 1
+						},
+						{
+							"id": "1fb86aec-c757-468d-a825-017f5db954a2",
+							"type": "skill",
+							"name": "Hidden Lore",
+							"reference": "B199,MA57",
+							"tags": [
+								"Knowledge",
+								"Magical",
+								"Occult"
+							],
+							"specialization": "Spirit Lore",
+							"difficulty": "iq/a",
+							"points": 1
+						},
+						{
+							"id": "e2e2f5a1-e0bd-4df7-95f2-25a38883eafa",
+							"type": "skill",
+							"name": "Leadership",
+							"reference": "B204",
+							"tags": [
+								"Military",
+								"Social"
+							],
+							"difficulty": "iq/a",
+							"points": 1,
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -5
+								}
+							]
+						},
+						{
+							"id": "f4d420bc-c156-49a4-a637-7385d0f4eb65",
+							"type": "skill",
+							"name": "Tactics",
+							"reference": "B224,MA60",
+							"tags": [
+								"Military",
+								"Police"
+							],
+							"difficulty": "iq/h",
+							"points": 1,
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -6
+								},
+								{
+									"type": "skill",
+									"name": "Strategy",
+									"modifier": -6
+								}
+							]
+						}
+					],
+					"name": "2 points chosen from…",
+					"notes": "2 skills at 1 point or 1 skill at 2 points"
+				},
+				{
+					"id": "f8d7ffbf-53be-449d-ad16-c96c1ffe073b",
+					"type": "skill_container",
+					"open": true,
+					"name": "3 points chosen from…",
+					"notes": "Either invest 3 points in spells if you have Magery 0 or higher, or invest 3 more points in the skills above"
+				}
+			],
+			"name": "KEF Seeker - Quaestor"
+		}
+	],
+	"spells": [
+		{
+			"id": "c7cc60e5-68f4-4495-8c91-ee4530be779b",
+			"type": "spell_container",
+			"open": true,
+			"children": [
+				{
+					"id": "99667dfd-4455-4554-9f27-789d197a2377",
+					"type": "spell_container",
+					"open": true,
+					"children": [
+						{
+							"id": "118088d8-c74b-44fb-99bb-17f5d99d567f",
+							"type": "spell",
+							"name": "Ignite Fire",
+							"reference": "M72",
+							"tags": [
+								"Fire"
+							],
+							"difficulty": "iq/h",
+							"college": [
+								"Fire"
+							],
+							"power_source": "Arcane",
+							"spell_class": "Regular",
+							"casting_cost": "1-4",
+							"maintenance_cost": "Same",
+							"casting_time": "1 sec",
+							"duration": "1 sec",
+							"points": 1
+						},
+						{
+							"id": "6a79aaf1-ad4e-4c8c-a993-f77136067c4c",
+							"type": "spell",
+							"name": "Light",
+							"reference": "M110",
+							"tags": [
+								"Light \u0026 Darkness"
+							],
+							"difficulty": "iq/h",
+							"college": [
+								"Light \u0026 Darkness"
+							],
+							"power_source": "Arcane",
+							"spell_class": "Regular",
+							"casting_cost": "1",
+							"maintenance_cost": "1",
+							"casting_time": "1 sec",
+							"duration": "1 min",
+							"points": 1
+						},
+						{
+							"id": "790aadc0-da09-4ab9-96d1-2c275c186364",
+							"type": "spell",
+							"name": "Seek Water",
+							"reference": "M184",
+							"tags": [
+								"Water"
+							],
+							"difficulty": "iq/h",
+							"college": [
+								"Water"
+							],
+							"power_source": "Arcane",
+							"spell_class": "Info",
+							"casting_cost": "2",
+							"maintenance_cost": "-",
+							"casting_time": "1 sec",
+							"duration": "Instant",
+							"points": 1
+						},
+						{
+							"id": "eb22bd7e-a461-4604-b01d-1c986c5e6628",
+							"type": "spell",
+							"name": "Sense Foes",
+							"reference": "M44",
+							"tags": [
+								"Communication \u0026 Empathy"
+							],
+							"difficulty": "iq/h",
+							"college": [
+								"Communication \u0026 Empathy"
+							],
+							"power_source": "Arcane",
+							"spell_class": "Info/Area",
+							"casting_cost": "1/area, min 2",
+							"maintenance_cost": "-",
+							"casting_time": "1 sec",
+							"duration": "Instant",
+							"points": 1
+						}
+					],
+					"name": "Prio 2 - Spells if has Magery",
+					"notes": "Choose 3 points either in skills or in spells"
+				}
+			],
+			"name": "KEF Seeker - Quaestor"
+		}
+	]
+}
