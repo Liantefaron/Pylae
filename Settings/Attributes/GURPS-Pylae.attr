@@ -235,9 +235,16 @@
 			"attribute_base": "$basic_speed + if(trait_level(Combat Reflexes) >= 1, 1, 0) + if(trait_level(Enhanced Time Sense) >= 1, 2, 0) - if(trait_level(Combat Paralysis) >= 1, 2, 0) + (if(skill_level(Tactics) >= 20, 2, 0) || if(skill_level(Tactics) >= 16, 1, 0) )"
 		},
 		{
-			"id": "thresh_pt",
+			"id": "tm_threshold",
+			"type": "integer",
+			"name": "Thresh",
+			"full_name": "Threshold",
+			"attribute_base": "30"
+		},
+		{
+			"id": "tm_pt",
 			"type": "pool",
-			"name": "Tally",
+			"name": "PT",
 			"full_name": "Power Tally",
 			"attribute_base": "0",
 			"thresholds": [
@@ -254,25 +261,25 @@
 			]
 		},
 		{
-			"id": "thresh_rr",
+			"id": "tm_rr",
 			"type": "integer",
 			"name": "RR",
 			"full_name": "Recharge Rate",
 			"attribute_base": "8"
 		},
 		{
-			"id": "thresh_excessmod",
+			"id": "tm_excess",
 			"type": "integer",
-			"name": "Excess Mod",
-			"full_name": "Excess Modifier",
-			"attribute_base": "5"
+			"name": "Excess PT",
+			"full_name": "Excess Power Tally",
+			"attribute_base": "$tm_pt - $tm_threshold"
 		},
 		{
-			"id": "thresh_threshold",
+			"id": "tm_calamity_bonus",
 			"type": "integer",
-			"name": "Thresh",
-			"full_name": "Threshold",
-			"attribute_base": "30"
+			"name": "Calamity Bonus",
+			"full_name": "Calamity Roll Bonus",
+			"attribute_base": "signed(floor($tm_excess / if(trait_level(Safer Magical Excess) >= 1, round(5*pow(2,trait_level(Safer Magical Excess))), 5)))"
 		}
 	]
 }

@@ -214,6 +214,75 @@
 			],
 			"modifiers": [
 				{
+					"id": "1abd7bb3-c38e-4e46-b640-63972315b88f",
+					"type": "modifier",
+					"name": "Reduced Threshold",
+					"reference": "Th79",
+					"notes": "You are less in tune with the universe and become dissonant earlier when casting spells. Decreases Thresh by 20% of campaign default.",
+					"tags": [
+						"Limitation",
+						"Mental",
+						"Supernatural"
+					],
+					"cost": -10,
+					"affects": "levels_only",
+					"disabled": true,
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"attribute": "tm_calamity_bonus",
+							"amount": -1,
+							"per_level": true
+						}
+					]
+				},
+				{
+					"id": "30741ea4-edba-4fc2-a635-ca8114bf7ce5",
+					"type": "modifier",
+					"name": "Seriously Calamity-Prone",
+					"reference": "Th79",
+					"notes": "You are less in tune with the universe and become dissonant earlier when casting spells. Decreases Thresh by -20% of campaign default.",
+					"tags": [
+						"Limitation",
+						"Mental",
+						"Supernatural"
+					],
+					"cost": -10,
+					"affects": "levels_only",
+					"disabled": true,
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"attribute": "tm_calamity_bonus",
+							"amount": -1,
+							"per_level": true
+						}
+					]
+				},
+				{
+					"id": "1b4c6c8e-d6b3-4b24-a727-4f768120d79c",
+					"type": "modifier",
+					"name": "Slower Magical Recovery",
+					"reference": "Th79",
+					"notes": "You have difficulties cleansing yourself from dissonance and regaining balance. Each level subtracts -25% from your Recharge Rate.",
+					"tags": [
+						"Limitation",
+						"Mental",
+						"Supernatural"
+					],
+					"cost": -10,
+					"affects": "levels_only",
+					"disabled": true,
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"attribute": "tm_rr",
+							"amount": -2,
+							"per_level": true
+						}
+					]
+				},
+				{
 					"id": "10b7c609-d742-473c-a229-fd39e10a948f",
 					"type": "modifier",
 					"name": "Dance",
@@ -309,6 +378,7 @@
 			"type": "trait",
 			"name": "Increased Threshold",
 			"reference": "Th78",
+			"notes": "You are more in tune with the universe and can cast longer without becoming dissonant. Increases Thresh by 20% of campaign default.",
 			"tags": [
 				"Advantage",
 				"Mental",
@@ -316,11 +386,33 @@
 			],
 			"levels": 1,
 			"points_per_level": 5,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Threshold Magery"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 1
+						},
+						"notes": {
+							"compare": "does_not_contain",
+							"qualifier": "Decreased Threshold"
+						}
+					}
+				]
+			},
 			"features": [
 				{
 					"type": "attribute_bonus",
-					"attribute": "thresh_threshold",
-					"amount": 8,
+					"attribute": "tm_threshold",
+					"amount": 6,
 					"per_level": true
 				}
 			],
@@ -334,7 +426,7 @@
 			"type": "trait",
 			"name": "Safer Magical Excess",
 			"reference": "Th79",
-			"notes": "EDIT ME THIS DOESNT WORK THIS WAY",
+			"notes": "You have learned to better cope with the adverse effects of dissonance when casting spells. Each level doubles the number of excess Tally Points (default: 5) that will give +1 to Calamity rolls.",
 			"tags": [
 				"Advantage",
 				"Mental",
@@ -342,13 +434,6 @@
 			],
 			"levels": 1,
 			"points_per_level": 10,
-			"features": [
-				{
-					"type": "attribute_bonus",
-					"attribute": "thresh_excessmod",
-					"amount": 1
-				}
-			],
 			"can_level": true,
 			"calc": {
 				"points": 10
@@ -359,6 +444,7 @@
 			"type": "trait",
 			"name": "Rapid Magical Recovery",
 			"reference": "Th79",
+			"notes": "You have learned how to better cleanse yourself from dissonance and regain balance. Each level adds +25% to your Recharge Rate.",
 			"tags": [
 				"Advantage",
 				"Mental",
@@ -369,7 +455,7 @@
 			"features": [
 				{
 					"type": "attribute_bonus",
-					"attribute": "thresh_rr",
+					"attribute": "tm_rr",
 					"amount": 2,
 					"per_level": true
 				}

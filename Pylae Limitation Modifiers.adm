@@ -2,6 +2,71 @@
 	"type": "modifier_list",
 	"version": 4,
 	"rows": [
-		
+		{
+			"id": "576609e4-9b73-4b3c-9b2f-314e9ebac733",
+			"type": "modifier",
+			"name": "Reduced Threshold",
+			"reference": "Th79",
+			"notes": "You are less in tune with the universe and become dissonant earlier when casting spells. Decreases Thresh by 20% of campaign default.",
+			"tags": [
+				"Limitation",
+				"Mental",
+				"Supernatural"
+			],
+			"cost": -10,
+			"affects": "levels_only",
+			"features": [
+				{
+					"type": "attribute_bonus",
+					"attribute": "tm_calamity_bonus",
+					"amount": -1,
+					"per_level": true
+				}
+			]
+		},
+		{
+			"id": "a00d16ff-adad-46e7-950b-36dd4f7b013d",
+			"type": "modifier",
+			"name": "Seriously Calamity-Prone",
+			"reference": "Th79",
+			"notes": "You are less in tune with the universe and become dissonant earlier when casting spells. Decreases Thresh by -20% of campaign default.",
+			"tags": [
+				"Limitation",
+				"Mental",
+				"Supernatural"
+			],
+			"cost": -10,
+			"affects": "levels_only",
+			"features": [
+				{
+					"type": "attribute_bonus",
+					"attribute": "tm_calamity_bonus",
+					"amount": -1,
+					"per_level": true
+				}
+			]
+		},
+		{
+			"id": "b690c438-cba5-4b8c-a30f-e340cd019a81",
+			"type": "modifier",
+			"name": "Slower Magical Recovery",
+			"reference": "Th79",
+			"notes": "You have difficulties cleansing yourself from dissonance and regaining balance. Each level subtracts -25% from your Recharge Rate.",
+			"tags": [
+				"Limitation",
+				"Mental",
+				"Supernatural"
+			],
+			"cost": -10,
+			"affects": "levels_only",
+			"features": [
+				{
+					"type": "attribute_bonus",
+					"attribute": "tm_rr",
+					"amount": -2,
+					"per_level": true
+				}
+			]
+		}
 	]
 }

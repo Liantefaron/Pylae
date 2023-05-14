@@ -22,3 +22,6 @@ The original **GCA4 Data Set** included:
 * Homebrew GURPS 4e Pylae.gdf **Missing**
 * Pylae Template - Steppenläufer.gdf **Missing** -> all Pylae meta traits / races (problematic term!?) / animals!
 
+# Initiative Attribute
+
+$basic_speed + if(trait_level(Combat Reflexes) >= 1, 1, 0) + if(trait_level(Enhanced Time Sense) >= 1, 2, 0) - if(trait_level(Combat Paralysis) >= 1, 2, 0) + (if(skill_level(Tactics) >= 20, 2, 0) || if(skill_level(Tactics) >= 16, 1, 0) )
