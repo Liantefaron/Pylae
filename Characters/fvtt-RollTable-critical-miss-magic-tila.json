@@ -1,0 +1,236 @@
+{
+  "name": "Critical Miss - Magic - Tila",
+  "img": "systems/gurps/icons/single-die.webp",
+  "description": "Reality Warping Table (Th 259)",
+  "results": [
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        3,
+        4
+      ],
+      "drawn": false,
+      "documentCollection": "",
+      "_id": "tQEzod2iwcreKVoD",
+      "text": "Spell fails entirely. Caster takes 1d of injury in a bizarre and dramatic form: livid wounds, strangely shaped burns, etc. 4 – Spell is cast on caster (if harmful) or on a random nearby foe (if beneficial).",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "documentCollection": "",
+      "_id": "VcvvJnLoNliZG9fa",
+      "text": "One item that the caster was carrying or wearing (roll randomly) ceases to exist, permanently.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "documentCollection": "",
+      "_id": "RRZ8FQffGcKTjMax",
+      "text": "Spell is cast on one of the caster’s companions (if harmful) or on a random nearby foe (if beneficial).",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "documentCollection": "",
+      "_id": "g6RKhoiPQ1VwdYWi",
+      "text": "All magic ceases to work within 3d yards of the caster’s position at the moment of casting, for 1d hours. Treat the area as having no mana (or equiv- alent). If the caster leaves the area, he is still unable to work magic for 1d+2 minutes.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "documentCollection": "",
+      "_id": "nNjXmYKNLmFaik3v",
+      "text": "Spell fails entirely. Caster suffers a bizarre tem- porary disfigurement – a strange-colored scar, glow- ing eyes, large pointed teeth, a growth of fur, etc. Treat this as Unnatural Features 2. Make a HT-2 roll after 24 hours, and again each day thereafter, to see if this disappears.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "documentCollection": "",
+      "_id": "RX7B5KKAmlpMmGlO",
+      "text": "Spell fails entirely. Caster is stunned (IQ roll to recover).",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "documentCollection": "",
+      "_id": "Dyi1KkJKbDSLrfrD",
+      "text": "Spell produces nothing but strange sounds and smells, distortions in the appearance of everything in the vicinity, etc.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "drawn": false,
+      "documentCollection": "",
+      "_id": "J32HLtwYHtMXCsU0",
+      "text": "Spell produces a minor reality distortion around the caster for 1d hours – bizarre sounds, shimmering lights, etc. Treat this as Unnatural Features 5.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "documentCollection": "",
+      "_id": "2pnY03eL9GcFsn01",
+      "text": "Spell has no actual effect, but everyone observing the caster or the spell’s intended target becomes aware that something was attempted, and has a vague idea what. If they compare impressions, though, their ideas turn out to be contradictory.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        13,
+        13
+      ],
+      "drawn": false,
+      "documentCollection": "",
+      "_id": "W2C2eOARqts6GhPh",
+      "text": "Spell produces the reverse of the intended effect.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        14,
+        14
+      ],
+      "drawn": false,
+      "documentCollection": "",
+      "_id": "P5XOvcm6XsDx0rF3",
+      "text": "Spell appears to work. However, this is a déjà vu effect; after 2d seconds, revert to the moment of casting. The target and bystanders realize that nothing has happened, but may have a good idea what was attempted. Caster must roll IQ-2 not to proceed on the belief that the spell worked; he may retry every 3 seconds until he succeeds.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        15,
+        15
+      ],
+      "drawn": false,
+      "documentCollection": "",
+      "_id": "D5Xto18mxKcnjBCA",
+      "text": "Spell has the reverse of the intended effect, on 1d+1 different targets (roll randomly).",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        16,
+        16
+      ],
+      "drawn": false,
+      "documentCollection": "",
+      "_id": "ZDeRheM9FnPzjmku",
+      "text": "Spell fails entirely. “Fortean” events ensue within 2d miles of the location over the next week - rains of frogs, minor timeslips, persistent attacks of déjà vu for anyone in the area, clocks running backward, etc. Furthermore, everyone in the area somehow knows that the caster is involved with all this. He may acquire Reputation -1 or -2 with these people for a few months as a result.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        17,
+        18
+      ],
+      "drawn": false,
+      "documentCollection": "",
+      "_id": "JnUtPR6kPf5wwC8e",
+      "text": "The spell works, possibly in an exaggerated or misdirected form – and the universe manifests a sapient, free-willed being of superhuman power whose purpose is to dissuade the caster from manipulating reality in dangerous or excessive ways in future. This entity may order the caster to fix some problem immediately or suffer punishment, stay around for a few months in immaterial form and intervene occasionally to change things, or simply incapacitate the caster in some way. It isn’t omnipotent or omniscient, but raw force doesn’t work against it, and it ignores magical attacks; it must be assuaged, waited out, or outwitted.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    }
+  ],
+  "formula": "3d6",
+  "replacement": true,
+  "displayRoll": false,
+  "flags": {
+    "exportSource": {
+      "world": "pylae",
+      "system": "gurps",
+      "coreVersion": "10.291",
+      "systemVersion": "0.15.32"
+    }
+  },
+  "_stats": {
+    "systemId": "gurps",
+    "systemVersion": "0.15.27",
+    "coreVersion": "10.291",
+    "createdTime": 1682356390943,
+    "modifiedTime": 1682364964015,
+    "lastModifiedBy": "lUzncRGOENfWkHIZ"
+  }
+}

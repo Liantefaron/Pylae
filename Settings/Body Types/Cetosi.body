@@ -27,17 +27,6 @@
 			}
 		},
 		{
-			"id": "neck",
-			"choice_name": "Neck",
-			"table_name": "Neck",
-			"slots": 1,
-			"hit_penalty": -5,
-			"description": "An attack that misses by 1 hits the torso instead. Neck and\nthroat. Increase the wounding multiplier of crushing (cr)\nand corrosion (cor) attacks to x1½, and that of cutting\n(cut) damage to x2. At the GM’s option, anyone killed by a\ncutting (cut) blow to the neck is decapitated!",
-			"calc": {
-				"roll_range": "5"
-			}
-		},
-		{
 			"id": "face",
 			"choice_name": "Face",
 			"table_name": "Face",
@@ -45,13 +34,24 @@
 			"hit_penalty": -5,
 			"description": "An attack that misses by 1 hits the torso instead. Jaw,\ncheeks, nose, ears, etc. If the target has an open-faced\nhelmet, ignore its DR. Knockdown rolls are at -5. Critical\nhits use the Critical Head Blow Table (B556). Corrosion\n(cor) damage gets a x1½ wounding modifier, and if it\ninflicts a major wound, it also blinds one eye (both eyes on\ndamage over full HP). Random attacks from behind hit the\nskull instead.",
 			"calc": {
+				"roll_range": "5"
+			}
+		},
+		{
+			"id": "arm_lo",
+			"choice_name": "Lower Arm",
+			"table_name": "Lower Arm",
+			"slots": 1,
+			"hit_penalty": -2,
+			"description": "Reduce the wounding multiplier of large piercing (pi+), huge\npiercing (pi++), and impaling (imp) damage to x1. Any major\nwound (loss of over ½ HP from one blow) cripples the limb.\nDamage beyond that threshold is lost.",
+			"calc": {
 				"roll_range": "6"
 			}
 		},
 		{
-			"id": "leg",
-			"choice_name": "Leg",
-			"table_name": "Foreleg",
+			"id": "arm_up",
+			"choice_name": "Upper Arm",
+			"table_name": "Upper Arm",
 			"slots": 2,
 			"hit_penalty": -2,
 			"description": "Reduce the wounding multiplier of large piercing (pi+), huge\npiercing (pi++), and impaling (imp) damage to x1. Any major\nwound (loss of over ½ HP from one blow) cripples the limb.\nDamage beyond that threshold is lost.",
@@ -63,29 +63,18 @@
 			"id": "torso",
 			"choice_name": "Torso",
 			"table_name": "Torso",
-			"slots": 2,
+			"slots": 3,
 			"calc": {
-				"roll_range": "9-10"
+				"roll_range": "9-11"
 			}
 		},
 		{
-			"id": "leg",
-			"choice_name": "Leg",
-			"table_name": "Midleg",
+			"id": "arm_lo",
+			"choice_name": "Lower Arm",
+			"table_name": "Lower Arm",
 			"slots": 1,
 			"hit_penalty": -2,
 			"description": "Reduce the wounding multiplier of large piercing (pi+), huge\npiercing (pi++), and impaling (imp) damage to x1. Any major\nwound (loss of over ½ HP from one blow) cripples the limb.\nDamage beyond that threshold is lost.",
-			"calc": {
-				"roll_range": "11"
-			}
-		},
-		{
-			"id": "groin",
-			"choice_name": "Groin",
-			"table_name": "Groin",
-			"slots": 1,
-			"hit_penalty": -3,
-			"description": "An attack that misses by 1 hits the torso instead. Human\nmales and the males of similar species suffer double shock\nfrom crushing (cr) damage, and get -5 to knockdown rolls.\nOtherwise, treat as a torso hit.",
 			"calc": {
 				"roll_range": "12"
 			}
@@ -93,7 +82,7 @@
 		{
 			"id": "leg",
 			"choice_name": "Leg",
-			"table_name": "Hindleg",
+			"table_name": "Leg",
 			"slots": 2,
 			"hit_penalty": -2,
 			"description": "Reduce the wounding multiplier of large piercing (pi+), huge\npiercing (pi++), and impaling (imp) damage to x1. Any major\nwound (loss of over ½ HP from one blow) cripples the limb.\nDamage beyond that threshold is lost.",
@@ -102,23 +91,34 @@
 			}
 		},
 		{
-			"id": "foot",
-			"choice_name": "Foot",
-			"table_name": "Foot",
-			"slots": 2,
+			"id": "hand",
+			"choice_name": "Hand",
+			"table_name": "Hand",
+			"slots": 1,
 			"hit_penalty": -4,
-			"description": "Reduce the wounding multiplier of large piercing (pi+), huge\npiercing (pi++), and impaling (imp) damage to x1. Any major\nwound (loss of over ⅓ HP from one blow) cripples the\nextremity. Damage beyond that threshold is lost.",
+			"description": "Reduce the wounding multiplier of large piercing (pi+), huge\npiercing (pi++), and impaling (imp) damage to x1. Any major\nwound (loss of over ⅓ HP from one blow) cripples the\nextremity. Damage beyond that threshold is lost.\nIf holding a shield, double the penalty to hit: -8 for\nshield hand instead of -4.",
 			"calc": {
-				"roll_range": "15-16"
+				"roll_range": "15"
 			}
 		},
 		{
-			"id": "leg",
-			"choice_name": "Leg",
-			"table_name": "Midleg",
+			"id": "foot",
+			"choice_name": "Foot",
+			"table_name": "Foot",
+			"slots": 1,
+			"hit_penalty": -4,
+			"description": "Reduce the wounding multiplier of large piercing (pi+), huge\npiercing (pi++), and impaling (imp) damage to x1. Any major\nwound (loss of over ⅓ HP from one blow) cripples the\nextremity. Damage beyond that threshold is lost.",
+			"calc": {
+				"roll_range": "16"
+			}
+		},
+		{
+			"id": "neck",
+			"choice_name": "Neck",
+			"table_name": "Neck",
 			"slots": 2,
-			"hit_penalty": -2,
-			"description": "Reduce the wounding multiplier of large piercing (pi+), huge\npiercing (pi++), and impaling (imp) damage to x1. Any major\nwound (loss of over ½ HP from one blow) cripples the limb.\nDamage beyond that threshold is lost.",
+			"hit_penalty": -5,
+			"description": "An attack that misses by 1 hits the torso instead. Neck and\nthroat. Increase the wounding multiplier of crushing (cr)\nand corrosion (cor) attacks to x1½, and that of cutting\n(cut) damage to x2. At the GM’s option, anyone killed by a\ncutting (cut) blow to the neck is decapitated!",
 			"calc": {
 				"roll_range": "17-18"
 			}

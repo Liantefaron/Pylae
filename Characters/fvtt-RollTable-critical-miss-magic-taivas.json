@@ -1,0 +1,251 @@
+{
+  "name": "Critical Miss - Magic - Taivas",
+  "img": "systems/gurps/icons/single-die.webp",
+  "description": "Spirit-oriented Magic Table (Th 260)",
+  "results": [
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "documentCollection": "",
+      "_id": "fsfZ4NYfwgDrWflL",
+      "text": "Spell fails entirely. Caster takes 1d of injury and hears quiet laughter from petty spirits.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "documentCollection": "",
+      "_id": "Rf9mUPnlb53yiU7a",
+      "text": "Spell fails entirely. A spirit with powers related to the type of magic attempted manifests and makes trouble for the caster for 1d+2 seconds, and then vanishes.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "documentCollection": "",
+      "_id": "xRI7ozAcFT7Hvz6m",
+      "text": "Spell is cast on caster (if harmful) or on a random nearby foe (if beneficial).",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "documentCollection": "",
+      "_id": "BlYRHDv4Sr3hMXhe",
+      "text": "Spell is cast on one of the caster’s companions (if harmful) or on a random nearby foe (if beneficial).",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "documentCollection": "",
+      "_id": "PIEGNkCLeTKmBXgv",
+      "text": "Spell affects someone or something other than its intended target – friend, foe, or random object. Roll randomly or (preferably) make a plausible choice in the persona of a whimsical spirit.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "documentCollection": "",
+      "_id": "UYPajhKnt93h0SuQ",
+      "text": "Spell fails entirely. Caster is stunned (IQ roll to recover).",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "documentCollection": "",
+      "_id": "72JQPzNRKTW1OPym",
+      "text": "Spell fails entirely. Caster suffers the equivalent of an occur- rence of the Phantom Voices disadvantage at the -10-point level, lasting 2d minutes.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "type": 0,
+      "weight": 2,
+      "range": [
+        10,
+        11
+      ],
+      "drawn": false,
+      "documentCollection": "",
+      "_id": "NjyXcR1YtmKMBmOZ",
+      "text": "Spell produces nothing but a babble of incoherent voices, flickering images and lights, bizarre odors, etc.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "documentCollection": "",
+      "_id": "tgCZBxxyoSC126Wv",
+      "text": "Spell produces a strange and useless shadow of the intended effect, as the spirits act out what was required without applying themselves.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        13,
+        13
+      ],
+      "drawn": false,
+      "documentCollection": "",
+      "_id": "d2l6XZ3RL44nDv6O",
+      "text": "Spell produces the reverse of the intended effect.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        14,
+        14
+      ],
+      "drawn": false,
+      "documentCollection": "",
+      "_id": "jid77ES0t9NsVOPC",
+      "text": "Spell seems to work, but this is a phantom illusion created by a spirit. The spirit attempts to plant the delusion in the caster’s mind that he succeeded. It must win a Quick Contest of Will with the caster to do so; its Will is 14.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        15,
+        15
+      ],
+      "drawn": false,
+      "documentCollection": "",
+      "_id": "mGywG0s4bAcmQfs0",
+      "text": "Spell has the reverse of the intended effect, on the wrong target (roll randomly).",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        16,
+        16
+      ],
+      "drawn": false,
+      "documentCollection": "",
+      "_id": "gXG3K4EZv8Rgvay9",
+      "text": "Spell fails entirely. Caster suffers Nightmares (6) and Sleepwalker (9) for the next 1d+2 nights.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        17,
+        17
+      ],
+      "drawn": false,
+      "documentCollection": "",
+      "_id": "bIBfKSQ0czeQP5q1",
+      "text": "Spell fails entirely. If the caster attempts to cast it again during the next 1d weeks, he must roll vs. HT. Failure means the spell fails and he’s struck mute for 1d minutes. Success lets him cast normally.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        18,
+        18
+      ],
+      "drawn": false,
+      "documentCollection": "",
+      "_id": "87X8otJ2PBTkJCHQ",
+      "text": "Spell fails entirely. An extremely powerful spirit manifests, with a dangerous attitude toward the caster (perhaps the cast- er exploited its friends or subjects, or made annoying waves on the spirit plane). It may simply attack, but it’s more likely to set out to dissuade the caster and everyone else from such behavior. It might deliver educational and very public harm to the caster, take him as a slave or a pet, “invite” him to a dinner party that lasts several years, or engage him in a deadly game with his friends and enemies as playing pieces.",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    }
+  ],
+  "formula": "3d6",
+  "replacement": true,
+  "displayRoll": false,
+  "flags": {
+    "exportSource": {
+      "world": "pylae",
+      "system": "gurps",
+      "coreVersion": "10.291",
+      "systemVersion": "0.15.32"
+    }
+  },
+  "_stats": {
+    "systemId": "gurps",
+    "systemVersion": "0.15.27",
+    "coreVersion": "10.291",
+    "createdTime": 1682357068506,
+    "modifiedTime": 1682364953675,
+    "lastModifiedBy": "lUzncRGOENfWkHIZ"
+  }
+}

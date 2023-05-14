@@ -1,0 +1,206 @@
+{
+  "name": "Hit Location (Arrodo) [B552/MA138]",
+  "img": "systems/gurps/icons/single-die.webp",
+  "description": "For random hits to Arrodo. Used for Wild Swing (p. 388), shooting blind (p. 389), suppression fire (p. 409), fragmentation damage (p. 414), and any other situation where the GM feels targeting a location is unrealistic.",
+  "results": [
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        0,
+        0
+      ],
+      "drawn": false,
+      "documentCollection": "",
+      "_id": "PN1Jxh8vqpFw9PzJ",
+      "text": "Eye (-9)",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        3,
+        4
+      ],
+      "drawn": false,
+      "documentCollection": "",
+      "_id": "GnHEfV588e4xrBNc",
+      "text": "Skull (-7) [Crits: MA138]",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "documentCollection": "",
+      "_id": "xsRgOZAyoAQQQ8Gq",
+      "text": "Face (-5)",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        7,
+        8
+      ],
+      "drawn": false,
+      "documentCollection": "",
+      "_id": "0uGrLuIp7r5V9rrB",
+      "text": "Arm / Foreleg (-2; 1d6: 1-3 left, 4-6 right)",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        9,
+        11
+      ],
+      "drawn": false,
+      "documentCollection": "",
+      "_id": "LBegn15iimiZVdMG",
+      "text": "Torso (0)",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "documentCollection": "",
+      "_id": "MODSs2C9RnbCFosc",
+      "text": "Groin (-3)",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        13,
+        14
+      ],
+      "drawn": false,
+      "documentCollection": "",
+      "_id": "ERxOVLXlK7zO0cI5",
+      "text": "Hind Leg (-2; 1d6: 1-3 left, 4-6 right)",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        15,
+        15
+      ],
+      "drawn": false,
+      "documentCollection": "",
+      "_id": "yv2yK03C2wHLVok6",
+      "text": "Hand / Forefoot (-4; 1d6: 1-3 left, 4-6 right)",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        16,
+        16
+      ],
+      "drawn": false,
+      "documentCollection": "",
+      "_id": "G9QIajR41JwiQXLA",
+      "text": "Foot / Hindfoot (-4; 1d6: 1-3 left, 4-6 right)",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "documentCollection": "",
+      "_id": "zpaOOmQwUw0vCRGh",
+      "text": "Neck (-5) [Crits: MA138]",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        0,
+        0
+      ],
+      "drawn": false,
+      "documentCollection": "",
+      "_id": "7eJYYMHp10GlFfrf",
+      "text": "Vitals (-3) [Crits: MA139]",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    },
+    {
+      "type": 0,
+      "weight": 1,
+      "range": [
+        17,
+        18
+      ],
+      "drawn": false,
+      "documentCollection": "",
+      "_id": "fl6heEAx7Yop4G5z",
+      "text": "Tail (-3)",
+      "img": "icons/svg/d20-black.svg",
+      "documentId": null,
+      "flags": {}
+    }
+  ],
+  "formula": "3d6",
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {
+    "exportSource": {
+      "world": "pylae",
+      "system": "gurps",
+      "coreVersion": "10.291",
+      "systemVersion": "0.15.27"
+    }
+  },
+  "_stats": {
+    "systemId": "gurps",
+    "systemVersion": "0.15.27",
+    "coreVersion": "10.291",
+    "createdTime": 1682350822881,
+    "modifiedTime": 1682352853788,
+    "lastModifiedBy": "lUzncRGOENfWkHIZ"
+  }
+}

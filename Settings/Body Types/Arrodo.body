@@ -1,7 +1,7 @@
 {
 	"type": "body_type",
 	"version": 4,
-	"name": "Snakemen",
+	"name": "Arrodo",
 	"roll": "3d",
 	"locations": [
 		{
@@ -63,38 +63,62 @@
 			"id": "torso",
 			"choice_name": "Torso",
 			"table_name": "Torso",
-			"slots": 4,
+			"slots": 3,
 			"calc": {
-				"roll_range": "9-12"
+				"roll_range": "9-11"
 			}
 		},
 		{
-			"id": "arm",
-			"choice_name": "Arm",
-			"table_name": "Arm",
+			"id": "groin",
+			"choice_name": "Groin",
+			"table_name": "Groin",
+			"slots": 1,
+			"hit_penalty": -3,
+			"description": "Ouch!",
+			"calc": {
+				"roll_range": "12"
+			}
+		},
+		{
+			"id": "leg",
+			"choice_name": "Leg",
+			"table_name": "Leg",
 			"slots": 2,
 			"hit_penalty": -2,
-			"description": "Reduce the wounding multiplier of large piercing (pi+), huge\npiercing (pi++), and impaling (imp) damage to x1. Any major\nwound (loss of over ½ HP from one blow) cripples the limb.\nDamage beyond that threshold is lost. If holding a shield,\ndouble the penalty to hit: -4 for shield arm instead of -2.",
+			"description": "Reduce the wounding multiplier of large piercing (pi+), huge\npiercing (pi++), and impaling (imp) damage to x1. Any major\nwound (loss of over ½ HP from one blow) cripples the limb.\nDamage beyond that threshold is lost.",
 			"calc": {
 				"roll_range": "13-14"
-			}
-		},
-		{
-			"id": "torso",
-			"choice_name": "Torso",
-			"table_name": "Torso",
-			"slots": 2,
-			"calc": {
-				"roll_range": "15-16"
 			}
 		},
 		{
 			"id": "hand",
 			"choice_name": "Hand",
 			"table_name": "Hand",
-			"slots": 2,
+			"slots": 1,
 			"hit_penalty": -4,
 			"description": "If holding a shield, double the penalty to hit: -8 for\nshield hand instead of -4. Reduce the wounding multiplier of\nlarge piercing (pi+), huge piercing (pi++), and impaling\n(imp) damage to x1. Any major wound (loss of over ⅓ HP\nfrom one blow) cripples the extremity. Damage beyond that\nthreshold is lost.",
+			"calc": {
+				"roll_range": "15"
+			}
+		},
+		{
+			"id": "foot",
+			"choice_name": "Foot",
+			"table_name": "Foot",
+			"slots": 1,
+			"hit_penalty": -4,
+			"description": "Reduce the wounding multiplier of\nlarge piercing (pi+), huge piercing (pi++), and impaling\n(imp) damage to x1. Any major wound (loss of over ⅓ HP\nfrom one blow) cripples the extremity. Damage beyond that\nthreshold is lost.",
+			"calc": {
+				"roll_range": "16"
+			}
+		},
+		{
+			"id": "tail",
+			"choice_name": "Tail",
+			"table_name": "Tail",
+			"slots": 2,
+			"hit_penalty": -3,
+			"description": "Reduce the wounding multiplier of large piercing (pi+), huge\npiercing (pi++), and impaling (imp) damage to x1. Any major\nwound (loss of over ½ HP from one blow) cripples the limb.\nDamage beyond that threshold is lost.",
 			"calc": {
 				"roll_range": "17-18"
 			}
