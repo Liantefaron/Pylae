@@ -1,0 +1,431 @@
+﻿Encoding=UTF-8
+Version=3
+* The version information above MUST be the first line of the data file, 
+* or the first line AFTER the 'Encoding=UTF-8' line, when that is included.
+
+[AUTHOR]
+************************************************************************************************************************
+*
+* GURPS(R) Character Assistant
+* Filename: Homebrew GURPS 4e Pylae.gdf
+* Created: September 01, 2015
+* Modified: September 03, 2015
+* Requires GCA v4 or later!
+*
+* This data file contains Racial Templates for the World of Canyons: Pylae.
+*
+*
+************************************************************************************************************************
+*
+* Author:
+* Christopher D. Köbel - thindraug@gmx.de
+* Not affiliated with anyone or anything.
+*
+************************************************************************************************************************
+*
+* GURPS is a registered trademark of Steve Jackson Games Incorporated,
+* used with GCA by permission of Steve Jackson Games. All rights reserved.
+*
+* The GURPS game is copyright (c) 1986-1989, 1991-1994 by Steve Jackson
+* Games Incorporated. This product includes copyrighted material from the
+* GURPS game, which is used by permission of Steve Jackson Games
+* Incorporated. All rights reserved by Steve Jackson Games Incorporated.
+*
+************************************************************************************************************************
+
+[TEMPLATES]
+************************************************************************************************************************
+<Racial Templates - Pylae>
+Imisén, displaycost(20), cost(10),
+	cat(Racial Templates, Racial Templates - Pylae),
+	description(Imisén are similar to Earth's humans, but more resilient and with acute vision. Is included in any of the Imisén Subracial/Cultural Templates, choose those except if you want to play a "mixed-blood" Imisén.),
+	page(User), race(Imisén), noresync(yes), owns(yes),
+	gives(_
+		+2 to ST:Will _
+	),
+	adds(_
+		{AD:Acute Vision}=1,
+		{AD:Hard to Kill}=2,
+		{AD:Hard to Subdue}=2 _
+	)
+Imisén - Oljipuni, Displaycost(+5), cost(0), cat(Racial Templates, Racial Templates - Pylae),
+	description(An Imisén Subrace/Culture. NEEDS the Imisén Template.),
+	page(User), race(Imisén - Oljipuni), needs(TE:Imisén), noresync(yes), owns(yes),
+	adds(_
+			{AD:Rapid Healing}=1 _
+	)
+Imisén - Va’aleani, Displaycost(+5), cost(0), cat(Racial Templates, Racial Templates - Pylae),
+	description(An Imisén Subrace/Culture. NEEDS the Imisén Template.),
+	page(User), race(Imisén - Va’aleani), needs(TE:Imisén), noresync(yes), owns(yes),
+	adds(_
+			{AD:Threshold Magery 0}=1 _
+	)
+Imisén - Tungusén, Displaycost(+5), cost(0), cat(Racial Templates, Racial Templates - Pylae),
+	description(An Imisén Subrace/Culture. NEEDS the Imisén Template.),
+	page(User), race(Imisén - Tungusén), needs(TE:Imisén), noresync(yes), owns(yes),
+	select1(_
+		text("Please choose one of Flexibility or High Manual Dexterity."),
+		pointswanted(5), itemswanted(1),
+		list(_
+			AD:Flexibility,
+			AD:High Manual Dexterity _
+		)_
+	)
+Imisén - Werlani, Displaycost(+5), cost(0), cat(Racial Templates, Racial Templates - Pylae),
+	description(An Imisén Subrace/Culture. NEEDS the Imisén Template.),
+	page(User), race(Imisén - Werlani), needs(TE:Imisén), noresync(yes), owns(yes), locks(no),
+	adds(_
+			{AD:Magic Resistance}=1 with {"Improved", +150%, group(Magic Resistance), page(B67), level(1), valuenum(150)}_
+	)
+
+Arrodo, displaycost(35), cost(0),
+	cat(Racial Templates, Racial Templates - Pylae),
+	description(Arrodo are short, lithe, carnivore humanoid rodents with a tail, generally regarded inferior by other races.),
+	page(User), race(Arrodo), noresync(yes), owns(yes),
+	gives(_
+		+2 to ST:Basic Move,
+		-1 to ST:Size Modifier,
+		-1 to ST:ST _
+	),
+	adds(_
+		{AD:Catfall},
+		{AD:Claws (Sharp Claws)},
+		{AD:Night Vision}=6,
+		{AD:Super Climbing}=2,
+		{AD:Super Jump}=1,
+		{AD:Teeth (Sharp Teeth)},
+		{AD:Striking ST}=3 _
+			with {"Bite Only", -60%,gives(-owner::level to ST:Striking ST, +owner::level to ST:Bite),group(Striking ST),page(P79),level(1),valuenum(-60)},
+		{DI:Colorblindness},
+		{DI:Restricted Diet (Carnivore)}=1 _
+			with {"Substitution", -50%,group(Restricted Diet),page(B151),level(1),valuenum(-50)}_
+		),
+	creates(_
+		{AD:Striker (Long Plushy Tail), 5,displaycost(5),mods(Striker, Alternative Attack),page(B88, P81),damage(thr+@if(@hasmod(Weak) then 0 else owner::basethdice) + @max(@if("SK:Brawling::level" > ST:DX+1 then owner::basethdice else 0), @if("SK:Karate::level" = ST:DX then owner::basethdice else @if("SK:Karate::level" > ST:DX then 2 * owner::basethdice else 0)))),damtype(cr),reach(C),parry(0),skillused(ST:DX, SK:Brawling, SK:Karate),reachbasedon(0),mode(Long Plushy Tail),dmg(thr), cat(Exotic, Physical, Natural Attacks, Exotic Physical)}=1 _
+			with {"Long: any reach", +100%/+200%,group(Striker),page(B88),shortname(Long),gives(=nobase to owner::reach$, ="C,$if(me::level=1 THEN "1" ELSE "1-$solver(me::level)")" to owner::reach$),level(1),valuenum(100)} _
+			and  {"Clumsy", -20%/-40%,group(Striker),page(B88),levelnames(-1,-2,-3,-4,-5,-6,-7,-8,-9,-10,-11,-12,-13,-14,-15,-16,-17,-18,-19,-20),gives(-1 to owner::skillscore),level(2),valuenum(-40)} _
+			and  {"Weak", -50%,group(Striker),page(B88),level(1),valuenum(-50)}_
+	)
+Arrodo - Cicuro, Displaycost(+0), cost(10), cat(Racial Templates, Racial Templates - Pylae),
+	description(An Arrodo Subrace/Culture. NEEDS the Arrodo Template.),
+	page(User), race(Arrodo - Cicuro), needs(TE:Arrodo), noresync(yes), owns(yes),
+	gives(_
+		+1 to ST:ST _
+	),
+	select1(text("Ist your Arrodo a free Second Class Citizen or a subjugated Slave?"),
+		pointswanted(atleast -20, upto -10), itemswanted(1), list(_
+		DI:Social Stigma (Minority Group),
+		DI:Social Stigma (Subjugated)_
+		)_
+	)
+Arrodo - Belluino, Displaycost(+0), cost(10),
+	cat(Racial Templates, Racial Templates - Pylae),
+	description(An Arrodo Subrace/Culture. NEEDS the Arrodo Template.),
+	page(User), race(Arrodo - Belluino), needs(TE:Arrodo), noresync(yes), owns(yes),
+		gives(_
+		+1 to ST:HT _
+	),
+	adds(_
+		{AD:Striking ST}=2,
+		{DI:Social Stigma (Minority Group)}=1,
+		{DI:Low TL}=1_
+	),
+	creates(_
+		{DI:Enemy (Slavers), -10/-20/-30,upto(3),mods(Enemy, Frequency of Appearance),page(B135),levelnames("Small group (3-5 people)", "Medium-sized group (6-20 people)", "A large group (21-1,000 people)"), cat(Mundane, Social, Mundane Social)}=1 _
+				with {"Frequency: roll of  6 or less (Quite rarely)", *1/2,shortname(6 or less),group(Frequency of Appearance),page(B36),level(1),valuenum(1/2)} _
+				and  {"Intent: Hunter", *1,shortname(Hunter),group(Enemy),page(B135),level(1),valuenum(1)}_
+	)
+
+Cetosi, displaycost(61), cost(50),
+	cat(Racial Templates, Racial Templates - Pylae),
+	description(Cetosi are 3m large, four-armed amphibious lizard men, who are genereally on the slow side of life - until they go berserk.),
+	page(User),	race(Cetosi), noresync(yes), owns(yes),
+	gives(_
+		+4 to ST:ST,
+		+1 to ST:HT _
+	),
+	adds(_
+		{AD:Ambidexterity},
+		{AD:Amphibious},
+		{AD:Breath-Holding}=2,
+		{AD:Damage Resistance}=2 _
+			with {"Tough Skin", -40%,group(Damage Resistance),page(B47),level(1),valuenum(-40)},
+		{AD:Enhanced Tracking}=1,
+		{AD:Extra Attack}=1,
+		{AD:Increased SM}=1,
+		{DI:Berserk} _
+			with {"You resist on a roll of 15 or less (almost all the time)", *0.5,shortname(15 or less),group(Self-Control),page(B121),level(1),valuenum(0.5)},
+		{DI:Gluttony} _
+			with {"You resist on a roll of 12 or less (quite often)", *1,shortname(12 or less),group(Self-Control),page(B121),level(1),valuenum(1)},
+		{DI:Pacifism (Reluctant Killer)},
+		{DI:Post-Combat Shakes} _
+			with {"Accessibility: Only after going Berserk", -30%,basedgroup(_General),basedon(Accessibility: Only by One Side Of Split Personality),group(_General),level(1),mods(Accessibility),page(B110),shortname(Only after Berserk),valuenum(-30)} _
+			and  {"You resist on a roll of  9 or less (fairly often)", *1.5,shortname(9 or less),group(Self-Control),page(B121),level(1),valuenum(1.5)},
+		{DI:Restricted Diet (Herbivore)}=1 _
+			with {"Substitution", -50%,group(Restricted Diet),page(B151),level(1),valuenum(-50)}_
+	),
+	creates(_
+		{DI:Odious Racial Habit (Slow), -5/-10,upto(3),page(B22),conditional(-1 to ST:Reaction when "people notice your problem"),tl(),usernotes(),familiarities(), cat(Mundane, Social, Other Physical Features, Mundane Social)}=2,
+		{DI:Reduced Manual Dexterity (Ham-Fisted), -5/-10,page(B138),taboo(AD:High Manual Dexterity, DI:No Fine Manipulators, DI:No Manipulators),upto(2),gives(-3 to SK:Fast-Draw, -3 to GR:High Manual Dexterity),conditional(-1 to ST:Reaction when "being tidy or well-groomed matters"),tl(),usernotes(),familiarities(), cat(Mundane, Physical, Mundane Physical)}=1_
+	)
+
+Taipuisa, displaycost(39), cost(10),
+	cat(Racial Templates, Racial Templates - Pylae),
+	description(The Taipuisa are a plant-based humanoid lifeform optically similar to standard Elves: Lithe, beautiful - but green and relying on photosynthesis.),
+	page(User), race(Taipuisa), noresync(yes), owns(yes),
+	gives(_
+		+2 to ST:DX,
+		+1 to ST:ST _
+	),
+	adds(_
+		{AD:Appearance}=1,
+		{AD:Outdoorsman}=1,
+		{AD:Telescopic Vision}=1,
+		{AD:Threshold Magery 0},
+		{AD:Voice} _
+	),
+	creates(_
+		{DI:Code of Honor (Taipuisa), -5/-10,page(B127),upto(3),levelnames(,,), cat(Mundane, Mental, Mundane Mental)}=1_
+	)
+Taipuisa - Hallapuisa, Displaycost(-13), cost(0),
+	cat(Racial Templates, Racial Templates - Pylae),
+	description(A Taipuisa Subrace/Culture. NEEDS the Taipuisa Template.),
+	page(User), race(Taipuisa - Ologapuisa), needs(TE:Taipuisa), noresync(yes), owns(yes),
+	adds(_
+		{AD:Doesn't Eat or Drink} _
+			with {"Accessibility: Needs sunlight and water", -30%,group(_General),level(1),mods(Accessibility),page(B110),shortname(Needs sunlight and water),valuenum(-30)},
+		{AD:Unaging} _
+			with {"Not Game-Relevant", -80%,group(_General),x(,),level(1),valuenum(-80)},
+		{DI:Pacifism (Cannot Kill)}_
+	),
+	creates(_
+		{AD:Resistant (Sickness), 5/10/15/30,mods(Resistant),levelnames(Rare, Occasional, Common, Very Common),page(B80, P71),upto(4), cat(Mundane, Physical, Mundane Physical)}=3 _
+			with {"Degree: +8 to HT rolls to resist", *1/2,round(Down),shortname(+8),group(Resistant),page(B81),tier(-1),level(1),valuenum(1/2)},
+		{DI:Sense of Duty (Nature), -2/-5/-10/-15/-20,levelnames(Individual, Small Group, Large Group, Entire Race, Every Living Being),page(B153),upto(5),conditional(=+2 to ST:Reaction when "in dangerous situations if Sense of Duty is known"), cat(Mundane, Mental, Mundane Mental)}=4_
+	)
+Taipuisa - Ologapuisa, Displaycost(-1), cost(0),
+	cat(Racial Templates, Racial Templates - Pylae),
+	description(A Taipuisa Subrace/Culture. NEEDS the Taipuisa Template.),
+	page(User), race(Taipuisa - Ologapuisa), needs(TE:Taipuisa), noresync(yes), owns(yes),
+	adds(_
+		{DI:Pacifism (Reluctant Killer)}_
+	),
+	creates(_
+		{AD:Resistant (Sickness), 5/10/15/30,mods(Resistant),levelnames(Rare, Occasional, Common, Very Common),page(B80, P71),upto(4), cat(Mundane, Physical, Mundane Physical)}=3 _
+			with {"Degree: +3 to HT rolls to resist", *1/3,round(Down),shortname(+3),group(Resistant),page(B81),tier(-1),level(1),valuenum(1/3)},
+		{QU:Sense of Duty (Nature), -1, page(B153), cat(Mundane, Mental, Mundane Mental)}_
+	)
+Pettava, displaycost(107), cost(0), cat(Racial Templates, Racial Templates - Pylae),
+	description(Pettava often look like Imisén or Taipuisa, but they aren't: The "False People" are shapeshifters who use the Force inside themselves to modify their bodies...),
+	page(User), race(Pettava), noresync(yes), owns(yes),
+	adds(_
+		{AD:Damage Resistance}=1 _
+			with {"Tough Skin", -40%,group(Damage Resistance),page(B47),level(1),valuenum(-40)},
+		{AD:Discriminatory Smell},
+		{AD:Morph} _
+			with {"Reduced Time", +20%/+40%,group(_General),page(B108),level(2),valuenum(40)} _
+			and  {"Backlash: Irritant: Moderate Pain", -20%,mods(Backlash),shortname(Backlash: Moderate Pain),group(_General),page(B36, P104),level(1),valuenum(-20)} _
+			and  {"Costs Fatigue", -5%/-10%,mods(Costs Fatigue),group(_General),page(B111),level(2),valuenum(-10)} _
+			and  {"Mass Conservation", -20%,group(Morph),page(B85),level(1),valuenum(-20)} _
+			and  {"Needs Sample", -5%/-15%/-50%,upto(3),levelnames(must touch subject, requires blood/hair/etc., must consume whole target),group(Morph),page(P75),level(1),valuenum(-5)} _
+			and  {"Retains Shape", -20%,group(Morph),page(B85),level(1),valuenum(-20)} _
+			and  {"Extra Morphing Capacity", +1/+2,tier(1),group(Morph),page(B85),level(60),valuenum(60)} _
+			and  {"Magic", +0,group(_Origin),page(B33),level(1),valuenum(0)},
+		{DI:Unusual Biochemistry}_
+	),
+	creates(_
+		{DI:Dependency (Source of Magic), -5/-10/-20/-30,mods(Dependency),levelnames(Very Common, Common, Occasional, Rare),page(B130),upto(4),tl(),usernotes(),familiarities(), cat(Exotic, Physical, Exotic Physical)}=2 _
+			with {"Frequency Needed: Monthly", *1,shortname(Monthly),group(Dependency),level(1),valuenum(1)},
+		{DI:Secret (Pettava), -5/-10/-20/-30,upto(4),page(B152),levelnames("Serious Embarrassment", "Utter Rejection", "Imprisonment or Exile", "Possible Death"), cat(Mundane, Social, Mundane Social)}=3,
+		{QU:Blue Blood, -1,page(B163),tl(),usernotes(),familiarities(), cat(General)}_
+	)
+Smoke Leopard, displaycost(171), cost(37), cat(Racial Templates, Racial Templates - Pylae),
+	description(Smoke Leopards are dangerous big cats with grey leopard fur which can become insubstantial smoke forms to hunt prey or defend themselves. Also adds 10CP in skills.),
+	page(User), race(Smoke Leopard), noresync(yes), owns(yes), locks(yes), hides(yes),
+	gives(_
+		+1 to ST:Size Modifier,
+		+4 to ST:ST,
+		+3 to ST:DX,
+		-6 to ST:IQ,
+		+1 to ST:HT,
+		+7 to ST:Will,
+		+8 to ST:Perception,
+		+4 to ST:Basic Move _
+	),
+	adds(_
+		{TE:Quadruped},
+		{TE:Wild Animal},
+		{AD:Claws (Sharp Claws)},
+		{AD:Combat Reflexes}=1,
+		{AD:Damage Resistance}=1,
+		{AD:Discriminatory Smell},
+		{AD:Extra Legs (4 Legs)},
+		{AD:Night Vision}=5,
+		{AD:Teeth (Fangs)},
+		{AD:Temperature Tolerance}=1,
+		{AD:Vibration Sense},
+		{DI:Bad Temper} _
+			with {"You resist on a roll of 12 or less (quite often)", *1,shortname(12 or less),group(Self-Control),page(B121),level(1),valuenum(1)},
+		{SK:Brawling}==4pts#DoNotOwn,
+		{SK:Climbing}==2pts#DoNotOwn,
+		{SK:Running}==1pts#DoNotOwn,
+		{SK:Stealth}==2pts#DoNotOwn,
+		{SK:Swimming}==1pts#DoNotOwn,
+		{SK:Tracking}==1pts#DoNotOwn_
+	),
+	creates(_
+		{AD:Hard to See, 5/10,conditional(+@if(@hasmod(Dynamic) then 2 else 1) to SK:Stealth when "moving, vs. seeing only", +2 to SK:Stealth when "standing still, vs. seeing only"), familiarities(), mods(Silence), page(B85, P76), taboo(), tl(),usernotes(), cat(Exotic, Physical, Exotic Physical)}=1 _
+			with {"Link (Smoke Form)", +10%, group(_General), page(B106), basedon(Link), basedgroup(_General)},
+		{AD:Injury Tolerance, 0, displaycost(variable), mods(Injury Tolerance), page(B60, P52), usernotes(), familiarities(), cat(Exotic, Physical, Exotic Physical)} _
+			with {"Link (Smoke Form)", +10%, group(_General), page(B106), basedon(Link), basedgroup(_General)} _
+			and  {"Costs Fatigue", -5%/-10%, mods(Costs Fatigue), group(_General), page(B111), level(2), valuenum(-10)} _
+			and  {"Diffuse", +100, mods(Diffuse), group(Injury Tolerance), page(B60), level(1), valuenum(140), initmods({"Infiltration", +40%, group(Diffuse), page(P53), level(1), valuenum(40)})} _
+	)
+
+<Character Templates - Pylae>
+Covenant of the Endless River - Initiated Wizard, displaycost(15), cost(0),
+	cat(Character Templates, Character Templates - Pylae),
+	description(Build your individual "Threshold Magery" 1+ spellcaster or rely on a Pylae Wizard Template. You are a full member of the powerful international Mages' Guild, the "Covenant of the Endless River".),
+	page(User), noresync(yes), owns(yes),
+	needs(_
+		{AD:Threshold Magery}=1 _
+	),
+	creates(_
+		{AD:Mage Rank (Covenant of the Endless River), 5/10,familiarities(),gives(=@if(AD:Status::level = 0 THEN @if(@hasmod(Rank replaces Status) THEN %level ELSE @int(0.34+(%level/3))) ELSE 0) to ST:Status, =@if(AD:Status::level > 0 THEN @if(@hasmod(Rank replaces Status) THEN %level ELSE @int(0.34+(%level/3))) ELSE 0) to AD:Status),levelnames(1 - Initiate, 2 - Apprentice, 3 - Journeyman, 4 - Laureate, 5 - Wizard, 6 - High Wizard, 7 - Mage, 8 - Archmage),mods(Rank),page(B29),tl(),upto(8),usernotes(), cat(Mundane, Social, Influence, Mundane Social)}=1 _
+			with {"No dominance", -20%,group(_General),level(1),valuenum(-20),x(,)},
+		{DI:Duty (Covenant of the Endless River), -2/-5/-10/-15,mods(Duty),page(B134),upto(4),levelnames("6 or less (quite rarely)", "9 or less (fairly often)", "12 or less (quite often)", "15 or less (almost always)"), cat(Mundane, Social, Mundane Social)}=2 _
+	)
+
+Covenant of the Endless River - Initiated Seeker, displaycost(11), cost(0),
+	cat(Character Templates, Character Templates - Pylae),
+	description(For Seekers. You are a semi-spelluser operative of the powerful Mage Guild, the 'Covenant of the Endless River'. For full wizard members, see Initiate of the Covenant of the Endless River.),
+	page(User), noresync(yes), owns(yes),
+	adds(_
+		{AD:Legal Enforcement Powers (Mage Guild Seekers: International, Covert Ops, License to Kill)}=3 _
+			with {"Informal", -50%,group(Informal),page(SU33),level(1),valuenum(-50)},
+		{AD:Legal Immunity}=3 _
+			with {"Informal", -50%,group(Informal),page(SU33),level(1),valuenum(-50)}_
+	),
+	creates(_
+		{AD:Seeker Rank (Covenant of the Endless River), 5/10,familiarities(),gives(=@if(AD:Status::level = 0 THEN @if(@hasmod(Rank replaces Status) THEN %level ELSE @int(0.34+(%level/3))) ELSE 0) to ST:Status, =@if(AD:Status::level > 0 THEN @if(@hasmod(Rank replaces Status) THEN %level ELSE @int(0.34+(%level/3))) ELSE 0) to AD:Status),levelnames(1 - Initiate, 2 - Apprentice, 3 - Journeyman, 4 - Laureate, 5 - Wizard, 6 - High Wizard, 7 - Mage, 8 - Archmage),mods(Rank),page(B29),tl(),upto(8),usernotes(), cat(Mundane, Social, Influence, Mundane Social)}=1,
+		{DI:Duty (Covenant of the Endless River), -2/-5/-10/-15,mods(Duty),page(B134),upto(4),levelnames("6 or less (quite rarely)", "9 or less (fairly often)", "12 or less (quite often)", "15 or less (almost always)"), cat(Mundane, Social, Mundane Social)}=2 _
+			with {"Extremely Hazardous", -5,group(Duty),page(B134),level(1),valuenum(-5)}_
+	)
+
+Covenant of the Endless River - Seeker (Quaestor), displaycost(10), cost(0),
+	cat(Character Templates, Character Templates - Pylae),
+	description(An "Initiated Seeker" trained for external service: Wizard and monster hunting, police work, etc.),
+	page(User), noresync(yes), owns(yes),
+	select1(text("Please select 5CP in the 4 mandatory basic training skills:"),
+		pointswanted(atleast 5, upto 5), itemswanted(upto 4),
+		list(_
+			SK:First Aid #codes(upto 2pts, downto 1pts),
+			SK:Thaumatology #codes(upto 2pts, downto 1pts),
+			SK:Law #codes(upto 2pts, downto 1pts),
+			SK:Soldier #codes(upto 2pts, downto 1pts)_
+		)_
+	),
+	select2(text("Please select 2CP in 1-2 optional basic training skills:"),
+		pointswanted(atleast 2, upto 2), itemswanted(upto 2),
+		list(_
+			SK:Hidden Lore (Demon Lore) #codes(upto 2pts, downto 0pts),
+			SK:Hidden Lore (Spirit Lore) #codes(upto 2pts, downto 0pts),
+			SK:Administration #codes(upto 2pts, downto 0pts),
+			SK:Tactics #codes(upto 2pts, downto 0pts),
+			SK:Leadership #codes(upto 2pts, downto 0pts)_
+		)_
+	),
+	select3(text("If you do not have at least 3CP in Combat Skills, you will get combat training. If you already possess Combat Skills, select nothing here but learn Spells instead (next checkbox)."),
+		pointswanted(upto 3), itemswanted(upto 3),
+		list(_
+			SK:Shortsword #codes(upto 1pts, downto 0pts),
+			SK:Brawling #codes(upto 1pts, downto 0pts),
+			SK:Shield (Shield) #codes(upto 1pts, downto 0pts)_
+		)_
+	),
+	select4(text("If you did not need Combat Training, you will get magical training if you have at least Threshold Magery 0: Light, Sense Foes and one of Ignite Fire or Seek Water. If you do not possess Threshold Magery 0, select nothing here but learn further Theory instead (next checkbox)."),
+		pointswanted(upto 3), itemswanted(upto 3),
+		list(_
+			SP:Light #codes(upto 1pts, downto 0pts),
+			SP:Sense Foes #codes(upto 1pts, downto 0pts),
+			SP:Ignite Fire #codes(upto 1pts, downto 0pts),
+			SP:Seek Water #codes(upto 1pts, downto 0pts)_
+		)_
+	),
+	select5(text("If you did neither take Combat Training nor Spell training, select 3 CP in theory skills here:"), pointswanted(upto 3), itemswanted(upto 3),
+		list(_
+			SK:Hidden Lore (Demon Lore) #codes(upto 2pts, downto 0pts),
+			SK:Hidden Lore (Spirit Lore) #codes(upto 2pts, downto 0pts),
+			SK:Administration #codes(upto 2pts, downto 0pts),
+			SK:Tactics #codes(upto 2pts, downto 0pts),
+			SK:Leadership #codes(upto 2pts, downto 0pts)_
+		)_
+	)
+
+<Styles - Pylae>
+Karhemma - Pylae Seekers, displaycost(5),
+	description(Karhemma is the aggressive, no-frills unarmed and shortswort style of the Seekers.),
+	page(user), cat(Styles, Styles - Pylae),
+	select1(text(Primary Skills: Select from the following skills and Style Familiarity Perk. In order to take the Style Familiarity Perk you must take at least 1 point in each of the skills.),
+		pointswanted(upto 1000), itemswanted(upto 1000),
+		list(_
+			#newitem(PE:Style Familiarity (Karhemma - Pylae Seekers), page(user), cat(_General, Styles Familiarities, Style Familiarities - Pylae)),
+			SK:Shortsword,
+			SK:Brawling,
+			SK:Shield (Shield),
+			SK:Wrestling_
+		)_
+	),
+	select2(text(You may select from among the following Techniques:),
+		pointswanted(upto 1000), itemswanted(upto 1000),
+		list(_
+			SK:Aggressive Parry (Shortsword),
+			SK:Aggressive Parry (Brawling),
+			SK:Counterattack (Shortsword),
+			SK:Disarming (Shortsword),
+			SK:Disarming (Wrestling),
+			SK:Elbow Strike (Brawling),
+			SK:Kicking (Brawling),
+			SK:Knee Strike (Brawling),
+			SK:Retain Weapon (Shortsword),
+			SK:Stamp Kick (Brawling),
+			SK:Targeted Attack (Shortsword Swing/Jaw),
+			SK:Targeted Attack (Shortsword Swing/Arm Joint),
+			SK:Targeted Attack (Shortsword Swing/Leg Joint),
+			SK:Targeted Attack (Brawling Punch/Jaw),
+			SK:Targeted Attack (Brawling Kick/Leg Joint)_
+		)_
+	),
+	select3(text(You may select from among the following Cinematic Skills and Techniques:),
+		pointswanted(upto 1000), itemswanted(upto 1000),
+		list(_
+			SK:Kiai,
+			SK:Mental Strength,
+			SK:Pressure Points,
+			SK:Power Blow,
+			SK:Dual-Weapon Attack (Shortsword),
+			SK:Pressure-Point Strike _
+		)_
+	),
+	select4(text(You may select from among the following Style Perks and Optional Traits:),
+		pointswanted(atleast -1000, upto 1000), itemswanted(upto 1000), multitype(yes),
+		list(_
+			#newitem(PE:Weapon Adaptation (Smallsword to Shortsword), 1, cat(Style Perks - Realistic), page(MA52)),
+			PE:Off-Hand Weapon Training (Shortsword),
+			PE:Special Exercises (DR 1 with Tough Skin),
+			#newitem(PE:Technique Adaptation (Aggressive Parry), 1, cat(Style Perks - Realistic), page(MA52)) _
+			SK:Innate Attack (Projectile),
+			SK:Innate Attack (Beam)_
+		)_
+	)
+
+[Attributes]
+* Secondary Characteristics
+************************************************************************************************************************
+Initiative (1d3+), basevalue(ST:Basic Speed + _
+	@if(AD:Combat Reflexes::level > 0 then 1 _
+	else @if(AD:Enhanced Time Sense::level > 0 then 2 _
+	else @if(DI:Combat Paralysis::level > 0 then -2 _
+	else 0)))),
+	maxscore(1000000), minscore(0), step(0.25), unit(°|°), display(yes), mainwin(19)
+#MergeTags in SK:Tactics with gives(=@if(me::level >= 20 then 2 else @if(me::level >= 16 then 1 else 0)) to ST:Initiative (1d3+) )
