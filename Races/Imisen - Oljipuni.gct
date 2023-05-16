@@ -1,0 +1,154 @@
+{
+	"type": "template",
+	"version": 4,
+	"id": "a2af14f2-3297-4c08-977f-646b540091c4",
+	"traits": [
+		{
+			"id": "06353a94-9743-4e42-b60b-3fde7f49499a",
+			"type": "trait_container",
+			"open": true,
+			"children": [
+				{
+					"id": "9fcd59d5-4954-4dae-be0e-5c955c6d726e",
+					"type": "trait",
+					"name": "Acute Vision",
+					"reference": "B35",
+					"tags": [
+						"Advantage",
+						"Physical"
+					],
+					"levels": 1,
+					"points_per_level": 2,
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"attribute": "vision",
+							"amount": 1,
+							"per_level": true
+						}
+					],
+					"can_level": true,
+					"calc": {
+						"points": 2
+					}
+				},
+				{
+					"id": "7cd3062c-0798-40e9-a582-3b63465fba2c",
+					"type": "trait",
+					"name": "Hard to Kill",
+					"reference": "B58",
+					"tags": [
+						"Advantage",
+						"Physical"
+					],
+					"levels": 2,
+					"points_per_level": 2,
+					"features": [
+						{
+							"type": "conditional_modifier",
+							"situation": "to HT rolls made for survival at -HP or below, and on any HT roll where failure means instant death. If this bonus makes the difference between success and failure, you collapse, apparently dead (or disabled), but come to in the usual amount of time. A successful Diagnosis roll reveals the truth.",
+							"amount": 1,
+							"per_level": true
+						}
+					],
+					"can_level": true,
+					"calc": {
+						"points": 4
+					}
+				},
+				{
+					"id": "8e318ce9-b78a-48c4-b353-06985a09ecdd",
+					"type": "trait",
+					"name": "Hard to Subdue",
+					"reference": "B59",
+					"tags": [
+						"Advantage",
+						"Physical"
+					],
+					"levels": 2,
+					"points_per_level": 2,
+					"features": [
+						{
+							"type": "conditional_modifier",
+							"situation": "to any HT roll to avoid unconsciousness",
+							"amount": 1,
+							"per_level": true
+						}
+					],
+					"can_level": true,
+					"calc": {
+						"points": 4
+					}
+				},
+				{
+					"id": "5bf0fef9-6eca-4ed0-82f1-e65d369536d5",
+					"type": "trait",
+					"name": "Increased Will",
+					"reference": "B16",
+					"tags": [
+						"Advantage",
+						"Attribute",
+						"Mental"
+					],
+					"levels": 2,
+					"points_per_level": 5,
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"attribute": "will",
+							"amount": 1,
+							"per_level": true
+						}
+					],
+					"can_level": true,
+					"calc": {
+						"points": 10
+					}
+				},
+				{
+					"id": "e841ac33-9cab-4d2e-94a0-76f4ef6a0ad0",
+					"type": "trait",
+					"name": "Rapid Healing",
+					"reference": "B79",
+					"tags": [
+						"Advantage",
+						"Physical"
+					],
+					"base_points": 5,
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "attribute_prereq",
+								"has": true,
+								"qualifier": {
+									"compare": "at_least",
+									"qualifier": 10
+								},
+								"which": "ht"
+							}
+						]
+					},
+					"features": [
+						{
+							"type": "conditional_modifier",
+							"situation": "to your effective HT whenever you roll to recover lost HP or to see if you can get over a crippling injury",
+							"amount": 5
+						}
+					],
+					"calc": {
+						"points": 5
+					}
+				}
+			],
+			"name": "Imisen - Oljipuni",
+			"notes": "Imisén are similar to Earth's humans, but larger, more resilient and with acute vision.",
+			"ancestry": "Human",
+			"container_type": "race",
+			"calc": {
+				"points": 25
+			}
+		}
+	]
+}

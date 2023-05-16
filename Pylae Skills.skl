@@ -2,6 +2,45 @@
 	"type": "skill_list",
 	"version": 4,
 	"rows": [
-
+		{
+			"id": "ccd26693-7146-4244-a577-d70eadcdf98b",
+			"type": "technique",
+			"name": "Tail Strike",
+			"reference": "B231,MA75",
+			"tags": [
+				"Combat",
+				"Melee Combat",
+				"Technique",
+				"Weapon"
+			],
+			"difficulty": "a",
+			"points": 1,
+			"default": {
+				"type": "skill",
+				"name": "Brawling",
+				"modifier": -2
+			},
+			"limit": 0
+		},
+		{
+			"id": "981d5717-b6a8-4e12-bb53-3f0426ad015b",
+			"type": "technique",
+			"name": "Tail Strike",
+			"reference": "B231,MA75",
+			"tags": [
+				"Combat",
+				"Melee Combat",
+				"Technique",
+				"Weapon"
+			],
+			"difficulty": "a",
+			"points": 1,
+			"default": {
+				"type": "skill",
+				"name": "Karate",
+				"modifier": -2
+			},
+			"limit": 0
+		}
 	]
 }

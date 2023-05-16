@@ -1,0 +1,220 @@
+{
+	"type": "template",
+	"version": 4,
+	"id": "92c890dd-b612-413a-aa18-78f2d1af57f2",
+	"traits": [
+		{
+			"id": "66949137-47a7-4bbf-b88c-16f58bbdd896",
+			"type": "trait_container",
+			"open": true,
+			"children": [
+				{
+					"id": "37eacc04-d96c-4963-8f67-3aeb4beaf24d",
+					"type": "trait",
+					"name": "Acute Vision",
+					"reference": "B35",
+					"tags": [
+						"Advantage",
+						"Physical"
+					],
+					"levels": 1,
+					"points_per_level": 2,
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"attribute": "vision",
+							"amount": 1,
+							"per_level": true
+						}
+					],
+					"can_level": true,
+					"calc": {
+						"points": 2
+					}
+				},
+				{
+					"id": "41921613-351a-4f66-a1f9-28ed44325e20",
+					"type": "trait",
+					"name": "Hard to Kill",
+					"reference": "B58",
+					"tags": [
+						"Advantage",
+						"Physical"
+					],
+					"levels": 2,
+					"points_per_level": 2,
+					"features": [
+						{
+							"type": "conditional_modifier",
+							"situation": "to HT rolls made for survival at -HP or below, and on any HT roll where failure means instant death. If this bonus makes the difference between success and failure, you collapse, apparently dead (or disabled), but come to in the usual amount of time. A successful Diagnosis roll reveals the truth.",
+							"amount": 1,
+							"per_level": true
+						}
+					],
+					"can_level": true,
+					"calc": {
+						"points": 4
+					}
+				},
+				{
+					"id": "5d82c697-9759-47c9-b744-d93156417ccc",
+					"type": "trait",
+					"name": "Hard to Subdue",
+					"reference": "B59",
+					"tags": [
+						"Advantage",
+						"Physical"
+					],
+					"levels": 2,
+					"points_per_level": 2,
+					"features": [
+						{
+							"type": "conditional_modifier",
+							"situation": "to any HT roll to avoid unconsciousness",
+							"amount": 1,
+							"per_level": true
+						}
+					],
+					"can_level": true,
+					"calc": {
+						"points": 4
+					}
+				},
+				{
+					"id": "56e7df1b-c25a-444c-873a-054d6e283cb8",
+					"type": "trait",
+					"name": "Increased Will",
+					"reference": "B16",
+					"tags": [
+						"Advantage",
+						"Attribute",
+						"Mental"
+					],
+					"levels": 2,
+					"points_per_level": 5,
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"attribute": "will",
+							"amount": 1,
+							"per_level": true
+						}
+					],
+					"can_level": true,
+					"calc": {
+						"points": 10
+					}
+				},
+				{
+					"id": "c2db0a67-27d6-4f9b-89a8-bc91fb803830",
+					"type": "trait",
+					"name": "Threshold Magery",
+					"reference": "B66",
+					"tags": [
+						"Advantage",
+						"Mental",
+						"Supernatural"
+					],
+					"modifiers": [
+						{
+							"id": "10b7c609-d742-473c-a229-fd39e10a948f",
+							"type": "modifier",
+							"name": "Dance",
+							"cost": -40,
+							"affects": "levels_only",
+							"disabled": true
+						},
+						{
+							"id": "8cffcc39-a19c-4aa2-8a65-f270534b6ad7",
+							"type": "modifier",
+							"name": "Dark-Aspected",
+							"cost": -50,
+							"affects": "levels_only",
+							"disabled": true
+						},
+						{
+							"id": "9a43b6eb-5fca-4b3b-9475-9c8922652001",
+							"type": "modifier",
+							"name": "Day-Aspected",
+							"cost": -40,
+							"affects": "levels_only",
+							"disabled": true
+						},
+						{
+							"id": "1db3c1d2-12b8-4d9f-aaec-8a1f58f99922",
+							"type": "modifier",
+							"name": "Musical",
+							"cost": -50,
+							"affects": "levels_only",
+							"disabled": true
+						},
+						{
+							"id": "7ef63d35-934c-4046-8b55-22208f7a99b6",
+							"type": "modifier",
+							"name": "Night-Aspected",
+							"cost": -40,
+							"affects": "levels_only",
+							"disabled": true
+						},
+						{
+							"id": "0f92e868-30bd-4a88-8dd7-d1929eb47c0e",
+							"type": "modifier",
+							"name": "One College",
+							"notes": "@College@",
+							"cost": -40,
+							"affects": "levels_only",
+							"disabled": true
+						},
+						{
+							"id": "7a67c4c3-2454-43a0-acd4-aac1265bd79a",
+							"type": "modifier",
+							"name": "Solitary",
+							"cost": -40,
+							"affects": "levels_only",
+							"disabled": true
+						},
+						{
+							"id": "162576be-563f-43f2-9bd3-91db2defc569",
+							"type": "modifier",
+							"name": "Song",
+							"cost": -40,
+							"affects": "levels_only",
+							"disabled": true
+						}
+					],
+					"base_points": 5,
+					"points_per_level": 10,
+					"features": [
+						{
+							"type": "spell_bonus",
+							"match": "all_colleges",
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "thaumatology"
+							},
+							"amount": 1,
+							"per_level": true
+						}
+					],
+					"can_level": true,
+					"calc": {
+						"points": 5
+					}
+				}
+			],
+			"name": "Imisen - Va'Aleani",
+			"notes": "Imisén are similar to Earth's humans, but larger, more resilient and with acute vision.",
+			"ancestry": "Human",
+			"container_type": "race",
+			"calc": {
+				"points": 25
+			}
+		}
+	]
+}

@@ -1,87 +1,91 @@
 {
 	"type": "ancestry",
 	"version": 4,
-	"name": "Human",
+	"name": "Arrodo",
 	"common_options": {
 		"height_formula": "roll(dice(1, 8, if($st < 7, 51, if($st < 10, 54 + ($st - 7) * 3, if($st == 10, 62, if($st < 14, 64 + ($st - 11) * 3, 73))))))",
 		"weight_formula": "roll(dice(1, if($st < 11, 61, if($st < 14, 71 + ($st - 11) * 10, 101)), if($st < 7, 60, if($st < 10, 75 + ($st - 7) * 15, if($st == 10, 115, if($st < 14, 125 + ($st - 11) * 15, 170))))))",
-		"age_formula": "roll(1d12+14)",
+		"age_formula": "roll(3d10+3)",
 		"hair_options": [
 			{
-				"weight": 14,
-				"value": "Black"
-			},
-			{
-				"weight": 8,
+				"weight": 12,
 				"value": "Brown"
 			},
 			{
-				"weight": 5,
-				"value": "Blond"
+				"weight": 8,
+				"value": "Black"
+			},
+			{
+				"weight": 4,
+				"value": "Red"
 			},
 			{
 				"weight": 3,
-				"value": "Redhead"
+				"value": "Bicolor Black-Brown"
+			},
+			{
+				"weight": 3,
+				"value": "Bicolor Brown-Red"
+			},
+			{
+				"weight": 3,
+				"value": "Tricolor White-Brown-Red"
 			},
 			{
 				"weight": 1,
-				"value": "Bald"
+				"value": "White"
 			}
 		],
 		"eye_options": [
 			{
-				"weight": 52,
+				"weight": 45,
 				"value": "Brown"
 			},
 			{
-				"weight": 18,
+				"weight": 35,
+				"value": "Amber Yellow"
+			},
+			{
+				"weight": 8,
 				"value": "Blue"
 			},
 			{
-				"weight": 10,
-				"value": "Amber"
-			},
-			{
-				"weight": 10,
-				"value": "Hazel"
-			},
-			{
-				"weight": 6,
-				"value": "Gray"
+				"weight": 8,
+				"value": "Green"
 			},
 			{
 				"weight": 4,
-				"value": "Green"
+				"value": "Red"
 			}
 		],
 		"skin_options": [
 			{
-				"weight": 3,
-				"value": "Dark Brown"
+				"weight": 12,
+				"value": "Brown fur"
+			},
+			{
+				"weight": 8,
+				"value": "Black fur"
+			},
+			{
+				"weight": 4,
+				"value": "Red fur"
 			},
 			{
 				"weight": 3,
-				"value": "Brown"
+				"value": "Bicolor Black-Brown fur"
 			},
 			{
 				"weight": 3,
-				"value": "Olive"
+				"value": "Bicolor Brown-Red fur"
 			},
 			{
 				"weight": 3,
-				"value": "Light Brown"
-			},
-			{
-				"weight": 3,
-				"value": "Tan"
-			},
-			{
-				"weight": 3,
-				"value": "Freckled"
+				"value": "Tricolor White-Brown-Red fur"
 			},
 			{
 				"weight": 1,
-				"value": "Pale"
+				"value": "White fur"
 			}
 		],
 		"handedness_options": [
@@ -95,27 +99,27 @@
 			}
 		],
 		"name_generators": [
-			"Human Last"
+			"Arrodo Last"
 		]
 	},
 	"gender_options": [
 		{
-			"weight": 1,
+			"weight": 35,
 			"value": {
 				"name": "Male",
 				"name_generators": [
-					"Human First - Male",
-					"Human Last"
+					"Arrodo - First - Male",
+					"Arrodo Last"
 				]
 			}
 		},
 		{
-			"weight": 1,
+			"weight": 65,
 			"value": {
 				"name": "Female",
 				"name_generators": [
-					"Human First - Female",
-					"Human Last"
+					"Arrodo - First - Female",
+					"Arrodo Last"
 				]
 			}
 		}

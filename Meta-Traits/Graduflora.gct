@@ -1,0 +1,556 @@
+{
+	"type": "template",
+	"version": 4,
+	"id": "463d2213-5c90-47ee-b37f-6b6dc2f05d8a",
+	"traits": [
+		{
+			"id": "7767feec-fd7b-46b3-b6d9-89d3cd0579c6",
+			"type": "trait_container",
+			"open": true,
+			"children": [
+				{
+					"id": "be2b3936-0b93-4a79-b274-d11f076bbcad",
+					"type": "trait",
+					"name": "Damage Resistance",
+					"reference": "B47",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "cc7b0e1f-8065-4b2f-8e7f-ba2172a4677d",
+							"type": "modifier",
+							"name": "Force Field",
+							"reference": "B47",
+							"cost": 20,
+							"disabled": true
+						},
+						{
+							"id": "1c91b817-f3ba-4651-a197-dfcb18ee13be",
+							"type": "modifier",
+							"name": "Hardened",
+							"reference": "B47",
+							"cost": 20,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "337ef62f-88b8-4b18-ba41-999b2abbf3aa",
+							"type": "modifier",
+							"name": "Absorption",
+							"reference": "B46",
+							"notes": "Enhances @Trait@",
+							"cost": 80,
+							"disabled": true
+						},
+						{
+							"id": "e2131245-66d5-4b05-aad9-3c28c849b827",
+							"type": "modifier",
+							"name": "Absorption",
+							"reference": "B46",
+							"notes": "Healing only",
+							"cost": 80,
+							"disabled": true
+						},
+						{
+							"id": "6ab17a06-190d-4c1a-9c01-a4a63e497ea6",
+							"type": "modifier",
+							"name": "Absorption",
+							"reference": "B46",
+							"notes": "Enhances any trait",
+							"cost": 100,
+							"disabled": true
+						},
+						{
+							"id": "b940ad36-cf42-4bfe-8ee4-a6e790977288",
+							"type": "modifier",
+							"name": "Reflection",
+							"reference": "B47",
+							"cost": 100,
+							"disabled": true
+						},
+						{
+							"id": "b7299363-83a8-4f07-a250-07809bd0b584",
+							"type": "modifier",
+							"name": "Bane",
+							"reference": "H14",
+							"notes": "@Rare@",
+							"cost": -1,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "9dc1003b-f0c2-41fb-8db6-ab2e16579481",
+							"type": "modifier",
+							"name": "Bane",
+							"reference": "H14",
+							"notes": "@Occasional@",
+							"cost": -5,
+							"disabled": true
+						},
+						{
+							"id": "1cdfe0b0-ae66-4b68-84d4-7dd47c34a6a2",
+							"type": "modifier",
+							"name": "Bane",
+							"reference": "H14",
+							"notes": "@Common@",
+							"cost": -10,
+							"disabled": true
+						},
+						{
+							"id": "94db46f2-e60b-4cd3-9dd0-752ca5c6038c",
+							"type": "modifier",
+							"name": "Bane",
+							"reference": "H14",
+							"notes": "@Very Common@",
+							"cost": -15,
+							"disabled": true
+						},
+						{
+							"id": "48bd849c-e53b-47ff-a448-3e36d71f10d4",
+							"type": "modifier",
+							"name": "Directional",
+							"reference": "B47",
+							"notes": "Front",
+							"cost": -20,
+							"disabled": true
+						},
+						{
+							"id": "dabe71ff-ded2-4888-8496-a06889a4f1de",
+							"type": "modifier",
+							"name": "Flexible",
+							"reference": "B47",
+							"cost": -20,
+							"disabled": true
+						},
+						{
+							"id": "ac96b6d0-fca9-4e77-a38f-145058e23ec1",
+							"type": "modifier",
+							"name": "Limited",
+							"reference": "B46",
+							"notes": "@Very Common Attack Form@",
+							"cost": -20,
+							"disabled": true
+						},
+						{
+							"id": "c29afdcc-9a27-48f7-b22d-3846f184d2be",
+							"type": "modifier",
+							"name": "Semi-Ablative",
+							"reference": "B47",
+							"cost": -20,
+							"disabled": true
+						},
+						{
+							"id": "59ec6fa1-ad19-44a2-93af-39e0971e8594",
+							"type": "modifier",
+							"name": "Can't wear armor",
+							"reference": "B47",
+							"cost": -40,
+							"disabled": true
+						},
+						{
+							"id": "6cf6d8af-8309-402b-a1ae-2b323d626fce",
+							"type": "modifier",
+							"name": "Directional",
+							"reference": "B47",
+							"notes": "@Direction: Back, Right, Left, Top or Underside@",
+							"cost": -40,
+							"disabled": true
+						},
+						{
+							"id": "dfede250-5e3d-41f3-be5c-6977e0094940",
+							"type": "modifier",
+							"name": "Limited",
+							"reference": "B46",
+							"notes": "@Common Attack Form@",
+							"cost": -40,
+							"disabled": true
+						},
+						{
+							"id": "28527d94-cb92-491a-b618-40fcff616f2b",
+							"type": "modifier",
+							"name": "Tough Skin",
+							"notes": "Effects that just require skin contact or a scratch ignore this DR",
+							"cost": -40
+						},
+						{
+							"id": "0c0ddcb9-66bf-4c2d-8000-fc58a2e2c93b",
+							"type": "modifier",
+							"name": "Limited",
+							"reference": "B46",
+							"notes": "@Occasional Attack Form@",
+							"cost": -60,
+							"disabled": true
+						},
+						{
+							"id": "c40e242b-59b2-4247-bafe-d730b572aaf5",
+							"type": "modifier",
+							"name": "Ablative",
+							"reference": "B47",
+							"cost": -80,
+							"disabled": true
+						},
+						{
+							"id": "902eca8e-f66c-428f-92c4-20547fc35e18",
+							"type": "modifier",
+							"name": "Limited",
+							"reference": "B46",
+							"notes": "@Rare Attack Form@",
+							"cost": -80,
+							"disabled": true
+						},
+						{
+							"id": "73efbbbd-4372-436d-a6bc-5d983b76b202",
+							"type": "modifier",
+							"name": "Laminate",
+							"reference": "RSWL18",
+							"cost": 10,
+							"disabled": true
+						},
+						{
+							"id": "303efbc3-ac0a-4112-bb75-4e1e90d93411",
+							"type": "modifier",
+							"name": "Malediction-Proof",
+							"reference": "PSI14",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "27ecfedf-ff63-488a-b44a-22b28efe4760",
+							"type": "modifier",
+							"name": "Maledictions Only",
+							"reference": "PSI14",
+							"disabled": true
+						},
+						{
+							"id": "e7b047a7-bf1b-48c4-a0fb-94365b0805dc",
+							"type": "modifier",
+							"name": "Partial (@Location, 1 level per -1 Per Hit Modifier, Torso is -10% thus level 1@)",
+							"reference": "B47",
+							"cost": -10,
+							"disabled": true
+						}
+					],
+					"levels": 1,
+					"points_per_level": 5,
+					"features": [
+						{
+							"type": "dr_bonus",
+							"location": "skull",
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "dr_bonus",
+							"location": "face",
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "dr_bonus",
+							"location": "neck",
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "dr_bonus",
+							"location": "torso",
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "dr_bonus",
+							"location": "vitals",
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "dr_bonus",
+							"location": "groin",
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "dr_bonus",
+							"location": "arm",
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "dr_bonus",
+							"location": "hand",
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "dr_bonus",
+							"location": "leg",
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "dr_bonus",
+							"location": "foot",
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "dr_bonus",
+							"location": "tail",
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "dr_bonus",
+							"location": "wing",
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "dr_bonus",
+							"location": "fin",
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "dr_bonus",
+							"location": "brain",
+							"amount": 1,
+							"per_level": true
+						}
+					],
+					"can_level": true,
+					"calc": {
+						"points": 3
+					}
+				},
+				{
+					"id": "f529aa8c-560c-4df0-bcc2-c1510a5a3c96",
+					"type": "trait",
+					"name": "Extended Lifespan",
+					"reference": "B53",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Physical"
+					],
+					"levels": 1,
+					"points_per_level": 2,
+					"can_level": true,
+					"calc": {
+						"points": 2
+					}
+				},
+				{
+					"id": "1daaa754-e1cf-48f4-8fdb-61183783aa82",
+					"type": "trait",
+					"name": "Injury Tolerance",
+					"reference": "B60,P52,MA45",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "26605205-a95d-4690-9dc0-cc648294a15e",
+							"type": "modifier",
+							"name": "Diffuse",
+							"reference": "B60",
+							"notes": "Immune to crippling injuries. Brain, Vitals and Groin cannot be targeted. Most foes cannot slam or grapple you (GM's decision). Do not bleed. Unaffected by blood-borne toxins. Immune to attacks that rely on cutting off blood to part of your body. Impaling and piercing attacks of any size never do more than 1 HP of injury, regardless of penetrating damage. Other attacks never do more than 2 HP of injury. Exception: Area-effect, cone, and explosion attacks cause normal injury",
+							"cost": 100,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "e98b0c17-141f-45ca-aaf2-5d6ff9f9ab87",
+							"type": "modifier",
+							"name": "Homogenous",
+							"reference": "B60",
+							"notes": "Altered wound modifiers: imp \u0026 pi++ are x1/2, pi+ is x1/3, pi is x1/5, pi- is x1/10",
+							"cost": 40,
+							"cost_type": "points"
+						},
+						{
+							"id": "27ef0bd2-f4b7-4c88-9bd4-c84557d3f790",
+							"type": "modifier",
+							"name": "No Blood",
+							"reference": "B61",
+							"notes": "Do not bleed, unaffected by blood-borne toxins, immune to attacks that rely on cutting off blood to part of your body",
+							"cost": 5,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "4fa959a6-3b06-42d4-b9a9-ad02e2a7f809",
+							"type": "modifier",
+							"name": "No Brain",
+							"reference": "B61",
+							"notes": "Brain cannot be targeted. Blows to the skull or eye are treated like blows to the face, except that eye injury can still cripple the eye",
+							"cost": 5,
+							"cost_type": "points"
+						},
+						{
+							"id": "ff796ec8-c350-48cc-b6a2-74f7c48bc261",
+							"type": "modifier",
+							"name": "No Eyes",
+							"reference": "B61",
+							"notes": "Eyes may not be targeted. Immune to blinding attacks",
+							"cost": 5,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "cdab2614-a6a1-47ea-8c7c-f42698d872cb",
+							"type": "modifier",
+							"name": "No Head",
+							"reference": "B61",
+							"notes": "Skull, Brain and Face cannot be targeted",
+							"cost": 7,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "e0ef00ad-30d2-494c-8ceb-931ff304cb1f",
+							"type": "modifier",
+							"name": "No Neck",
+							"reference": "B61",
+							"notes": "Neck may not be targeted and cannot be decapitated, choked or strangled",
+							"cost": 5,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "a4374f61-3843-4e33-b1f4-a2890ee6cba1",
+							"type": "modifier",
+							"name": "No Vitals",
+							"reference": "B61",
+							"notes": "Attacks to the Vitals or Groin are treated as attacks to the Torso",
+							"cost": 5,
+							"cost_type": "points"
+						},
+						{
+							"id": "8d81f217-bc0f-443a-b6cb-281287f84a77",
+							"type": "modifier",
+							"name": "Unliving",
+							"reference": "B61",
+							"notes": "Altered wound modifiers: imp \u0026 pi++ are x1, pi+ is x1/2, pi is x1/3, pi- is x1/5",
+							"cost": 20,
+							"cost_type": "points",
+							"disabled": true
+						}
+					],
+					"calc": {
+						"points": 50
+					}
+				},
+				{
+					"id": "fede8eb5-c780-42d7-846e-e3c9cf7a071d",
+					"type": "trait",
+					"name": "Vulnerability",
+					"reference": "B161",
+					"tags": [
+						"Disadvantage",
+						"Exotic",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "6802c816-fb2b-488a-a2d0-0c80a0785b85",
+							"type": "modifier",
+							"name": "@Rare attack@",
+							"reference": "B161",
+							"cost": -5,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "f0705c39-2556-40f9-abfc-2a03e937fcd8",
+							"type": "modifier",
+							"name": "@Occasional attack@",
+							"reference": "B161",
+							"cost": -10,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "093e7082-b23f-4b78-ab71-9354852fb325",
+							"type": "modifier",
+							"name": "Burning",
+							"reference": "B161",
+							"cost": -15,
+							"cost_type": "points"
+						},
+						{
+							"id": "de600538-dbaf-4f07-99f9-8fdd2a4a48bd",
+							"type": "modifier",
+							"name": "@Very common attack@",
+							"reference": "B161",
+							"cost": -20,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "c4f553af-2f1c-45f6-a1b4-09e465e73ae0",
+							"type": "modifier",
+							"name": "Wounding x2",
+							"reference": "B161",
+							"cost": 2,
+							"cost_type": "multiplier"
+						},
+						{
+							"id": "ba45fb5e-8119-4d9f-ad89-e086321c9e71",
+							"type": "modifier",
+							"name": "Wounding x3",
+							"reference": "B161",
+							"cost": 3,
+							"cost_type": "multiplier",
+							"disabled": true
+						},
+						{
+							"id": "5a8d144b-8adb-4bcc-88be-0714c45a87a6",
+							"type": "modifier",
+							"name": "Wounding x4",
+							"reference": "B161",
+							"cost": 4,
+							"cost_type": "multiplier",
+							"disabled": true
+						},
+						{
+							"id": "efe1ea78-a000-4efd-97c8-4a20873bc894",
+							"type": "modifier",
+							"name": "Fatigue Only",
+							"reference": "B161",
+							"cost": -50,
+							"disabled": true
+						}
+					],
+					"calc": {
+						"points": -30
+					}
+				},
+				{
+					"id": "553a8c04-dec4-4ebb-a6e2-e3188c7292d7",
+					"type": "trait",
+					"name": "Unusual Biochemistry",
+					"reference": "B160",
+					"tags": [
+						"Disadvantage",
+						"Physical"
+					],
+					"base_points": -5,
+					"calc": {
+						"points": -5
+					}
+				}
+			],
+			"name": "Graduflora",
+			"notes": "The „Wandelpflanzen“ are plant-based life forms",
+			"calc": {
+				"points": 20
+			}
+		}
+	]
+}

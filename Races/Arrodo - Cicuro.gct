@@ -1,0 +1,742 @@
+{
+	"type": "template",
+	"version": 4,
+	"id": "c4abf399-0e86-4437-9d17-36d70a69c5a8",
+	"traits": [
+		{
+			"id": "a3159377-32b6-464e-b63a-4997cf8487c5",
+			"type": "trait_container",
+			"open": true,
+			"children": [
+				{
+					"id": "f262e0cc-0959-4bfc-91c5-ff0a4f493d58",
+					"type": "trait",
+					"name": "Crushing Striker (Tail)",
+					"reference": "B88,MA47",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "f373791c-47c0-4076-825c-bfb568e16511",
+							"type": "modifier",
+							"name": "Cannot Parry",
+							"reference": "B88",
+							"cost": -40
+						},
+						{
+							"id": "2ae98985-60b2-47c5-b483-faffa914a5b2",
+							"type": "modifier",
+							"name": "Clumsy",
+							"reference": "B88",
+							"cost": -20,
+							"levels": 2,
+							"features": [
+								{
+									"type": "skill_bonus",
+									"selection_type": "this_weapon",
+									"name": {
+										"compare": "is"
+									},
+									"amount": -1,
+									"per_level": true
+								}
+							]
+						},
+						{
+							"id": "4671a6c2-1aa8-49fa-8bca-76b1e4d4f69e",
+							"type": "modifier",
+							"name": "Weak",
+							"cost": -50,
+							"features": [
+								{
+									"type": "weapon_bonus",
+									"selection_type": "this_weapon",
+									"name": {
+										"compare": "is"
+									},
+									"level": {
+										"compare": "at_least"
+									},
+									"amount": -1,
+									"per_level": true
+								}
+							]
+						},
+						{
+							"id": "879f81fd-3434-4692-b680-b4e42e349933",
+							"type": "modifier",
+							"name": "Long (Reach C, 1)",
+							"reference": "B88",
+							"cost": 100
+						},
+						{
+							"id": "1e9d75f7-e37e-46a0-8bce-84d396a30ae1",
+							"type": "modifier",
+							"name": "Limited Arc (@Direction@)",
+							"reference": "B88",
+							"cost": -40
+						}
+					],
+					"base_points": 5,
+					"weapons": [
+						{
+							"id": "2a9ee24e-3cc4-46a1-861d-4f8de4f8f207",
+							"type": "melee_weapon",
+							"damage": {
+								"type": "cr",
+								"st": "thr",
+								"base": "0"
+							},
+							"usage": "Tail Strike",
+							"reach": "C,1",
+							"parry": "0",
+							"block": "No",
+							"defaults": [
+								{
+									"type": "dx"
+								},
+								{
+									"type": "skill",
+									"name": "Tail Strike"
+								},
+								{
+									"type": "skill",
+									"name": "Brawling"
+								}
+							],
+							"calc": {
+								"parry": "0",
+								"block": "No",
+								"damage": "thr cr"
+							}
+						}
+					],
+					"calc": {
+						"points": 2
+					}
+				},
+				{
+					"id": "9debe061-4417-4839-81d4-3548e3823f57",
+					"type": "trait",
+					"name": "Catfall",
+					"reference": "B41,P43",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "4f09c6de-6a88-4593-9e01-2441530cb0e6",
+							"type": "modifier",
+							"name": "Feather Fall",
+							"reference": "P43",
+							"cost": 20,
+							"disabled": true
+						},
+						{
+							"id": "d05208e4-b857-4e41-b7fa-3b7fa594ac68",
+							"type": "modifier",
+							"name": "Parachute",
+							"reference": "P43",
+							"cost": -30,
+							"disabled": true
+						}
+					],
+					"base_points": 10,
+					"calc": {
+						"points": 10
+					}
+				},
+				{
+					"id": "9a13a0d1-ad49-4b6c-9c80-4c173795a327",
+					"type": "trait",
+					"name": "Sharp Claws",
+					"reference": "B42",
+					"tags": [
+						"Advantage",
+						"Physical"
+					],
+					"base_points": 5,
+					"weapons": [
+						{
+							"id": "6947bdb1-dbf7-4467-818a-7a97925995c1",
+							"type": "melee_weapon",
+							"damage": {
+								"type": "cut",
+								"st": "thr",
+								"base": "-1"
+							},
+							"usage": "Slash",
+							"reach": "C",
+							"parry": "0",
+							"block": "No",
+							"defaults": [
+								{
+									"type": "dx"
+								},
+								{
+									"type": "skill",
+									"name": "Brawling"
+								},
+								{
+									"type": "skill",
+									"name": "Boxing"
+								},
+								{
+									"type": "skill",
+									"name": "Karate"
+								}
+							],
+							"calc": {
+								"parry": "0",
+								"block": "No",
+								"damage": "thr-1 cut"
+							}
+						},
+						{
+							"id": "8067b74a-214b-41cf-93dd-6b11f5a31584",
+							"type": "melee_weapon",
+							"damage": {
+								"type": "cut",
+								"st": "thr"
+							},
+							"usage": "Kick",
+							"reach": "C,1",
+							"parry": "No",
+							"block": "No",
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Karate",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Brawling",
+									"modifier": -2
+								}
+							],
+							"calc": {
+								"parry": "No",
+								"block": "No",
+								"damage": "thr cut"
+							}
+						}
+					],
+					"calc": {
+						"points": 5
+					}
+				},
+				{
+					"id": "60c97591-c4dd-4b81-a746-75f918435576",
+					"type": "trait",
+					"name": "Night Vision",
+					"reference": "B71,P87",
+					"tags": [
+						"Advantage",
+						"Physical"
+					],
+					"levels": 6,
+					"points_per_level": 1,
+					"can_level": true,
+					"calc": {
+						"points": 6
+					}
+				},
+				{
+					"id": "20b6e95a-6a06-44b3-8b73-c240e534732a",
+					"type": "trait",
+					"name": "Super Climbing",
+					"reference": "B89,P79",
+					"notes": "Climbing Move: @New Climbing Move@",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "7e0fd7ce-7c34-408e-90e7-a3632553461e",
+							"type": "modifier",
+							"name": "Specific",
+							"reference": "P79",
+							"notes": "@Common Surface@",
+							"cost": -40,
+							"disabled": true
+						},
+						{
+							"id": "d88d193f-94b8-4c69-88d6-19af00fe2f82",
+							"type": "modifier",
+							"name": "Specific",
+							"reference": "P79",
+							"notes": "Ferrous Metals",
+							"cost": -50,
+							"disabled": true
+						},
+						{
+							"id": "984da8f9-abdd-4768-95b0-68312533952c",
+							"type": "modifier",
+							"name": "Specific",
+							"reference": "P79",
+							"notes": "@Uncommon Surface@",
+							"cost": -60,
+							"disabled": true
+						},
+						{
+							"id": "d213be08-9dc4-4a06-ab78-6875c8d8e8ff",
+							"type": "modifier",
+							"name": "Requires Low Gravity",
+							"reference": "P79",
+							"notes": "@Threshold@",
+							"disabled": true
+						}
+					],
+					"levels": 2,
+					"points_per_level": 3,
+					"can_level": true,
+					"calc": {
+						"points": 6
+					}
+				},
+				{
+					"id": "5104e0a8-3477-40a9-ba4e-840718367532",
+					"type": "trait",
+					"name": "Super Jump",
+					"reference": "B89,P79",
+					"notes": "@New Move and Jump Stats@",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "ead7e9ec-99a6-4bcb-b7c6-504d401821a6",
+							"type": "modifier",
+							"name": "Bouncing",
+							"reference": "P80",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "97e171bf-2a5e-4c48-9cbf-7a1edd8b124a",
+							"type": "modifier",
+							"name": "Maneuverable",
+							"reference": "P80",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "726f1e2d-e9b4-42a8-b605-5acf7fd6da67",
+							"type": "modifier",
+							"name": "Full Power Only",
+							"reference": "P80",
+							"cost": -10,
+							"disabled": true
+						},
+						{
+							"id": "7b091e20-99db-4bdf-93bc-4c14408ce5fe",
+							"type": "modifier",
+							"name": "Horizontal Only",
+							"reference": "P80",
+							"cost": -25,
+							"disabled": true
+						},
+						{
+							"id": "43e11c5f-c581-4792-be2b-704d38fe1d55",
+							"type": "modifier",
+							"name": "Lighter Than Air",
+							"reference": "P80",
+							"cost": -10,
+							"disabled": true
+						},
+						{
+							"id": "893c6a82-132d-42cf-8de6-f6c0f2a54857",
+							"type": "modifier",
+							"name": "Planetary",
+							"reference": "P80",
+							"cost": -5,
+							"disabled": true
+						},
+						{
+							"id": "0d253161-4efe-45f0-8a97-2e6c49a5be70",
+							"type": "modifier",
+							"name": "Projectile",
+							"reference": "P80",
+							"cost": -20,
+							"disabled": true
+						},
+						{
+							"id": "bdc30b4f-cace-4319-952a-797ca970cf1e",
+							"type": "modifier",
+							"name": "Vertical Only",
+							"reference": "P80",
+							"cost": -25,
+							"disabled": true
+						},
+						{
+							"id": "b83d1b61-aebf-4572-a945-1a7a37b33b35",
+							"type": "modifier",
+							"name": "Bouncing Only",
+							"reference": "SU28",
+							"cost": -50,
+							"disabled": true
+						}
+					],
+					"levels": 1,
+					"points_per_level": 10,
+					"can_level": true,
+					"calc": {
+						"points": 10
+					}
+				},
+				{
+					"id": "ea40f33c-50f8-4efe-89b2-f760c817b7f6",
+					"type": "trait",
+					"name": "Sharp Teeth",
+					"reference": "B91",
+					"tags": [
+						"Exotic",
+						"Perk",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "c32922a5-c187-48a9-8109-61776dc618f1",
+							"type": "modifier",
+							"name": "Provided by Vampiric Bite",
+							"reference": "B96",
+							"cost": -1,
+							"cost_type": "points",
+							"disabled": true
+						}
+					],
+					"base_points": 1,
+					"weapons": [
+						{
+							"id": "dbf194fc-0933-473c-8708-1704bb1dbb50",
+							"type": "melee_weapon",
+							"damage": {
+								"type": "cut",
+								"st": "thr",
+								"base": "-1"
+							},
+							"usage": "Bite",
+							"reach": "C",
+							"parry": "No",
+							"block": "No",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Brawling"
+								},
+								{
+									"type": "dx"
+								}
+							],
+							"calc": {
+								"parry": "No",
+								"block": "No",
+								"damage": "thr-1 cut"
+							}
+						}
+					],
+					"calc": {
+						"points": 1
+					}
+				},
+				{
+					"id": "c50bc5a2-6760-4213-9e12-e0102a281aa5",
+					"type": "trait",
+					"name": "Striking ST",
+					"reference": "B88,P78",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "9b8e80e8-e2b2-459f-ab27-d96a9aa1e1ca",
+							"type": "modifier",
+							"name": "No Fine Manipulators",
+							"cost": -40,
+							"disabled": true
+						},
+						{
+							"id": "32892d90-82df-401d-bddc-d39a12d0f8b7",
+							"type": "modifier",
+							"name": "Size",
+							"cost": -10,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "eaabe509-f453-401a-89c1-4830111d0544",
+							"type": "modifier",
+							"name": "Super Effort",
+							"reference": "SU24",
+							"cost": 400,
+							"disabled": true
+						},
+						{
+							"id": "f35b516b-28d2-4935-8caa-e9f85f5310e0",
+							"type": "modifier",
+							"name": "One Attack Only",
+							"reference": "P79",
+							"notes": "Bite",
+							"cost": -60
+						},
+						{
+							"id": "4c469f7d-a2fc-45fa-9b19-a51985d575cd",
+							"type": "modifier",
+							"name": "Know Your Own Strength Pricing Variant",
+							"reference": "PY83:18",
+							"cost": -4,
+							"affects": "levels_only",
+							"cost_type": "points",
+							"disabled": true
+						}
+					],
+					"levels": 3,
+					"points_per_level": 5,
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"limitation": "striking_only",
+							"attribute": "st",
+							"amount": 1,
+							"per_level": true
+						}
+					],
+					"can_level": true,
+					"calc": {
+						"points": 6
+					}
+				},
+				{
+					"id": "3cace9c5-7804-401f-b357-1f1e48dbc6c3",
+					"type": "trait",
+					"name": "Vibration Sense",
+					"reference": "B96,P86",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "37bbadbe-fb98-47a1-8916-8f97d4396149",
+							"type": "modifier",
+							"name": "Universal",
+							"reference": "B96",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "53aa8a14-a002-4113-985f-bab448ebbc27",
+							"type": "modifier",
+							"name": "Sense of Perception",
+							"reference": "P86",
+							"cost": 100,
+							"disabled": true
+						},
+						{
+							"id": "5c27538d-541d-420f-9833-563d6a839724",
+							"type": "modifier",
+							"name": "Targeting",
+							"reference": "P86",
+							"cost": 20,
+							"disabled": true
+						},
+						{
+							"id": "134bf0cb-7f3e-44f2-9b66-67a66f24f6f5",
+							"type": "modifier",
+							"name": "Air"
+						}
+					],
+					"base_points": 10,
+					"calc": {
+						"points": 10
+					}
+				},
+				{
+					"id": "c1b0c76e-026d-4c26-b32c-22840a5b93ba",
+					"type": "trait",
+					"name": "Colorblindness",
+					"reference": "B127",
+					"tags": [
+						"Disadvantage",
+						"Physical"
+					],
+					"base_points": -10,
+					"features": [
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "contains",
+								"qualifier": "artist"
+							},
+							"amount": -1
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "contains",
+								"qualifier": "chemistry"
+							},
+							"amount": -1
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "contains",
+								"qualifier": "driving"
+							},
+							"amount": -1
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "merchant"
+							},
+							"amount": -1
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "contains",
+								"qualifier": "piloting"
+							},
+							"amount": -1
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "contains",
+								"qualifier": "tracking"
+							},
+							"amount": -1
+						}
+					],
+					"calc": {
+						"points": -10
+					}
+				},
+				{
+					"id": "f21dfc9a-d8f4-44c8-b81e-adedb917e74a",
+					"type": "trait",
+					"name": "Restricted Diet (Carnivore)",
+					"reference": "B151",
+					"tags": [
+						"Disadvantage",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "0dae0fad-abcc-4e90-a149-326bea6573a8",
+							"type": "modifier",
+							"name": "Substitution",
+							"reference": "B151",
+							"cost": -50
+						},
+						{
+							"id": "1cc9a927-6c9b-402c-bd43-9fe3454103aa",
+							"type": "modifier",
+							"name": "Very Common",
+							"reference": "B151",
+							"cost": -10,
+							"cost_type": "points"
+						},
+						{
+							"id": "7ee9ad59-a4f4-4310-ad24-cbd4d90047c7",
+							"type": "modifier",
+							"name": "Common",
+							"reference": "B151",
+							"cost": -20,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "0d16b1d2-ff4b-40d7-a015-5b3a71fbbd1a",
+							"type": "modifier",
+							"name": "Occasional",
+							"reference": "B151",
+							"cost": -30,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "2b764a44-21bf-4285-83d6-a2443b93fe36",
+							"type": "modifier",
+							"name": "Rare",
+							"reference": "B151",
+							"cost": -40,
+							"cost_type": "points",
+							"disabled": true
+						}
+					],
+					"calc": {
+						"points": -5
+					}
+				},
+				{
+					"id": "24f70e80-dc05-4163-a67b-4e185bc6c289",
+					"type": "trait",
+					"name": "Social Stigma (Subjugated)",
+					"reference": "B155",
+					"tags": [
+						"Disadvantage",
+						"Social"
+					],
+					"base_points": -20,
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"situation": "from others",
+							"amount": -1
+						}
+					],
+					"calc": {
+						"points": -20
+					}
+				}
+			],
+			"name": "Arrodo - Cicuro",
+			"modifiers": [
+				{
+					"id": "80e60186-8a01-4ebc-80e1-477ae0992d40",
+					"type": "modifier",
+					"name": "Reduced Size Modifier",
+					"levels": 1,
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"attribute": "sm",
+							"amount": -1,
+							"per_level": true
+						}
+					]
+				}
+			],
+			"calc": {
+				"points": 21
+			}
+		}
+	]
+}

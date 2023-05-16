@@ -1,0 +1,157 @@
+{
+	"type": "template",
+	"version": 4,
+	"id": "f5cda689-5ab1-43c4-9b0d-e3dcd2c568df",
+	"traits": [
+		{
+			"id": "1df6cda9-9841-48fa-bb78-27d94a7949c8",
+			"type": "trait_container",
+			"open": true,
+			"children": [
+				{
+					"id": "3cc1e8fd-45f4-4895-a6dc-b389fd94dba8",
+					"type": "trait",
+					"name": "Acute Vision",
+					"reference": "B35",
+					"tags": [
+						"Advantage",
+						"Physical"
+					],
+					"levels": 1,
+					"points_per_level": 2,
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"attribute": "vision",
+							"amount": 1,
+							"per_level": true
+						}
+					],
+					"can_level": true,
+					"calc": {
+						"points": 2
+					}
+				},
+				{
+					"id": "f403c271-9b05-41d7-898c-2f8df338e068",
+					"type": "trait",
+					"name": "Hard to Kill",
+					"reference": "B58",
+					"tags": [
+						"Advantage",
+						"Physical"
+					],
+					"levels": 2,
+					"points_per_level": 2,
+					"features": [
+						{
+							"type": "conditional_modifier",
+							"situation": "to HT rolls made for survival at -HP or below, and on any HT roll where failure means instant death. If this bonus makes the difference between success and failure, you collapse, apparently dead (or disabled), but come to in the usual amount of time. A successful Diagnosis roll reveals the truth.",
+							"amount": 1,
+							"per_level": true
+						}
+					],
+					"can_level": true,
+					"calc": {
+						"points": 4
+					}
+				},
+				{
+					"id": "65262304-2738-41b5-aaf7-7133f4b39698",
+					"type": "trait",
+					"name": "Hard to Subdue",
+					"reference": "B59",
+					"tags": [
+						"Advantage",
+						"Physical"
+					],
+					"levels": 2,
+					"points_per_level": 2,
+					"features": [
+						{
+							"type": "conditional_modifier",
+							"situation": "to any HT roll to avoid unconsciousness",
+							"amount": 1,
+							"per_level": true
+						}
+					],
+					"can_level": true,
+					"calc": {
+						"points": 4
+					}
+				},
+				{
+					"id": "e39a3699-0892-4da1-9372-fccb71b12034",
+					"type": "trait",
+					"name": "Increased Will",
+					"reference": "B16",
+					"tags": [
+						"Advantage",
+						"Attribute",
+						"Mental"
+					],
+					"levels": 2,
+					"points_per_level": 5,
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"attribute": "will",
+							"amount": 1,
+							"per_level": true
+						}
+					],
+					"can_level": true,
+					"calc": {
+						"points": 10
+					}
+				},
+				{
+					"id": "e0edfb08-0b9f-4c64-b81e-83d375664a2c",
+					"type": "trait",
+					"name": "Magic Resistance",
+					"reference": "B67",
+					"tags": [
+						"Advantage",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "3a0752cf-b3da-4558-bbb7-86f9cd70056b",
+							"type": "modifier",
+							"name": "Improved",
+							"reference": "B67",
+							"cost": 150
+						}
+					],
+					"levels": 1,
+					"points_per_level": 2,
+					"features": [
+						{
+							"type": "conditional_modifier",
+							"situation": "to resist spells",
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "conditional_modifier",
+							"situation": "to skill for others to cast a spell on you",
+							"amount": -1,
+							"per_level": true
+						}
+					],
+					"can_level": true,
+					"calc": {
+						"points": 5
+					}
+				}
+			],
+			"name": "Imisen - Werlani",
+			"notes": "Imisén are similar to Earth's humans, but larger, more resilient and with acute vision.",
+			"ancestry": "Human",
+			"container_type": "race",
+			"calc": {
+				"points": 25
+			}
+		}
+	]
+}

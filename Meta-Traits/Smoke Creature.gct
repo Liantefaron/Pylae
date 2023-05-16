@@ -1,0 +1,406 @@
+{
+	"type": "template",
+	"version": 4,
+	"id": "8e48b7ed-36e8-459c-8cca-847344be08b5",
+	"traits": [
+		{
+			"id": "3b0c1187-0e20-44df-8d0f-a6c8580702e0",
+			"type": "trait_container",
+			"open": true,
+			"children": [
+				{
+					"id": "fec1236d-4949-4b02-9b14-4e521ebcf774",
+					"type": "trait",
+					"name": "Injury Tolerance",
+					"reference": "B60,P52,MA45",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "26605205-a95d-4690-9dc0-cc648294a15e",
+							"type": "modifier",
+							"name": "Diffuse",
+							"reference": "B60",
+							"notes": "Immune to crippling injuries. Brain, Vitals and Groin cannot be targeted. Most foes cannot slam or grapple you (GM's decision). Do not bleed. Unaffected by blood-borne toxins. Immune to attacks that rely on cutting off blood to part of your body. Impaling and piercing attacks of any size never do more than 1 HP of injury, regardless of penetrating damage. Other attacks never do more than 2 HP of injury. Exception: Area-effect, cone, and explosion attacks cause normal injury",
+							"cost": 100,
+							"cost_type": "points"
+						},
+						{
+							"id": "85564359-a16e-41c1-bf50-453187be5b2e",
+							"type": "modifier",
+							"name": "Infiltration",
+							"reference": "B60",
+							"cost": 40
+						},
+						{
+							"id": "e98b0c17-141f-45ca-aaf2-5d6ff9f9ab87",
+							"type": "modifier",
+							"name": "Homogenous",
+							"reference": "B60",
+							"notes": "Altered wound modifiers: imp \u0026 pi++ are x1/2, pi+ is x1/3, pi is x1/5, pi- is x1/10",
+							"cost": 40,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "27ef0bd2-f4b7-4c88-9bd4-c84557d3f790",
+							"type": "modifier",
+							"name": "No Blood",
+							"reference": "B61",
+							"notes": "Do not bleed, unaffected by blood-borne toxins, immune to attacks that rely on cutting off blood to part of your body",
+							"cost": 5,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "4fa959a6-3b06-42d4-b9a9-ad02e2a7f809",
+							"type": "modifier",
+							"name": "No Brain",
+							"reference": "B61",
+							"notes": "Brain cannot be targeted. Blows to the skull or eye are treated like blows to the face, except that eye injury can still cripple the eye",
+							"cost": 5,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "ff796ec8-c350-48cc-b6a2-74f7c48bc261",
+							"type": "modifier",
+							"name": "No Eyes",
+							"reference": "B61",
+							"notes": "Eyes may not be targeted. Immune to blinding attacks",
+							"cost": 5,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "cdab2614-a6a1-47ea-8c7c-f42698d872cb",
+							"type": "modifier",
+							"name": "No Head",
+							"reference": "B61",
+							"notes": "Skull, Brain and Face cannot be targeted",
+							"cost": 7,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "e0ef00ad-30d2-494c-8ceb-931ff304cb1f",
+							"type": "modifier",
+							"name": "No Neck",
+							"reference": "B61",
+							"notes": "Neck may not be targeted and cannot be decapitated, choked or strangled",
+							"cost": 5,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "a4374f61-3843-4e33-b1f4-a2890ee6cba1",
+							"type": "modifier",
+							"name": "No Vitals",
+							"reference": "B61",
+							"notes": "Attacks to the Vitals or Groin are treated as attacks to the Torso",
+							"cost": 5,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "8d81f217-bc0f-443a-b6cb-281287f84a77",
+							"type": "modifier",
+							"name": "Unliving",
+							"reference": "B61",
+							"notes": "Altered wound modifiers: imp \u0026 pi++ are x1, pi+ is x1/2, pi is x1/3, pi- is x1/5",
+							"cost": 20,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "210b8b13-caf0-404b-9e6a-ece5b5819138",
+							"type": "modifier",
+							"name": "Costs Fatigue",
+							"reference": "B111,P101",
+							"cost": -5,
+							"levels": 2
+						},
+						{
+							"id": "af974a22-a89e-41ae-bdb1-53883ec3addb",
+							"type": "modifier",
+							"name": "Link",
+							"reference": "B106,P103",
+							"notes": "Smoke Form, must be used as a single ability",
+							"cost": 10
+						},
+						{
+							"id": "948d9024-833d-4214-9334-ebda04caa11d",
+							"type": "modifier",
+							"name": "Magic",
+							"tags": [
+								"Limitation",
+								"Metaphysical",
+								"Origin"
+							],
+							"cost": -10
+						}
+					],
+					"calc": {
+						"points": 130
+					}
+				},
+				{
+					"id": "5cca54e7-dbee-4733-ad85-528eec6b5092",
+					"type": "trait",
+					"name": "Chameleon",
+					"reference": "B41,P43",
+					"notes": "Monochrome only",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "00059922-c93e-4c7e-a116-67b0748e7e9b",
+							"type": "modifier",
+							"name": "Extended",
+							"reference": "B41",
+							"notes": "@Sense@",
+							"cost": 20,
+							"disabled": true
+						},
+						{
+							"id": "45abbec3-81d7-4e37-a2e8-54f6b5006379",
+							"type": "modifier",
+							"name": "Always On",
+							"reference": "B41",
+							"cost": -10,
+							"disabled": true
+						},
+						{
+							"id": "4e939794-d937-4c17-9f2b-1049b58dd80f",
+							"type": "modifier",
+							"name": "Controllable",
+							"reference": "P43",
+							"cost": 20,
+							"disabled": true
+						},
+						{
+							"id": "3322a029-d9a2-4fcd-b414-82df0832319c",
+							"type": "modifier",
+							"name": "Dynamic",
+							"reference": "P43",
+							"cost": 40,
+							"disabled": true
+						},
+						{
+							"id": "1f16f1ac-4376-4108-bf85-8cb47be8ad24",
+							"type": "modifier",
+							"name": "Link",
+							"reference": "B106,P103",
+							"notes": "Smoke Form, must be used as a single ability",
+							"cost": 10
+						}
+					],
+					"levels": 2,
+					"points_per_level": 5,
+					"can_level": true,
+					"calc": {
+						"points": 11
+					}
+				},
+				{
+					"id": "53b4a68d-e8b7-4ed7-85aa-f7bcbae4fe15",
+					"type": "trait",
+					"name": "Silence",
+					"reference": "B85,P76",
+					"notes": "Bonuses help only when hearing is the only sense that can be used to detect you.",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "11a92b4d-003f-4dd9-97e3-9af9e0f75206",
+							"type": "modifier",
+							"name": "Dynamic",
+							"reference": "P76",
+							"cost": 40,
+							"disabled": true
+						},
+						{
+							"id": "8a9bef72-3c08-4e44-aa21-2a4b99724743",
+							"type": "modifier",
+							"name": "Link",
+							"reference": "B106,P103",
+							"notes": "Smoke Form, must be used as a single ability",
+							"cost": 10
+						}
+					],
+					"levels": 2,
+					"points_per_level": 5,
+					"features": [
+						{
+							"type": "conditional_modifier",
+							"situation": "to Stealth when you are perfectly motionless",
+							"amount": 2,
+							"per_level": true
+						},
+						{
+							"type": "conditional_modifier",
+							"situation": "to Stealth if moving (even in armor, etc.)",
+							"amount": 1,
+							"per_level": true
+						}
+					],
+					"can_level": true,
+					"calc": {
+						"points": 11
+					}
+				},
+				{
+					"id": "7bb5cb10-6150-480a-8256-5144f23cc76b",
+					"type": "trait",
+					"name": "Dependency (Magic)",
+					"reference": "B130",
+					"tags": [
+						"Disadvantage",
+						"Exotic",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "4793e870-35c1-498e-8f21-2369f0e86283",
+							"type": "modifier",
+							"name": "Rarity: Rare",
+							"reference": "B130",
+							"cost": -30,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "5c4d859a-415c-4a03-a374-0ca3a45a2c9d",
+							"type": "modifier",
+							"name": "Rarity: Occasional",
+							"reference": "B130",
+							"cost": -20,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "520935c5-8877-47cd-bd7f-ab3949ba81ab",
+							"type": "modifier",
+							"name": "Rarity: Common",
+							"reference": "B130",
+							"cost": -10,
+							"cost_type": "points"
+						},
+						{
+							"id": "ad3fe009-26bc-45b1-88fc-247e7e201084",
+							"type": "modifier",
+							"name": "Rarity: Very Common",
+							"reference": "B130",
+							"cost": -5,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "402098c4-6f70-42be-9136-66b7b6e15758",
+							"type": "modifier",
+							"name": "Illegal",
+							"reference": "B130",
+							"cost": -5,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "ba8f3e93-e409-478b-99c3-ecfbefa70089",
+							"type": "modifier",
+							"name": "Frequency: Constantly",
+							"reference": "B130",
+							"notes": "Lose 1 HP per minute without it",
+							"cost": 5,
+							"cost_type": "multiplier",
+							"disabled": true
+						},
+						{
+							"id": "86310a2f-c8cd-413e-88ae-da012c6edcbb",
+							"type": "modifier",
+							"name": "Frequency: Hourly",
+							"reference": "B130",
+							"notes": "Lose 1 HP per 10 minutes after missing a hourly dose",
+							"cost": 4,
+							"cost_type": "multiplier",
+							"disabled": true
+						},
+						{
+							"id": "39c664b4-4398-4b97-8aad-b0bafcfe895e",
+							"type": "modifier",
+							"name": "Frequency: Daily",
+							"reference": "B130",
+							"notes": "Lose 1 HP per hour after missing a daily dose",
+							"cost": 3,
+							"cost_type": "multiplier",
+							"disabled": true
+						},
+						{
+							"id": "ccad68c0-a7fd-4606-9dcd-6ae5b5b3872f",
+							"type": "modifier",
+							"name": "Frequency: Weekly",
+							"reference": "B130",
+							"notes": "Lose 1 HP per six hours after missing a weekly dose",
+							"cost": 2,
+							"cost_type": "multiplier"
+						},
+						{
+							"id": "61e299a6-7dc0-43fc-8d6a-be932b848ec3",
+							"type": "modifier",
+							"name": "Frequency: Monthly",
+							"reference": "B130",
+							"notes": "Lose 1 HP per day after missing a monthly dose",
+							"cost": 1,
+							"cost_type": "multiplier",
+							"disabled": true
+						},
+						{
+							"id": "9a1ae412-539a-438b-9020-45cc3d29d8c3",
+							"type": "modifier",
+							"name": "Frequency: Seasonally",
+							"reference": "B130",
+							"notes": "Lose 1 HP per 3 days after missing a seasonal dose",
+							"cost": 0.3333,
+							"cost_type": "multiplier",
+							"disabled": true
+						},
+						{
+							"id": "746dbfd5-1295-449a-beb6-65adc25b6a88",
+							"type": "modifier",
+							"name": "Frequency: Yearly",
+							"reference": "B130",
+							"notes": "Lose 1 HP per 2 weeks after missing a yearly dose",
+							"cost": 0.1,
+							"cost_type": "multiplier",
+							"disabled": true
+						},
+						{
+							"id": "f9a60134-427e-48be-b97a-7cf8fdf83e86",
+							"type": "modifier",
+							"name": "Aging",
+							"reference": "B130",
+							"notes": "Age 2 years for each HP lost due to this dependency",
+							"cost": 30,
+							"disabled": true
+						}
+					],
+					"calc": {
+						"points": -20
+					}
+				}
+			],
+			"name": "Meta-Trait: Smoke Creature",
+			"calc": {
+				"points": 132
+			}
+		}
+	]
+}

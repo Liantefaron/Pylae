@@ -1,0 +1,647 @@
+{
+	"type": "template",
+	"version": 4,
+	"id": "a08060c4-d19a-49e5-9473-174012fa41af",
+	"traits": [
+		{
+			"id": "aea3ed0a-90a3-4685-9665-5cc2814ff14d",
+			"type": "trait_container",
+			"open": true,
+			"children": [
+				{
+					"id": "69c06178-ffef-4944-a6a8-16d35eda81e3",
+					"type": "trait",
+					"name": "Absolute Direction",
+					"reference": "B34",
+					"tags": [
+						"Advantage",
+						"Mental",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "940c9da3-6966-4ea6-9974-517614d0606b",
+							"type": "modifier",
+							"name": "Requires signal",
+							"reference": "B34",
+							"cost": -20,
+							"disabled": true
+						},
+						{
+							"id": "12730389-6652-4df8-8b34-ad078b76e408",
+							"type": "modifier",
+							"name": "3D Spatial Sense",
+							"reference": "B34",
+							"cost": 5,
+							"cost_type": "points",
+							"disabled": true,
+							"features": [
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "starts_with",
+										"qualifier": "piloting"
+									},
+									"amount": 1
+								},
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "aerobatics"
+									},
+									"amount": 2
+								},
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "free fall"
+									},
+									"amount": 2
+								},
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "navigation"
+									},
+									"specialization": {
+										"compare": "is",
+										"qualifier": "hyperspace"
+									},
+									"amount": 2
+								},
+								{
+									"type": "skill_bonus",
+									"selection_type": "skills_with_name",
+									"name": {
+										"compare": "is",
+										"qualifier": "navigation"
+									},
+									"specialization": {
+										"compare": "is",
+										"qualifier": "space"
+									},
+									"amount": 2
+								}
+							]
+						}
+					],
+					"base_points": 5,
+					"features": [
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "body sense"
+							},
+							"amount": 3
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "navigation"
+							},
+							"specialization": {
+								"compare": "is",
+								"qualifier": "air"
+							},
+							"amount": 3
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "navigation"
+							},
+							"specialization": {
+								"compare": "is",
+								"qualifier": "land"
+							},
+							"amount": 3
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "navigation"
+							},
+							"specialization": {
+								"compare": "is",
+								"qualifier": "sea"
+							},
+							"amount": 3
+						}
+					],
+					"calc": {
+						"points": 5
+					}
+				},
+				{
+					"id": "5e7e0dd0-a675-4d29-a689-d0c75d8fbeb3",
+					"type": "trait",
+					"name": "Damage Resistance",
+					"reference": "B47,P45,MA43,PSI14",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "71e0ea7a-bb0e-409d-b01d-aa247b4e66f6",
+							"type": "modifier",
+							"name": "Force Field",
+							"reference": "B47",
+							"cost": 20,
+							"disabled": true
+						},
+						{
+							"id": "a5e89aca-0b61-483e-8ae3-d6086856cf9a",
+							"type": "modifier",
+							"name": "Hardened",
+							"reference": "B47",
+							"cost": 20,
+							"levels": 1
+						},
+						{
+							"id": "0377b71f-5bfe-44a7-b1a0-db38c7952845",
+							"type": "modifier",
+							"name": "Absorption",
+							"reference": "B46",
+							"notes": "Enhances @Trait@",
+							"cost": 80,
+							"disabled": true
+						},
+						{
+							"id": "db27da09-5815-4776-9af9-6d9741d8e52a",
+							"type": "modifier",
+							"name": "Absorption",
+							"reference": "B46",
+							"notes": "Healing only",
+							"cost": 80,
+							"disabled": true
+						},
+						{
+							"id": "0e4c391b-1076-40f2-92b6-c5d3c60b78fd",
+							"type": "modifier",
+							"name": "Absorption",
+							"reference": "B46",
+							"notes": "Enhances any trait",
+							"cost": 100,
+							"disabled": true
+						},
+						{
+							"id": "8b422514-296a-4b7c-b350-6b7e7d2be0e9",
+							"type": "modifier",
+							"name": "Reflection",
+							"reference": "B47",
+							"cost": 100,
+							"disabled": true
+						},
+						{
+							"id": "419ab96d-ea87-4894-b6d8-a6ee32a5d416",
+							"type": "modifier",
+							"name": "Bane",
+							"reference": "H14",
+							"notes": "@Rare@",
+							"cost": -1,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "a8c6d43d-430e-4773-a64c-200f75009e65",
+							"type": "modifier",
+							"name": "Bane",
+							"reference": "H14",
+							"notes": "@Occasional@",
+							"cost": -5,
+							"disabled": true
+						},
+						{
+							"id": "e9503abd-7621-42c4-8ced-3981ec7c6d9a",
+							"type": "modifier",
+							"name": "Bane",
+							"reference": "H14",
+							"notes": "@Common@",
+							"cost": -10,
+							"disabled": true
+						},
+						{
+							"id": "1585a884-94e2-4152-b7b7-d3b6cc253c58",
+							"type": "modifier",
+							"name": "Bane",
+							"reference": "H14",
+							"notes": "@Very Common@",
+							"cost": -15,
+							"disabled": true
+						},
+						{
+							"id": "131c5627-2f5a-4f3f-8a52-08417003bc95",
+							"type": "modifier",
+							"name": "Directional",
+							"reference": "B47",
+							"notes": "Front",
+							"cost": -20,
+							"disabled": true
+						},
+						{
+							"id": "132e7d43-7920-45f5-bcde-036029aa49f2",
+							"type": "modifier",
+							"name": "Flexible",
+							"reference": "B47",
+							"cost": -20,
+							"disabled": true
+						},
+						{
+							"id": "d9e01c00-3ac2-4f4d-ae5f-45b34441df13",
+							"type": "modifier",
+							"name": "Limited",
+							"reference": "B46",
+							"notes": "@Very Common Attack Form@",
+							"cost": -20,
+							"disabled": true
+						},
+						{
+							"id": "72f08aac-bc4a-43fe-875b-8747b7397bec",
+							"type": "modifier",
+							"name": "Semi-Ablative",
+							"reference": "B47",
+							"cost": -20,
+							"disabled": true
+						},
+						{
+							"id": "13410164-cee1-4956-832c-47bcf41fdab8",
+							"type": "modifier",
+							"name": "Can't wear armor",
+							"reference": "B47",
+							"cost": -40,
+							"disabled": true
+						},
+						{
+							"id": "9ad2a005-947f-4ef9-ba99-ed88a4adaa49",
+							"type": "modifier",
+							"name": "Directional",
+							"reference": "B47",
+							"notes": "@Direction: Back, Right, Left, Top or Underside@",
+							"cost": -40,
+							"disabled": true
+						},
+						{
+							"id": "34ffce90-cba0-4d1a-a8ce-b3e6b12a51e3",
+							"type": "modifier",
+							"name": "Limited",
+							"reference": "B46",
+							"notes": "@Common Attack Form@",
+							"cost": -40,
+							"disabled": true
+						},
+						{
+							"id": "10940926-bf24-4984-a984-d974384f0874",
+							"type": "modifier",
+							"name": "Tough Skin",
+							"notes": "Effects that just require skin contact or a scratch ignore this DR",
+							"cost": -40
+						},
+						{
+							"id": "db046fce-bac2-4fae-98d4-ee66925c0e9e",
+							"type": "modifier",
+							"name": "Limited",
+							"reference": "B46",
+							"notes": "@Occasional Attack Form@",
+							"cost": -60,
+							"disabled": true
+						},
+						{
+							"id": "b112e7ab-adac-40ef-a544-598ae0f7436f",
+							"type": "modifier",
+							"name": "Ablative",
+							"reference": "B47",
+							"cost": -80,
+							"disabled": true
+						},
+						{
+							"id": "3b761122-5da1-46dd-992c-2f9df40890cb",
+							"type": "modifier",
+							"name": "Limited",
+							"reference": "B46",
+							"notes": "@Rare Attack Form@",
+							"cost": -80,
+							"disabled": true
+						},
+						{
+							"id": "0ed89045-94df-4ab0-ac26-53103a2ad43f",
+							"type": "modifier",
+							"name": "Laminate",
+							"reference": "RSWL18",
+							"cost": 10,
+							"disabled": true
+						},
+						{
+							"id": "a1baddab-14e3-402e-a209-1eee48ba98ec",
+							"type": "modifier",
+							"name": "Malediction-Proof",
+							"reference": "PSI14",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "b1b407f3-24ca-4beb-8f3a-d362891e5af9",
+							"type": "modifier",
+							"name": "Maledictions Only",
+							"reference": "PSI14",
+							"disabled": true
+						},
+						{
+							"id": "a48b115e-bf63-41f8-84cd-3b6d1e41653e",
+							"type": "modifier",
+							"name": "Partial (@Location, 1 level per -1 Per Hit Modifier, Torso is -10% thus level 1@)",
+							"reference": "B47",
+							"cost": -10,
+							"disabled": true
+						}
+					],
+					"levels": 3,
+					"points_per_level": 5,
+					"features": [
+						{
+							"type": "dr_bonus",
+							"location": "skull",
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "dr_bonus",
+							"location": "face",
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "dr_bonus",
+							"location": "neck",
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "dr_bonus",
+							"location": "torso",
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "dr_bonus",
+							"location": "vitals",
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "dr_bonus",
+							"location": "groin",
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "dr_bonus",
+							"location": "arm",
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "dr_bonus",
+							"location": "hand",
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "dr_bonus",
+							"location": "leg",
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "dr_bonus",
+							"location": "foot",
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "dr_bonus",
+							"location": "tail",
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "dr_bonus",
+							"location": "wing",
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "dr_bonus",
+							"location": "fin",
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "dr_bonus",
+							"location": "brain",
+							"amount": 1,
+							"per_level": true
+						}
+					],
+					"can_level": true,
+					"calc": {
+						"points": 12
+					}
+				},
+				{
+					"id": "2073adef-985c-482d-b29e-5c30b10aefc8",
+					"type": "trait",
+					"name": "Unusual Biochemistry",
+					"reference": "B160",
+					"tags": [
+						"Disadvantage",
+						"Physical"
+					],
+					"base_points": -5,
+					"calc": {
+						"points": -5
+					}
+				},
+				{
+					"id": "229c118b-8db4-40d7-a8ae-d555940719f6",
+					"type": "trait",
+					"name": "Extra Legs",
+					"reference": "B54",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "a89ee115-6a18-4524-911a-2566b8a30625",
+							"type": "modifier",
+							"name": "Four-legged",
+							"reference": "B54",
+							"cost": 5,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "abd75efb-89ee-4d46-a18f-8009d6ce19ad",
+							"type": "modifier",
+							"name": "Six-legged",
+							"reference": "B55",
+							"cost": 10,
+							"cost_type": "points"
+						},
+						{
+							"id": "6639c262-12d3-486e-a428-747ddffe3a1b",
+							"type": "modifier",
+							"name": "@7+@",
+							"reference": "B55",
+							"cost": 15,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "145e8ef9-8230-4184-9a4f-e4205e475964",
+							"type": "modifier",
+							"name": "Long",
+							"reference": "B55",
+							"cost": 100,
+							"levels": 1,
+							"disabled": true
+						},
+						{
+							"id": "456497b3-3df5-4c41-a02e-23c21ba5c780",
+							"type": "modifier",
+							"name": "Cannot Kick",
+							"reference": "B55",
+							"cost": -50,
+							"disabled": true
+						},
+						{
+							"id": "f45fe2c9-1576-42d0-a98a-c7f495df7b5e",
+							"type": "modifier",
+							"name": "Extra Flexible",
+							"reference": "MATG27",
+							"cost": 50,
+							"disabled": true
+						},
+						{
+							"id": "6e155478-b830-4718-a134-188f08d2f0bf",
+							"type": "modifier",
+							"name": "Prehensile Feet",
+							"reference": "MATG28",
+							"cost": 20,
+							"disabled": true
+						}
+					],
+					"calc": {
+						"points": 10
+					}
+				},
+				{
+					"id": "ce1a2f45-289b-4a0a-a973-3a05b5ccbdb9",
+					"type": "trait",
+					"name": "No Fine Manipulators",
+					"reference": "B145",
+					"tags": [
+						"Disadvantage",
+						"Physical"
+					],
+					"base_points": -30,
+					"features": [
+						{
+							"type": "cost_reduction",
+							"attribute": "st",
+							"percentage": 40
+						},
+						{
+							"type": "cost_reduction",
+							"attribute": "dx",
+							"percentage": 40
+						}
+					],
+					"calc": {
+						"points": -30
+					}
+				},
+				{
+					"id": "71c272b9-0937-485c-8b1d-0ae88bc3b654",
+					"type": "trait",
+					"name": "Restricted Diet (Minerals)",
+					"reference": "B151",
+					"tags": [
+						"Disadvantage",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "0dae0fad-abcc-4e90-a149-326bea6573a8",
+							"type": "modifier",
+							"name": "Substitution",
+							"reference": "B151",
+							"cost": -50
+						},
+						{
+							"id": "1cc9a927-6c9b-402c-bd43-9fe3454103aa",
+							"type": "modifier",
+							"name": "Very Common",
+							"reference": "B151",
+							"cost": -10,
+							"cost_type": "points"
+						},
+						{
+							"id": "7ee9ad59-a4f4-4310-ad24-cbd4d90047c7",
+							"type": "modifier",
+							"name": "Common",
+							"reference": "B151",
+							"cost": -20,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "0d16b1d2-ff4b-40d7-a015-5b3a71fbbd1a",
+							"type": "modifier",
+							"name": "Occasional",
+							"reference": "B151",
+							"cost": -30,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "2b764a44-21bf-4285-83d6-a2443b93fe36",
+							"type": "modifier",
+							"name": "Rare",
+							"reference": "B151",
+							"cost": -40,
+							"cost_type": "points",
+							"disabled": true
+						}
+					],
+					"calc": {
+						"points": -5
+					}
+				}
+			],
+			"name": "Lapifauna",
+			"notes": "The „Steintiere“ are six-legged silicon-based creatures",
+			"calc": {
+				"points": -13
+			}
+		}
+	]
+}
