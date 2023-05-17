@@ -3,8 +3,8 @@
 	"version": 4,
 	"name": "Arrodo",
 	"common_options": {
-		"height_formula": "roll(dice(1, 8, if($st < 7, 51, if($st < 10, 54 + ($st - 7) * 3, if($st == 10, 62, if($st < 14, 64 + ($st - 11) * 3, 73))))))",
-		"weight_formula": "roll(dice(1, if($st < 11, 61, if($st < 14, 71 + ($st - 11) * 10, 101)), if($st < 7, 60, if($st < 10, 75 + ($st - 7) * 15, if($st == 10, 115, if($st < 14, 125 + ($st - 11) * 15, 170))))))",
+		"height_formula": "roll(dice(1,4,if($st < 7,37,if($st < 10,40 + ($st - 7),if($st == 10,44,if($st < 14,46 + ($st - 11),49))))))",
+		"weight_formula": "roll(dice(1,12,if($st < 7,51,if($st < 10,53,if($st == 10,55,if($st < 14,58,61))))))",
 		"age_formula": "roll(3d10+3)",
 		"hair_options": [
 			{
