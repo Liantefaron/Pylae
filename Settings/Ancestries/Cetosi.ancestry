@@ -1,101 +1,77 @@
 {
 	"type": "ancestry",
 	"version": 4,
-	"name": "Human",
+	"name": "Cetosi",
 	"common_options": {
-		"height_formula": "roll(dice(1, 8, if($st < 7, 51, if($st < 10, 54 + ($st - 7) * 3, if($st == 10, 62, if($st < 14, 64 + ($st - 11) * 3, 73))))))",
-		"weight_formula": "roll(dice(1, if($st < 11, 61, if($st < 14, 71 + ($st - 11) * 10, 101)), if($st < 7, 60, if($st < 10, 75 + ($st - 7) * 15, if($st == 10, 115, if($st < 14, 125 + ($st - 11) * 15, 170))))))",
-		"age_formula": "roll(1d12+14)",
+		"height_formula": "roll(dice(1,8,if($st < 11,97,if($st < 14,101 + ($st - 12) * 3,if($st == 14,105,if($st < 18,107 + ($st - 15) * 3,114))))))",
+		"weight_formula": "roll(dice(1,60,if($st < 11,51,if($st < 10,53,if($st == 14,55,if($st < 18,699,749))))))",
+		"age_formula": "roll(12d12+8)",
 		"hair_options": [
 			{
-				"weight": 14,
-				"value": "Black"
-			},
-			{
-				"weight": 8,
-				"value": "Brown"
-			},
-			{
-				"weight": 5,
-				"value": "Blond"
-			},
-			{
-				"weight": 3,
-				"value": "Redhead"
-			},
-			{
 				"weight": 1,
-				"value": "Bald"
+				"value": "None"
 			}
 		],
 		"eye_options": [
 			{
-				"weight": 52,
-				"value": "Brown"
+				"weight": 30,
+				"value": "Green"
 			},
 			{
-				"weight": 18,
+				"weight": 30,
 				"value": "Blue"
 			},
 			{
-				"weight": 10,
-				"value": "Amber"
+				"weight": 15,
+				"value": "Turquoise"
 			},
 			{
-				"weight": 10,
-				"value": "Hazel"
-			},
-			{
-				"weight": 6,
-				"value": "Gray"
-			},
-			{
-				"weight": 4,
-				"value": "Green"
+				"weight": 5,
+				"value": "Violet"
 			}
 		],
 		"skin_options": [
 			{
 				"weight": 3,
-				"value": "Dark Brown"
+				"value": "Blue scales"
 			},
 			{
 				"weight": 3,
-				"value": "Brown"
+				"value": "Green scales"
 			},
 			{
 				"weight": 3,
-				"value": "Olive"
+				"value": "Turquoise scales"
 			},
 			{
 				"weight": 3,
-				"value": "Light Brown"
+				"value": "Bicolor Blue-Green scales"
 			},
 			{
 				"weight": 3,
-				"value": "Tan"
+				"value": "Bicolor Grey-White scales"
 			},
 			{
 				"weight": 3,
-				"value": "Freckled"
+				"value": "Tricolor Blue-Green-White scales"
 			},
 			{
 				"weight": 1,
-				"value": "Pale"
+				"value": "White scales"
 			}
 		],
 		"handedness_options": [
 			{
-				"weight": 1,
+				"weight": 5,
 				"value": "Left"
 			},
 			{
-				"weight": 9,
+				"weight": 5,
 				"value": "Right"
 			}
 		],
 		"name_generators": [
-			"Human Last"
+			"Cetosi Last"
 		]
 	},
 	"gender_options": [
@@ -104,8 +80,8 @@
 			"value": {
 				"name": "Male",
 				"name_generators": [
-					"Human First - Male",
-					"Human Last"
+					"Cetosi - First - Male",
+					"Cetosi Last"
 				]
 			}
 		},
@@ -114,8 +90,8 @@
 			"value": {
 				"name": "Female",
 				"name_generators": [
-					"Human First - Female",
-					"Human Last"
+					"Cetosi - First - Female",
+					"Cetosi Last"
 				]
 			}
 		}
