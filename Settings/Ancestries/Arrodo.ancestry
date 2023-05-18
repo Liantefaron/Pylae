@@ -99,7 +99,7 @@
 			}
 		],
 		"name_generators": [
-			"Arrodo Last"
+			"Arrodo - Last"
 		]
 	},
 	"gender_options": [
@@ -109,7 +109,7 @@
 				"name": "Male",
 				"name_generators": [
 					"Arrodo - First - Male",
-					"Arrodo Last"
+					"Arrodo - Last"
 				]
 			}
 		},
@@ -119,7 +119,7 @@
 				"name": "Female",
 				"name_generators": [
 					"Arrodo - First - Female",
-					"Arrodo Last"
+					"Arrodo - Last"
 				]
 			}
 		}

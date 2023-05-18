@@ -284,6 +284,8 @@
 			],
 			"name": "Imisen - Tungusen",
 			"notes": "Imisén are similar to Earth's humans, but larger, more resilient and with acute vision. Please choose ONE of Flexibility OR High Manual Dexterity.",
+			"ancestry": "Imisen Oljipuni",
+			"container_type": "race",
 			"calc": {
 				"points": 30
 			}

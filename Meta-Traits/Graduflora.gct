@@ -548,6 +548,7 @@
 			],
 			"name": "Graduflora",
 			"notes": "The „Wandelpflanzen“ are plant-based life forms",
+			"container_type": "meta_trait",
 			"calc": {
 				"points": 20
 			}

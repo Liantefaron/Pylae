@@ -905,7 +905,7 @@
 				}
 			],
 			"name": "Taipuisa - Ologapuisa",
-			"ancestry": "Human",
+			"ancestry": "Taipuisa - Ologapuisa",
 			"container_type": "race",
 			"calc": {
 				"points": 43

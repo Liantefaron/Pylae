@@ -785,7 +785,9 @@
 					}
 				}
 			],
-			"name": "Pettava",
+			"name": "Pettava Female",
+			"ancestry": "Pettava - Female",
+			"container_type": "race",
 			"calc": {
 				"points": 80
 			}

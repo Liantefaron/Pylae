@@ -863,15 +863,15 @@
 				}
 			],
 			"name": "Civicetosi",
-			"ancestry": "Human",
+			"ancestry": "Cetosi",
 			"modifiers": [
 				{
 					"id": "3366170f-9cc6-4cf4-a435-b7ea6d77b5e0",
 					"type": "modifier",
 					"name": "Increased Size Modifier",
 					"tags": [
-						"Physical",
-						"Advantages"
+						"Advantages",
+						"Physical"
 					],
 					"levels": 1,
 					"features": [

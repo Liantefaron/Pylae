@@ -918,7 +918,7 @@
 				}
 			],
 			"name": "Arrodo - Cursori",
-			"ancestry": "Human",
+			"ancestry": "Arrodo",
 			"modifiers": [
 				{
 					"id": "437db0f4-b5c0-45ff-ac71-c818ea6658e0",

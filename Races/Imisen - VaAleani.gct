@@ -210,7 +210,7 @@
 			],
 			"name": "Imisen - Va'Aleani",
 			"notes": "Imisén are similar to Earth's humans, but larger, more resilient and with acute vision.",
-			"ancestry": "Human",
+			"ancestry": "Imisen Oljipuni",
 			"container_type": "race",
 			"calc": {
 				"points": 25

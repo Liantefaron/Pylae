@@ -71,7 +71,7 @@
 			}
 		],
 		"name_generators": [
-			"Cetosi Last"
+			"Cetosi - Last"
 		]
 	},
 	"gender_options": [
@@ -81,7 +81,7 @@
 				"name": "Male",
 				"name_generators": [
 					"Cetosi - First - Male",
-					"Cetosi Last"
+					"Cetosi - Last"
 				]
 			}
 		},
@@ -91,7 +91,7 @@
 				"name": "Female",
 				"name_generators": [
 					"Cetosi - First - Female",
-					"Cetosi Last"
+					"Cetosi - Last"
 				]
 			}
 		}

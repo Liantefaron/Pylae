@@ -398,6 +398,7 @@
 				}
 			],
 			"name": "Meta-Trait: Smoke Creature",
+			"container_type": "meta_trait",
 			"calc": {
 				"points": 132
 			}

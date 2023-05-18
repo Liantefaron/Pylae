@@ -639,6 +639,7 @@
 			],
 			"name": "Lapifauna",
 			"notes": "The „Steintiere“ are six-legged silicon-based creatures",
+			"container_type": "meta_trait",
 			"calc": {
 				"points": -13
 			}

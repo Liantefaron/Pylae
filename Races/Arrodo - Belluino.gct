@@ -993,6 +993,7 @@
 				}
 			],
 			"name": "Arrodo - Belluino",
+			"ancestry": "Arrodo",
 			"modifiers": [
 				{
 					"id": "c836772f-ed61-4aff-9a85-efcfcfa3fe55",
@@ -1013,6 +1014,7 @@
 					]
 				}
 			],
+			"container_type": "race",
 			"calc": {
 				"points": 31
 			}

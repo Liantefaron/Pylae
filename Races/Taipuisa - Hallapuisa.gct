@@ -1001,7 +1001,7 @@
 				}
 			],
 			"name": "Taipuisa - Hallapuisa",
-			"ancestry": "Human",
+			"ancestry": "Taipuisa - Hallapuisa",
 			"container_type": "race",
 			"calc": {
 				"points": 46
