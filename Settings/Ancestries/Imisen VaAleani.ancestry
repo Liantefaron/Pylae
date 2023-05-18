@@ -1,7 +1,7 @@
 {
 	"type": "ancestry",
 	"version": 4,
-	"name": "Pettava - Female",
+	"name": "Imisen - VaAleani",
 	"common_options": {
 		"height_formula": "roll(dice(1, 8, if($st < 7, 51, if($st < 10, 54 + ($st - 7) * 3, if($st == 10, 62, if($st < 14, 64 + ($st - 11) * 3, 73))))))",
 		"weight_formula": "roll(dice(1, if($st < 11, 61, if($st < 14, 71 + ($st - 11) * 10, 101)), if($st < 7, 60, if($st < 10, 75 + ($st - 7) * 15, if($st == 10, 115, if($st < 14, 125 + ($st - 11) * 15, 170))))))",
@@ -95,7 +95,7 @@
 			}
 		],
 		"name_generators": [
-			"Imisen Oljipuni - Last"
+			"Imisen VaAleani - Last"
 		]
 	},
 	"gender_options": [
@@ -104,8 +104,8 @@
 			"value": {
 				"name": "Male",
 				"name_generators": [
-					"Imisen Oljipuni - First - Male",
-					"Imisen Oljipuni - Last"
+					"Imisen VaAleani - First - Male",
+					"Imisen VaAleani - Last"
 				]
 			}
 		},
@@ -114,8 +114,8 @@
 			"value": {
 				"name": "Female",
 				"name_generators": [
-					"Imisen Oljipuni - First - Female",
-					"Imisen Oljipuni - Last"
+					"Imisen VaAleani - First - Female",
+					"Imisen VaAleani - Last"
 				]
 			}
 		}
