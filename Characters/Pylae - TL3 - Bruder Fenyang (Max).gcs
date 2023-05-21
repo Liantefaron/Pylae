@@ -29,10 +29,10 @@
 		"age": "28",
 		"birthday": "May 25",
 		"eyes": "Gray",
-		"hair": "Blond",
-		"skin": "Freckled",
+		"hair": "Black",
+		"skin": "Tan",
 		"handedness": "Right",
-		"gender": "Female",
+		"gender": "Male",
 		"tech_level": "3",
 		"portrait": "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",
 		"height": "5'6.6\"",
@@ -770,8 +770,8 @@
 						}
 					],
 					"calc": {
-						"level": 18,
-						"parry": "15",
+						"level": 17,
+						"parry": "16",
 						"damage": "1d+2 cr"
 					}
 				},
@@ -806,7 +806,7 @@
 						}
 					],
 					"calc": {
-						"level": 18,
+						"level": 17,
 						"parry": "Nein",
 						"damage": "1d+1 cr"
 					}
@@ -819,6 +819,7 @@
 		{
 			"id": "c65e9ae5-3820-4782-a313-3242a7b26bf1",
 			"type": "trait_container",
+			"open": true,
 			"children": [
 				{
 					"id": "1f92e42a-6dbe-415b-a891-02d49e74407a",
@@ -968,6 +969,7 @@
 		{
 			"id": "54246051-ad0e-462c-96b9-55fe66cecfe6",
 			"type": "trait_container",
+			"open": true,
 			"children": [
 				{
 					"id": "4474bddf-3e67-4612-bf73-128e6b591206",
@@ -1347,6 +1349,7 @@
 		{
 			"id": "84a91267-b874-4ab8-96ea-510ef40762e0",
 			"type": "trait_container",
+			"open": true,
 			"children": [
 				{
 					"id": "51ebc235-8170-4a4d-b9e4-89ae84fcd506",
@@ -3284,6 +3287,7 @@
 		{
 			"id": "a2ed96fe-655a-494c-81ff-cfeb95fe844d",
 			"type": "trait_container",
+			"open": true,
 			"children": [
 				{
 					"id": "de22270f-8a2b-4a7d-927d-13fd2c2757b1",
@@ -3446,6 +3450,7 @@
 		{
 			"id": "c306734c-a8be-451c-96c3-0d98d9ef01d0",
 			"type": "trait_container",
+			"open": true,
 			"children": [
 				{
 					"id": "ba6d1ebb-5948-4971-91e1-afff64ada1a6",
@@ -3949,6 +3954,7 @@
 		{
 			"id": "2e315cd1-14d8-473c-9a88-c04af1607bd3",
 			"type": "trait_container",
+			"open": true,
 			"children": [
 				{
 					"id": "adf002b3-6095-4f48-a96f-d57a291cd5f2",
@@ -4916,7 +4922,7 @@
 				}
 			],
 			"calc": {
-				"level": 14,
+				"level": 13,
 				"rsl": "DX+0"
 			}
 		},
@@ -5158,8 +5164,8 @@
 				}
 			],
 			"calc": {
-				"level": 13,
-				"rsl": "IQ+1"
+				"level": 14,
+				"rsl": "IQ+2"
 			}
 		},
 		{
@@ -5203,8 +5209,8 @@
 				}
 			],
 			"calc": {
-				"level": 13,
-				"rsl": "IQ+1"
+				"level": 14,
+				"rsl": "IQ+2"
 			}
 		},
 		{
@@ -5770,7 +5776,7 @@
 			"points": 24,
 			"encumbrance_penalty_multiplier": 1,
 			"calc": {
-				"level": 19,
+				"level": 18,
 				"rsl": "DX+5"
 			}
 		},
@@ -5832,7 +5838,7 @@
 				}
 			],
 			"calc": {
-				"level": 18,
+				"level": 17,
 				"rsl": "DX+4"
 			}
 		},
@@ -7091,7 +7097,7 @@
 				}
 			],
 			"calc": {
-				"level": 13,
+				"level": 12,
 				"rsl": "DX-1"
 			}
 		},
@@ -7423,6 +7429,7 @@
 		{
 			"id": "9fab203c-e0c6-47bf-a791-e6afa1214301",
 			"type": "skill_container",
+			"open": true,
 			"children": [
 				{
 					"id": "ec4c9a09-38ec-4259-a8dc-d6404ad1445f",
@@ -7450,6 +7457,7 @@
 					"type": "technique",
 					"name": "Elbow Strike",
 					"reference": "MA71",
+					"notes": "Extra -1 on targeting hit locations behind you. Deals Kicking damage.",
 					"tags": [
 						"Combat",
 						"Melee Combat",
@@ -7465,7 +7473,7 @@
 					},
 					"limit": 0,
 					"calc": {
-						"level": 17,
+						"level": 16,
 						"rsl": "-1"
 					}
 				},
@@ -7474,6 +7482,7 @@
 					"type": "technique",
 					"name": "Hand-Clap Parry",
 					"reference": "MA84",
+					"notes": "Success ends enemy turn, weapon is grappled (-4). Follow up w/ disarming.",
 					"tags": [
 						"Cinematic Techniques",
 						"Combat",
@@ -7489,7 +7498,7 @@
 					},
 					"limit": 0,
 					"calc": {
-						"level": 14,
+						"level": 16,
 						"rsl": "-1"
 					}
 				},
@@ -7513,7 +7522,7 @@
 					},
 					"limit": 0,
 					"calc": {
-						"level": 18,
+						"level": 17,
 						"rsl": "+0"
 					}
 				},
@@ -7522,6 +7531,7 @@
 					"type": "technique",
 					"name": "Neck Snap",
 					"reference": "MA77",
+					"notes": "Two-handed Grapple/Neck, 2nd turn QC vs ST/HT. Deals sw/cr ×1.5 damage (ignore flexible armor).",
 					"tags": [
 						"Combat",
 						"Melee Combat",
@@ -7582,7 +7592,7 @@
 						]
 					},
 					"calc": {
-						"level": 17,
+						"level": 16,
 						"rsl": "-1"
 					}
 				},
@@ -7606,7 +7616,7 @@
 					},
 					"limit": -2,
 					"calc": {
-						"level": 14,
+						"level": 13,
 						"rsl": "-4"
 					}
 				},
@@ -7630,7 +7640,7 @@
 					},
 					"limit": -2,
 					"calc": {
-						"level": 14,
+						"level": 13,
 						"rsl": "-4"
 					}
 				},
@@ -7653,8 +7663,25 @@
 					},
 					"limit": 4,
 					"calc": {
-						"level": 19,
+						"level": 18,
 						"rsl": "+1"
+					}
+				},
+				{
+					"id": "0e9a8693-2694-4710-b073-2b440f28778d",
+					"type": "technique",
+					"name": "Combination (Karate Punch/Torso + Karate Punch/Neck + Karate Punch/Face)",
+					"notes": "Attack rolls: 14 + 10 + 10 [this is a workaround!]",
+					"difficulty": "h",
+					"points": 6,
+					"default": {
+						"type": "skill",
+						"name": "Karate",
+						"modifier": -9
+					},
+					"calc": {
+						"level": 13,
+						"rsl": "-4"
 					}
 				}
 			],
@@ -7789,15 +7816,1123 @@
 			"name": "Imbuements"
 		}
 	],
+	"equipment": [
+		{
+			"id": "23f99948-0963-4a2d-8b21-c226d6dbb649",
+			"type": "equipment_container",
+			"open": true,
+			"children": [
+				{
+					"id": "4537cf78-07c2-40c1-92f0-2b0cce705fde",
+					"type": "equipment",
+					"description": "Jian",
+					"reference": "LT57",
+					"notes": "Uraltes Erbschwert von Tsotang",
+					"tech_level": "3",
+					"tags": [
+						"Melee Weapon"
+					],
+					"modifiers": [
+						{
+							"id": "0fa66af4-2950-40ef-9e55-1ca0f1d942b3",
+							"type": "eqp_modifier",
+							"name": "Cheap: Brittle +2",
+							"reference": "LT59",
+							"cost_type": "to_base_cost",
+							"tech_level": "0",
+							"cost": "-0.6 CF"
+						}
+					],
+					"quantity": 1,
+					"value": 700,
+					"weight": "3 lb",
+					"weapons": [
+						{
+							"id": "5783ae1b-6486-4634-9ae3-e8160b5077c8",
+							"type": "melee_weapon",
+							"damage": {
+								"type": "cut",
+								"st": "sw"
+							},
+							"strength": "10",
+							"usage": "Swing",
+							"reach": "1",
+							"parry": "0",
+							"block": "No",
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Broadsword"
+								},
+								{
+									"type": "skill",
+									"name": "Force Sword",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Rapier",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Saber",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Shortsword",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Two-Handed Sword",
+									"modifier": -4
+								}
+							],
+							"calc": {
+								"level": 18,
+								"parry": "18",
+								"block": "No",
+								"damage": "2d+2 cut"
+							}
+						},
+						{
+							"id": "ad6f2842-9a4d-4fae-a63e-067ea36fe68a",
+							"type": "melee_weapon",
+							"damage": {
+								"type": "imp",
+								"st": "thr",
+								"base": "1"
+							},
+							"strength": "10",
+							"usage": "Thrust",
+							"reach": "1,2",
+							"parry": "0",
+							"block": "No",
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Broadsword"
+								},
+								{
+									"type": "skill",
+									"name": "Force Sword",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Rapier",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Saber",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Shortsword",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Two-Handed Sword",
+									"modifier": -4
+								}
+							],
+							"calc": {
+								"level": 18,
+								"parry": "18",
+								"block": "No",
+								"damage": "1d+2 imp"
+							}
+						}
+					],
+					"equipped": true,
+					"calc": {
+						"extended_value": 280,
+						"extended_weight": "3 lb"
+					}
+				},
+				{
+					"id": "714d2ea4-d0fe-4cba-9adc-6cb30f9b9c1e",
+					"type": "equipment",
+					"description": "Large Knife",
+					"reference": "LT58",
+					"tech_level": "0",
+					"tags": [
+						"Melee Weapon",
+						"Missile Weapon"
+					],
+					"quantity": 1,
+					"value": 40,
+					"weight": "1 lb",
+					"weapons": [
+						{
+							"id": "4fd0468e-006b-491d-9957-e4a2a3d21318",
+							"type": "melee_weapon",
+							"damage": {
+								"type": "cut",
+								"st": "sw",
+								"base": "-2"
+							},
+							"strength": "6",
+							"usage": "Swung",
+							"reach": "C,1",
+							"parry": "-1",
+							"block": "No",
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Knife"
+								},
+								{
+									"type": "skill",
+									"name": "Force Sword",
+									"modifier": -3
+								},
+								{
+									"type": "skill",
+									"name": "Main-Gauche",
+									"modifier": -3
+								},
+								{
+									"type": "skill",
+									"name": "Shortsword",
+									"modifier": -3
+								}
+							],
+							"calc": {
+								"level": 14,
+								"parry": "15",
+								"block": "No",
+								"damage": "2d cut"
+							}
+						},
+						{
+							"id": "f7c45ee2-6baf-41e6-aac1-cf4acba227d6",
+							"type": "melee_weapon",
+							"damage": {
+								"type": "imp",
+								"st": "thr"
+							},
+							"strength": "6",
+							"usage": "Thrust",
+							"reach": "C",
+							"parry": "-1",
+							"block": "No",
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Knife"
+								},
+								{
+									"type": "skill",
+									"name": "Force Sword",
+									"modifier": -3
+								},
+								{
+									"type": "skill",
+									"name": "Main-Gauche",
+									"modifier": -3
+								},
+								{
+									"type": "skill",
+									"name": "Shortsword",
+									"modifier": -3
+								}
+							],
+							"calc": {
+								"level": 14,
+								"parry": "15",
+								"block": "No",
+								"damage": "1d+1 imp"
+							}
+						},
+						{
+							"id": "32540f16-4f10-4df9-9e17-82e7c0816c07",
+							"type": "ranged_weapon",
+							"damage": {
+								"type": "imp",
+								"st": "thr"
+							},
+							"strength": "6",
+							"usage": "Thrown",
+							"accuracy": "0",
+							"range": "x0.8/x1.5",
+							"rate_of_fire": "1",
+							"shots": "T(1)",
+							"bulk": "-2",
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Thrown Weapon",
+									"specialization": "Knife"
+								}
+							],
+							"calc": {
+								"level": 10,
+								"range": "12/24",
+								"damage": "1d+1 imp"
+							}
+						}
+					],
+					"equipped": true,
+					"calc": {
+						"extended_value": 40,
+						"extended_weight": "1 lb"
+					}
+				},
+				{
+					"id": "4b53b910-85c1-47d1-8e3c-3ee430ef35d1",
+					"type": "equipment",
+					"description": "Large Shield, Heavy",
+					"reference": "LT114",
+					"tech_level": "1",
+					"tags": [
+						"Shield"
+					],
+					"quantity": 1,
+					"value": 90,
+					"weight": "20 lb",
+					"weapons": [
+						{
+							"id": "ff778cab-42fc-4f70-b5e8-534401facb94",
+							"type": "melee_weapon",
+							"damage": {
+								"type": "cr",
+								"st": "thr"
+							},
+							"strength": "0",
+							"usage": "Shield Bash",
+							"reach": "1",
+							"parry": "No",
+							"block": "+0",
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Shield",
+									"specialization": "Shield"
+								},
+								{
+									"type": "skill",
+									"name": "Shield",
+									"specialization": "Buckler",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Shield",
+									"specialization": "Force Shield",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Shield",
+									"specialization": "Guige",
+									"modifier": -2
+								}
+							],
+							"calc": {
+								"level": 17,
+								"parry": "No",
+								"block": "16",
+								"damage": "1d+1 cr"
+							}
+						}
+					],
+					"features": [
+						{
+							"type": "attribute_bonus",
+							"attribute": "dodge",
+							"amount": 3
+						},
+						{
+							"type": "attribute_bonus",
+							"attribute": "parry",
+							"amount": 3
+						},
+						{
+							"type": "attribute_bonus",
+							"attribute": "block",
+							"amount": 3
+						}
+					],
+					"equipped": true,
+					"calc": {
+						"extended_value": 90,
+						"extended_weight": "20 lb"
+					}
+				},
+				{
+					"id": "8f88f2f7-1068-4f50-b9dd-db775a59f8e4",
+					"type": "equipment",
+					"description": "Quarterstaff",
+					"reference": "LT61",
+					"tech_level": "0",
+					"tags": [
+						"Melee Weapon"
+					],
+					"modifiers": [
+						{
+							"id": "78bf978c-47b8-4aff-ad90-cac6d133094c",
+							"type": "eqp_modifier",
+							"name": "Balanced",
+							"reference": "LT59",
+							"cost_type": "to_base_cost",
+							"tech_level": "0",
+							"cost": "+4 CF",
+							"features": [
+								{
+									"type": "skill_bonus",
+									"selection_type": "this_weapon",
+									"amount": 1
+								}
+							]
+						}
+					],
+					"quantity": 1,
+					"value": 10,
+					"weight": "4 lb",
+					"weapons": [
+						{
+							"id": "0c50835d-25eb-4def-9733-f96a0127d837",
+							"type": "melee_weapon",
+							"damage": {
+								"type": "cr",
+								"st": "sw",
+								"base": "2"
+							},
+							"strength": "7†",
+							"usage": "Swung",
+							"reach": "1,2",
+							"parry": "+2",
+							"block": "No",
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Staff"
+								},
+								{
+									"type": "skill",
+									"name": "Polearm",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Spear",
+									"modifier": -2
+								}
+							],
+							"calc": {
+								"level": 16,
+								"parry": "19",
+								"block": "No",
+								"damage": "2d+4 cr"
+							}
+						},
+						{
+							"id": "ac1ebfad-25a4-4f16-83a1-d4dc67255753",
+							"type": "melee_weapon",
+							"damage": {
+								"type": "cr",
+								"st": "thr",
+								"base": "2"
+							},
+							"strength": "7†",
+							"usage": "Thrust",
+							"reach": "1,2",
+							"parry": "+2",
+							"block": "No",
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Staff"
+								},
+								{
+									"type": "skill",
+									"name": "Polearm",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Spear",
+									"modifier": -2
+								}
+							],
+							"calc": {
+								"level": 16,
+								"parry": "19",
+								"block": "No",
+								"damage": "1d+3 cr"
+							}
+						},
+						{
+							"id": "932235b3-67fc-40ca-b6ff-aed8edc9f77e",
+							"type": "melee_weapon",
+							"damage": {
+								"type": "cr",
+								"st": "sw",
+								"base": "2"
+							},
+							"strength": "9†",
+							"usage": "Sword Swing",
+							"reach": "1,2",
+							"parry": "0",
+							"block": "No",
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Two-Handed Sword"
+								},
+								{
+									"type": "skill",
+									"name": "Broadsword",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Force Sword",
+									"modifier": -4
+								}
+							],
+							"calc": {
+								"level": 17,
+								"parry": "17",
+								"block": "No",
+								"damage": "2d+4 cr"
+							}
+						},
+						{
+							"id": "e6ba19b3-2d03-421a-9a10-f8b2f7e39165",
+							"type": "melee_weapon",
+							"damage": {
+								"type": "cr",
+								"st": "thr",
+								"base": "1"
+							},
+							"strength": "9†",
+							"usage": "Sword Thrust",
+							"reach": "2",
+							"parry": "0",
+							"block": "No",
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Two-Handed Sword"
+								},
+								{
+									"type": "skill",
+									"name": "Broadsword",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Force Sword",
+									"modifier": -4
+								}
+							],
+							"calc": {
+								"level": 17,
+								"parry": "17",
+								"block": "No",
+								"damage": "1d+2 cr"
+							}
+						}
+					],
+					"equipped": true,
+					"calc": {
+						"extended_value": 50,
+						"extended_weight": "4 lb"
+					}
+				},
+				{
+					"id": "04873a9f-08dd-4dc2-9743-e3cd61f396e9",
+					"type": "equipment",
+					"description": "Small Throwing Knife",
+					"reference": "LT75",
+					"tech_level": "2",
+					"tags": [
+						"Missile Weapon"
+					],
+					"modifiers": [
+						{
+							"id": "d3406b7e-abdf-4599-a6e3-4ab02116cb52",
+							"type": "eqp_modifier",
+							"name": "Cheap: Brittle +2",
+							"reference": "LT59",
+							"cost_type": "to_base_cost",
+							"tech_level": "0",
+							"cost": "-0.6 CF"
+						}
+					],
+					"quantity": 3,
+					"value": 30,
+					"weight": "0.5 lb",
+					"weapons": [
+						{
+							"id": "8120d6a2-1d92-4be8-a57c-0e44f2ae7ed5",
+							"type": "melee_weapon",
+							"damage": {
+								"type": "cut",
+								"st": "sw",
+								"base": "-3"
+							},
+							"strength": "5",
+							"usage": "Swung",
+							"reach": "C,1",
+							"parry": "-2",
+							"block": "No",
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -7
+								},
+								{
+									"type": "skill",
+									"name": "Shortsword",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Broadsword",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Force Sword",
+									"modifier": -6
+								},
+								{
+									"type": "skill",
+									"name": "Jitte/Sai",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Knife",
+									"modifier": -6
+								},
+								{
+									"type": "skill",
+									"name": "Saber",
+									"modifier": -6
+								},
+								{
+									"type": "skill",
+									"name": "Smallsword",
+									"modifier": -6
+								},
+								{
+									"type": "skill",
+									"name": "Tonfa",
+									"modifier": -5
+								}
+							],
+							"calc": {
+								"level": 14,
+								"parry": "14",
+								"block": "No",
+								"damage": "2d-2 cut"
+							}
+						},
+						{
+							"id": "eede3011-9fde-478a-9107-2c3aed4537b0",
+							"type": "melee_weapon",
+							"damage": {
+								"type": "imp",
+								"st": "thr",
+								"base": "-1"
+							},
+							"strength": "7",
+							"usage": "Thrust",
+							"reach": "C",
+							"parry": "-2",
+							"block": "No",
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -7
+								},
+								{
+									"type": "skill",
+									"name": "Shortsword",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Broadsword",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Force Sword",
+									"modifier": -6
+								},
+								{
+									"type": "skill",
+									"name": "Jitte/Sai",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Knife",
+									"modifier": -6
+								},
+								{
+									"type": "skill",
+									"name": "Saber",
+									"modifier": -6
+								},
+								{
+									"type": "skill",
+									"name": "Smallsword",
+									"modifier": -6
+								},
+								{
+									"type": "skill",
+									"name": "Tonfa",
+									"modifier": -5
+								}
+							],
+							"calc": {
+								"level": 14,
+								"parry": "14",
+								"block": "No",
+								"damage": "1d imp"
+							}
+						},
+						{
+							"id": "ead1fe1a-8f02-4673-a9a4-08ed3be7f2bf",
+							"type": "ranged_weapon",
+							"damage": {
+								"type": "imp",
+								"st": "thr",
+								"base": "-1"
+							},
+							"strength": "5",
+							"usage": "Thrown",
+							"accuracy": "1",
+							"range": "x0.8/x1.5",
+							"rate_of_fire": "1",
+							"shots": "T(1)",
+							"bulk": "0",
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Thrown Weapon",
+									"specialization": "Knife"
+								}
+							],
+							"calc": {
+								"level": 10,
+								"range": "12/24",
+								"damage": "1d imp"
+							}
+						}
+					],
+					"equipped": true,
+					"calc": {
+						"extended_value": 36,
+						"extended_weight": "1.5 lb"
+					}
+				}
+			],
+			"description": "Weapons",
+			"legality_class": "4",
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 496,
+				"extended_weight": "29.5 lb"
+			}
+		},
+		{
+			"id": "e4e603bb-312a-415d-b337-13418d96490c",
+			"type": "equipment_container",
+			"children": [
+				{
+					"id": "9346e4d5-37e4-45af-b7d5-326263ca52bb",
+					"type": "equipment",
+					"description": "Whetstone",
+					"reference": "LT36",
+					"tech_level": "0",
+					"tags": [
+						"Survival"
+					],
+					"quantity": 1,
+					"value": 1,
+					"weight": "0.5 lb",
+					"equipped": true,
+					"calc": {
+						"extended_value": 1,
+						"extended_weight": "0.5 lb"
+					}
+				},
+				{
+					"id": "7982f2db-3ab7-4072-85ba-fbbd4f14d5cc",
+					"type": "equipment",
+					"description": "Personal Basics",
+					"reference": "B288",
+					"notes": "Minimum gear for camping: -2 to any Survival roll without it. Includes utensils, tinderbox or flint and steel, towel, etc., as TL permits.",
+					"tech_level": "0",
+					"tags": [
+						"Camping and Survival Gear"
+					],
+					"quantity": 1,
+					"value": 5,
+					"weight": "1 lb",
+					"equipped": true,
+					"calc": {
+						"extended_value": 5,
+						"extended_weight": "1 lb"
+					}
+				}
+			],
+			"description": "Purse, Small",
+			"reference": "B288",
+			"tech_level": "1",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"quantity": 1,
+			"value": 10,
+			"weight": "0.2 lb",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "2 lb"
+						}
+					}
+				]
+			},
+			"equipped": true,
+			"calc": {
+				"extended_value": 16,
+				"extended_weight": "1.7 lb"
+			}
+		},
+		{
+			"id": "44fe61c1-782f-4f21-859f-164eaf8d1b2d",
+			"type": "equipment_container",
+			"children": [
+				{
+					"id": "c5868193-f618-4a1b-8f8b-d7028aa94d90",
+					"type": "equipment",
+					"description": "Blanket",
+					"reference": "B288",
+					"tech_level": "1",
+					"tags": [
+						"Camping and Survival Gear"
+					],
+					"quantity": 1,
+					"value": 20,
+					"weight": "4 lb",
+					"equipped": true,
+					"calc": {
+						"extended_value": 20,
+						"extended_weight": "4 lb"
+					}
+				},
+				{
+					"id": "ea373832-8e1e-48da-95e8-0b18dee8545a",
+					"type": "equipment_container",
+					"children": [
+						{
+							"id": "aa0f251a-7a4d-405a-8b40-3626ea0a64b4",
+							"type": "equipment",
+							"description": "Water (1 quart)",
+							"quantity": 1,
+							"weight": "2 lb",
+							"equipped": true,
+							"calc": {
+								"extended_value": 0,
+								"extended_weight": "2 lb"
+							}
+						}
+					],
+					"description": "Bottle, Ceramic",
+					"reference": "B288",
+					"tech_level": "1",
+					"tags": [
+						"Camping and Survival Gear"
+					],
+					"quantity": 1,
+					"value": 3,
+					"weight": "1 lb",
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "contained_weight_prereq",
+								"has": true,
+								"qualifier": {
+									"compare": "at_most",
+									"qualifier": "2 lb"
+								}
+							}
+						]
+					},
+					"equipped": true,
+					"calc": {
+						"extended_value": 3,
+						"extended_weight": "3 lb"
+					}
+				},
+				{
+					"id": "7e27011a-1263-49b8-a92f-5a9d6fa5e95e",
+					"type": "equipment",
+					"description": "Climbing Gear",
+					"reference": "B288",
+					"notes": "Hammer, spikes, carabiners",
+					"tech_level": "2",
+					"tags": [
+						"Camping and Survival Gear"
+					],
+					"quantity": 1,
+					"value": 20,
+					"weight": "4 lb",
+					"equipped": true,
+					"calc": {
+						"extended_value": 20,
+						"extended_weight": "4 lb"
+					}
+				},
+				{
+					"id": "3c057cda-b8b0-4d89-9427-756d081e89ee",
+					"type": "equipment",
+					"description": "First Aid Kit",
+					"reference": "B289",
+					"notes": "A complete kit for treating wounds, with bandages, ointments, etc.",
+					"tech_level": "0",
+					"tags": [
+						"Medical Gear"
+					],
+					"quantity": 1,
+					"value": 50,
+					"weight": "2 lb",
+					"features": [
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "First Aid"
+							},
+							"amount": 1
+						}
+					],
+					"equipped": true,
+					"calc": {
+						"extended_value": 50,
+						"extended_weight": "2 lb"
+					}
+				},
+				{
+					"id": "4555f858-e7d8-40c7-877c-46175e9acffd",
+					"type": "equipment",
+					"description": "Fishhooks \u0026 Line",
+					"reference": "B288",
+					"tech_level": "0",
+					"tags": [
+						"Camping and Survival Gear"
+					],
+					"quantity": 1,
+					"value": 50,
+					"weight": "0.01 lb",
+					"equipped": true,
+					"calc": {
+						"extended_value": 50,
+						"extended_weight": "0.01 lb"
+					}
+				},
+				{
+					"id": "19564087-4cbd-43a6-a063-f35dbd8a3c12",
+					"type": "equipment",
+					"description": "Rope, 3/4\", 20 yards",
+					"reference": "B288",
+					"notes": "Supports 1,100 lbs.",
+					"tech_level": "1",
+					"tags": [
+						"Camping and Survival Gear"
+					],
+					"quantity": 1,
+					"value": 50,
+					"weight": "10 lb",
+					"equipped": true,
+					"calc": {
+						"extended_value": 50,
+						"extended_weight": "10 lb"
+					}
+				},
+				{
+					"id": "a5ec5a6f-5fdb-4c2f-86fd-1fb62b93a77a",
+					"type": "equipment",
+					"description": "Torch",
+					"reference": "B288",
+					"notes": "Burns for 1 hour",
+					"tech_level": "0",
+					"tags": [
+						"Camping and Survival Gear"
+					],
+					"quantity": 3,
+					"value": 3,
+					"weight": "1 lb",
+					"equipped": true,
+					"calc": {
+						"extended_value": 9,
+						"extended_weight": "3 lb"
+					}
+				},
+				{
+					"id": "29490f5c-0604-472c-9bb3-c289ccedbbb4",
+					"type": "equipment",
+					"description": "Traveler's Rations",
+					"reference": "B288",
+					"notes": "One meal",
+					"tech_level": "0",
+					"tags": [
+						"Camping and Survival Gear"
+					],
+					"quantity": 1,
+					"value": 2,
+					"weight": "0.5 lb",
+					"equipped": true,
+					"calc": {
+						"extended_value": 2,
+						"extended_weight": "0.5 lb"
+					}
+				},
+				{
+					"id": "9b1ee60f-873e-49a1-9647-b00fa1be6a6a",
+					"type": "equipment",
+					"description": "Enhanced Tinder",
+					"reference": "LT35",
+					"notes": "Halves fire starting time.  Use consumes item.",
+					"tech_level": "1",
+					"tags": [
+						"Fire",
+						"Survival"
+					],
+					"quantity": 1,
+					"value": 2,
+					"weight": "0.2 lb",
+					"equipped": true,
+					"calc": {
+						"extended_value": 2,
+						"extended_weight": "0.2 lb"
+					}
+				}
+			],
+			"description": "Backpack, Small",
+			"reference": "B288",
+			"tech_level": "1",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"quantity": 1,
+			"value": 60,
+			"weight": "3 lb",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "40 lb"
+						}
+					}
+				]
+			},
+			"equipped": true,
+			"calc": {
+				"extended_value": 266,
+				"extended_weight": "29.71 lb"
+			}
+		},
+		{
+			"id": "3ef1d0df-c1ce-4c9e-97fc-ab1abfdc053e",
+			"type": "equipment",
+			"description": "Clothing, Ordinary, Freeman (Status 0)",
+			"reference": "LT98",
+			"tech_level": "0",
+			"tags": [
+				"Clothing"
+			],
+			"quantity": 1,
+			"value": 120,
+			"weight": "2 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 120,
+				"extended_weight": "2 lb"
+			}
+		}
+	],
 	"created_date": "2023-05-19T01:43:08+02:00",
-	"modified_date": "2023-05-21T01:44:38+02:00",
+	"modified_date": "2023-05-21T14:42:55+02:00",
 	"calc": {
 		"swing": "2d+2",
 		"thrust": "1d+1",
 		"basic_lift": "51 lb",
-		"dodge_bonus": 1,
-		"parry_bonus": 3,
-		"block_bonus": 2,
+		"dodge_bonus": 4,
+		"parry_bonus": 6,
+		"block_bonus": 5,
 		"move": [
 			7,
 			5,
@@ -7806,11 +8941,11 @@
 			1
 		],
 		"dodge": [
+			14,
+			13,
+			12,
 			11,
-			10,
-			9,
-			8,
-			7
+			10
 		]
 	}
 }
