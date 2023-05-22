@@ -7457,7 +7457,7 @@
 					"type": "technique",
 					"name": "Elbow Strike",
 					"reference": "MA71",
-					"notes": "Extra -1 on targeting hit locations behind you. Deals Kicking damage.",
+					"notes": "Extra -1 on targeting hit locations behind you",
 					"tags": [
 						"Combat",
 						"Melee Combat",
@@ -7472,6 +7472,25 @@
 						"modifier": -2
 					},
 					"limit": 0,
+					"weapons": [
+						{
+							"id": "cbacb4fc-e364-47af-b4bf-57a4fd6d74e7",
+							"type": "melee_weapon",
+							"damage": {
+								"type": "cr",
+								"st": "thr"
+							},
+							"usage": "Elbow Strike",
+							"reach": "C",
+							"parry": "No",
+							"block": "No",
+							"calc": {
+								"parry": "No",
+								"block": "No",
+								"damage": "1d+1 cr"
+							}
+						}
+					],
 					"calc": {
 						"level": 16,
 						"rsl": "-1"
@@ -7531,7 +7550,7 @@
 					"type": "technique",
 					"name": "Neck Snap",
 					"reference": "MA77",
-					"notes": "Two-handed Grapple/Neck, 2nd turn QC vs ST/HT. Deals sw/cr ×1.5 damage (ignore flexible armor).",
+					"notes": "Follow-up to 2h Grapple/Neck, QC vs ST/HT",
 					"tags": [
 						"Combat",
 						"Melee Combat",
@@ -7545,6 +7564,26 @@
 						"modifier": -4
 					},
 					"limit": 3,
+					"weapons": [
+						{
+							"id": "7d837581-6851-414f-a741-402d6db530dc",
+							"type": "melee_weapon",
+							"damage": {
+								"type": "cr+",
+								"st": "sw",
+								"armor_divisor": 10
+							},
+							"usage": "Neck Snap",
+							"reach": "C",
+							"parry": "No",
+							"block": "No",
+							"calc": {
+								"parry": "No",
+								"block": "No",
+								"damage": "2d+2(10) cr+"
+							}
+						}
+					],
 					"calc": {
 						"level": 16,
 						"rsl": "+0"
@@ -8595,6 +8634,7 @@
 		{
 			"id": "e4e603bb-312a-415d-b337-13418d96490c",
 			"type": "equipment_container",
+			"open": true,
 			"children": [
 				{
 					"id": "9346e4d5-37e4-45af-b7d5-326263ca52bb",
@@ -8666,6 +8706,7 @@
 		{
 			"id": "44fe61c1-782f-4f21-859f-164eaf8d1b2d",
 			"type": "equipment_container",
+			"open": true,
 			"children": [
 				{
 					"id": "c5868193-f618-4a1b-8f8b-d7028aa94d90",
