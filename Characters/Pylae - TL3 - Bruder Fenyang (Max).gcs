@@ -7955,6 +7955,105 @@
 								"block": "No",
 								"damage": "1d+2 imp"
 							}
+						},
+						{
+							"id": "441f24ac-2e1a-4a99-8eba-a24a6a16b664",
+							"type": "melee_weapon",
+							"damage": {
+								"type": "cut",
+								"st": "sw"
+							},
+							"strength": "10",
+							"usage": "Swing Fencing",
+							"reach": "1",
+							"parry": "0F",
+							"block": "No",
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Broadsword",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Rapier"
+								},
+								{
+									"type": "skill",
+									"name": "Saber",
+									"modifier": -3
+								},
+								{
+									"type": "skill",
+									"name": "Smallsword",
+									"modifier": -3
+								},
+								{
+									"type": "skill",
+									"name": "Main-Gauche",
+									"modifier": -3
+								}
+							],
+							"calc": {
+								"level": 13,
+								"parry": "15F",
+								"block": "No",
+								"damage": "2d+2 cut"
+							}
+						},
+						{
+							"id": "dd3d782d-366c-4ffb-a5c1-01d16c163b10",
+							"type": "melee_weapon",
+							"damage": {
+								"type": "imp",
+								"st": "thr",
+								"base": "1"
+							},
+							"strength": "10",
+							"usage": "Thrust Fencing",
+							"reach": "1,2",
+							"parry": "0F",
+							"block": "No",
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Broadsword",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Rapier"
+								},
+								{
+									"type": "skill",
+									"name": "Saber",
+									"modifier": -3
+								},
+								{
+									"type": "skill",
+									"name": "Smallsword",
+									"modifier": -3
+								},
+								{
+									"type": "skill",
+									"name": "Main-Gauche",
+									"modifier": -3
+								}
+							],
+							"calc": {
+								"level": 13,
+								"parry": "15F",
+								"block": "No",
+								"damage": "1d+2 imp"
+							}
 						}
 					],
 					"equipped": true,
@@ -8229,7 +8328,7 @@
 								"base": "2"
 							},
 							"strength": "7†",
-							"usage": "Swung",
+							"usage": "Swing",
 							"reach": "1,2",
 							"parry": "+2",
 							"block": "No",
@@ -8309,7 +8408,7 @@
 								"base": "2"
 							},
 							"strength": "9†",
-							"usage": "Sword Swing",
+							"usage": "2h Sword Swing",
 							"reach": "1,2",
 							"parry": "0",
 							"block": "No",
@@ -8349,7 +8448,7 @@
 								"base": "1"
 							},
 							"strength": "9†",
-							"usage": "Sword Thrust",
+							"usage": "2h Sword Thrust",
 							"reach": "2",
 							"parry": "0",
 							"block": "No",
