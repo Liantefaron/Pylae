@@ -607,10 +607,172 @@
 					}
 				},
 				{
-					"id": "dca14bb2-6327-4852-a2e1-45cc800bc2ab",
+					"id": "250dfd65-f518-40ce-b578-1e19996980cf",
 					"type": "trait",
-					"name": "Threshold Magery 0",
+					"name": "Threshold Magery",
+					"reference": "Th76",
+					"tags": [
+						"Advantage",
+						"Mental",
+						"Supernatural"
+					],
+					"modifiers": [
+						{
+							"id": "1abd7bb3-c38e-4e46-b640-63972315b88f",
+							"type": "modifier",
+							"name": "Reduced Threshold",
+							"reference": "Th79",
+							"notes": "You are less in tune with the universe and become dissonant earlier when casting spells. Decreases Thresh by 20% of campaign default.",
+							"tags": [
+								"Limitation",
+								"Mental",
+								"Supernatural"
+							],
+							"cost": -10,
+							"affects": "levels_only",
+							"disabled": true,
+							"features": [
+								{
+									"type": "attribute_bonus",
+									"attribute": "tm_calamity_bonus",
+									"amount": -1,
+									"per_level": true
+								}
+							]
+						},
+						{
+							"id": "30741ea4-edba-4fc2-a635-ca8114bf7ce5",
+							"type": "modifier",
+							"name": "Seriously Calamity-Prone",
+							"reference": "Th79",
+							"notes": "You are less in tune with the universe and become dissonant earlier when casting spells. Decreases Thresh by -20% of campaign default.",
+							"tags": [
+								"Limitation",
+								"Mental",
+								"Supernatural"
+							],
+							"cost": -10,
+							"affects": "levels_only",
+							"disabled": true,
+							"features": [
+								{
+									"type": "attribute_bonus",
+									"attribute": "tm_calamity_bonus",
+									"amount": -1,
+									"per_level": true
+								}
+							]
+						},
+						{
+							"id": "1b4c6c8e-d6b3-4b24-a727-4f768120d79c",
+							"type": "modifier",
+							"name": "Slower Magical Recovery",
+							"reference": "Th79",
+							"notes": "You have difficulties cleansing yourself from dissonance and regaining balance. Each level subtracts -25% from your Recharge Rate.",
+							"tags": [
+								"Limitation",
+								"Mental",
+								"Supernatural"
+							],
+							"cost": -10,
+							"affects": "levels_only",
+							"disabled": true,
+							"features": [
+								{
+									"type": "attribute_bonus",
+									"attribute": "tm_rr",
+									"amount": -2,
+									"per_level": true
+								}
+							]
+						},
+						{
+							"id": "10b7c609-d742-473c-a229-fd39e10a948f",
+							"type": "modifier",
+							"name": "Dance",
+							"cost": -40,
+							"affects": "levels_only",
+							"disabled": true
+						},
+						{
+							"id": "8cffcc39-a19c-4aa2-8a65-f270534b6ad7",
+							"type": "modifier",
+							"name": "Dark-Aspected",
+							"cost": -50,
+							"affects": "levels_only",
+							"disabled": true
+						},
+						{
+							"id": "9a43b6eb-5fca-4b3b-9475-9c8922652001",
+							"type": "modifier",
+							"name": "Day-Aspected",
+							"cost": -40,
+							"affects": "levels_only",
+							"disabled": true
+						},
+						{
+							"id": "1db3c1d2-12b8-4d9f-aaec-8a1f58f99922",
+							"type": "modifier",
+							"name": "Musical",
+							"cost": -50,
+							"affects": "levels_only",
+							"disabled": true
+						},
+						{
+							"id": "7ef63d35-934c-4046-8b55-22208f7a99b6",
+							"type": "modifier",
+							"name": "Night-Aspected",
+							"cost": -40,
+							"affects": "levels_only",
+							"disabled": true
+						},
+						{
+							"id": "0f92e868-30bd-4a88-8dd7-d1929eb47c0e",
+							"type": "modifier",
+							"name": "One College",
+							"notes": "@College@",
+							"cost": -40,
+							"affects": "levels_only",
+							"disabled": true
+						},
+						{
+							"id": "7a67c4c3-2454-43a0-acd4-aac1265bd79a",
+							"type": "modifier",
+							"name": "Solitary",
+							"cost": -40,
+							"affects": "levels_only",
+							"disabled": true
+						},
+						{
+							"id": "162576be-563f-43f2-9bd3-91db2defc569",
+							"type": "modifier",
+							"name": "Song",
+							"cost": -40,
+							"affects": "levels_only",
+							"disabled": true
+						}
+					],
 					"base_points": 5,
+					"points_per_level": 10,
+					"features": [
+						{
+							"type": "spell_bonus",
+							"match": "all_colleges",
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "thaumatology"
+							},
+							"amount": 1,
+							"per_level": true
+						}
+					],
+					"can_level": true,
 					"calc": {
 						"points": 5
 					}
@@ -975,6 +1137,99 @@
 					}
 				},
 				{
+					"id": "074a06ee-f0c3-491f-b68b-99486f866f29",
+					"type": "trait",
+					"name": "Weakness",
+					"reference": "B161",
+					"tags": [
+						"Disadvantage",
+						"Exotic",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "e28bd392-7fd5-45de-a3e3-ec49aec2343a",
+							"type": "modifier",
+							"name": "1d damage per minute",
+							"reference": "B161",
+							"cost": -20,
+							"cost_type": "points"
+						},
+						{
+							"id": "4b9dd12d-fa84-462d-b67b-0d27f2f9d3fc",
+							"type": "modifier",
+							"name": "1d damage per 5 minutes",
+							"reference": "B161",
+							"cost": -10,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "e16e7fb5-1597-4644-ac36-07144d853209",
+							"type": "modifier",
+							"name": "1d damage per 30 minutes",
+							"reference": "B161",
+							"cost": -5,
+							"cost_type": "points",
+							"disabled": true
+						},
+						{
+							"id": "186bbe2a-9b7e-4879-9dbb-43dddeb6058d",
+							"type": "modifier",
+							"name": "Xuktcha Liquid Gold",
+							"reference": "B161",
+							"cost": 0.5,
+							"cost_type": "multiplier"
+						},
+						{
+							"id": "636139b9-3bf4-4642-8ad9-9d98b669cf91",
+							"type": "modifier",
+							"name": "@Occasional Substance@",
+							"reference": "B161",
+							"cost": 1,
+							"cost_type": "multiplier",
+							"disabled": true
+						},
+						{
+							"id": "4723bd7d-4a86-45f2-a8e9-2a957d11a501",
+							"type": "modifier",
+							"name": "@Common Substance@",
+							"reference": "B161",
+							"cost": 2,
+							"cost_type": "multiplier",
+							"disabled": true
+						},
+						{
+							"id": "722875e1-a8c4-49a7-af43-0ccd82a3691e",
+							"type": "modifier",
+							"name": "@Very Common Substance@",
+							"reference": "B161",
+							"cost": 3,
+							"cost_type": "multiplier",
+							"disabled": true
+						},
+						{
+							"id": "081ff60c-7208-4ef7-b07a-3f6b24952f3f",
+							"type": "modifier",
+							"name": "Fatigue Only",
+							"reference": "B161",
+							"cost": -50,
+							"disabled": true
+						},
+						{
+							"id": "0d8aebdd-50b8-4377-9cac-294d221a3fc4",
+							"type": "modifier",
+							"name": "Variable",
+							"reference": "B161",
+							"cost": -40,
+							"disabled": true
+						}
+					],
+					"calc": {
+						"points": -10
+					}
+				},
+				{
 					"id": "a3654e3b-b670-4610-b03a-6a536de981e1",
 					"type": "trait",
 					"name": "Pacifism: Cannot Kill",
@@ -1004,7 +1259,7 @@
 			"ancestry": "Taipuisa - Hallapuisa",
 			"container_type": "race",
 			"calc": {
-				"points": 46
+				"points": 36
 			}
 		}
 	]
