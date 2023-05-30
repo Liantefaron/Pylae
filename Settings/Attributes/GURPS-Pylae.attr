@@ -272,7 +272,7 @@
 			"type": "integer",
 			"name": "Excess PT",
 			"full_name": "Excess Power Tally",
-			"attribute_base": "$tm_pt - $tm_threshold"
+			"attribute_base": "if($tm_pt > $tm_threshold, floor($tm_pt - $tm_threshold), 0)"
 		},
 		{
 			"id": "tm_calamity_bonus",
