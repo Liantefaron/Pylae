@@ -16,11 +16,7 @@
 		}
 	],
 	"profile": {
-		"player_name": "Sven",
 		"name": "Ampua ",
-		"title": "Hengenvahti, Sucherin",
-		"organization": "KEF",
-		"religion": "Amalay",
 		"age": "132",
 		"birthday": "n/a",
 		"eyes": "Green",
@@ -28,14 +24,18 @@
 		"skin": "Green",
 		"handedness": "Right",
 		"gender": "Female",
-		"tech_level": "3",
-		"portrait": "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",
 		"height": "4'9.6\"",
-		"weight": "100 lb"
+		"weight": "100 lb",
+		"player_name": "Sven",
+		"title": "Hengenvahti, Sucherin",
+		"organization": "KEF",
+		"religion": "Amalay",
+		"tech_level": "3",
+		"portrait": "UklGRjAYAABXRUJQVlA4WAoAAAAgAAAAjwAAvwAASUNDUMgBAAAAAAHIAAAAAAQwAABtbnRyUkdCIFhZWiAAAAAAAAAAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAACRyWFlaAAABFAAAABRnWFlaAAABKAAAABRiWFlaAAABPAAAABR3dHB0AAABUAAAABRyVFJDAAABZAAAAChnVFJDAAABZAAAAChiVFJDAAABZAAAAChjcHJ0AAABjAAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAAgAAAAcAHMAUgBHAEJYWVogAAAAAAAAb6IAADj1AAADkFhZWiAAAAAAAABimQAAt4UAABjaWFlaIAAAAAAAACSgAAAPhAAAts9YWVogAAAAAAAA9tYAAQAAAADTLXBhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABtbHVjAAAAAAAAAAEAAAAMZW5VUwAAACAAAAAcAEcAbwBvAGcAbABlACAASQBuAGMALgAgADIAMAAxADZWUDggQhYAANBaAJ0BKpAAwAA+bS6SRiQioaEr1g0ogA2JQBfthp1x9d0g9v5JoL+zJ6kNxj5i9z/6rP0AKBL8B72/Jt8z0SMkfYrqL94edz+58HeAo9HtF77v8Tzl8QDy/8NT8X/1vYH8Z/RY+1f8b2D+mn6MyJ9hMjuxKUDmFWWuiZp9VtptPdv8vUtSn78A25JcUhstaA7jPxU/Uy7Oc1j+Rhrwmr8P7SGvkWKVW658M5WFw7W2UXwPI8+JjSckDwlCOnDV7IOBhWmW7L23zw7lYWWR0RBUlavmmhU/on0YMzs3x277pEP85v0Zg9ZBKze52aHLGD4hlrO0qlGn4FsMUX9E11/Rum7wQZCW5Gw2YR3svu6SHZCkiZpBcK4/EA2ygPkCyYQv1Aeme2zyjIC+OYjItfsXZd7jpRajgsn+KY8j1dzwUW8ujsStxWfXtt4hNRD+vSr5rXfAGVOhvqhvBrCnYVbhiS+shRhPpW/TE6NWl+Tus64AasVRrskyMC2+gTZvS41EjDs2QysfeXWgl3HRQ7OKtp4N5ML6+inWmENBeIg+soszGgFhcLt6uclyW35fIOMTGQJtUK4kNSrxhFIyrZwTWOcto1S+2Z/H6hWrMI1g0Vc2nuLa+yZDGZIBG8xSVBogtcNyvSiUJNxt+ipJqAktoeVzlyTuuOZuc9UCL32IGASN7NXMLPRoMMCkGWBdFEg7gMs+6rsPgOZMIpaeCj420QfN/Vs7g0kEnupIEaa6lEyU74pJTx3vTgjLjOhpK7b4rpwSoIkSzN0VmbzQWCzrFo2kL94/zN2xMZRsBTGk+5qeI5/LLQ/aKfIRaoRFdG2fuyK8R4GuglJ9bx7plCdTDIfKuZ/eYimBS1ie/9uxH4b9BvkpKuJ7RJ3bEiuLMNQFJ3MAT2ZTmq9EhppAMHXJR7PE+IxA2HkWMlmiICrfpK0wbHKa95MEH2m6LuHK8J1vwYoSFfLvFnWf09SAAAD+/mBE2/YhygFR09XEdREV6wFwlDXuirf7/3CHVmzJJseiZadSBXfwrDvAsSIPFFihABkPdDN+qd93JPwDZTEyPrSTV0pm6CBEdA+kAu/SdgwdXAm1T29E7R3obKak5bmE8XiLOnqmf9gosuRuGeFQxp3oIMVQidpK0gwT+csaY+rmCr3StbxnZjAe4+0ccYtL5Fgktv7T/zuBlXRgD9llQ7FPRFjWeFYELoYtPJkJdmT+kUHM2Rx93rwBWxWb2TVkyKhJxY2YZp1B2bddOPMw0N8yi/gC6GGAh1dGrv7Yx2++0i6KWdc5NgGtQlY34LjARLJpff7Fkq8S/y2PnHnBl+EBVOKzUxXuHm/wsRShmNTwtWyux231LD797/T07LV2gmGvw9z8Ob6/CLOUoS3CTvcdqnpqK7oJfg9TssaUEfZYTK/fqVK6F3RlfQqPWJh2G2TKz1ow8R7KfDg8+7mtnpUktwO7tkd15piSm21cJmVx2JrnE6xmYsGVV2RQ7RjTcMtjWQWUdJwnGZCVRi7VocCezO99CX9ddpgnDbzw5BlnkkzUbyQNqAa22jYKuvxg6/73n2CM+ApmV96kwYxao7osttWa3y31GWwdY8qUI8F5EeDkv7uqovetW/7S5c5ef1tWmJWueoTC3y3XzDjVhK1BsskoNhMEU8XLXRdp/aTNjZ+HdYzz11GyAF8ALTJDqDuNYKi3YB9y5JMr0vbzINrsztoM2qg38Ds9usiPp68fsHaQ74JQysJlL3D+Vsa72fnzH998VyvcRLulQ8YMaZrTTzrWh1g0WwHAGUQPEi7VoDSZT8YfJW5YIW8RaSPt6nDbxkDhe1Agw5oiFf4H0HNJfJ4OR5vuOERzdriubW1ZVvHkSUBZHLBKNHxkf0FTPKqUQRiu/CHMDjd6uGaUk1nTg7mZq8wwqIRYZMNvI/YGG/ToupiIYlFBnheluOYJ/dseelRFe3bCqCyCv8EyASnFcdZhueeqhdGHGpivCUtweOxl67T5KoWTtLoWWgDIjgT4ahlo7sB9veQh6KfP8GhwWby/2goVZBEyMyypJWRSwIvy7kZ3OL2LPJEC8SHMCoMks4xnGt01NXuWA0ko8tC8A1IPVBmYOvbDfb7BDAfRxHEPmCvFeVysQZ8EsXcFMSrw7WWxD1guUmzmpDsf77WpNz7Z454fIguddgjDuOvKhZ0l9vEzVWuSirHDzS+9U8pD5dEctYAXYF5cE0vNRE9wyBgoxQ+lHh1oTqZ1lmzpLDTVXX1UHrJJP9KPtOzs/0RqNVEwbhSn+E0Fq4+nTWgp8ywc7ou9TY874KlAHOH6GnOIB4mR4F94m65VSXltRtnQfqc5FpurT3nceiNVijP/8Z/0sRq3C/s6NXXVkNWfNBaYnINE49d29KX+u59RvaL6o9LH+GfZp8besKyUoRg4xubdff2AAlI5910C6yF8d1p26GmytDNYp70eINL+/nosS2aiHpPyQbd4U5CPkQUUVGbP5jqVrLC3jrDPz5WxmKYQvloUnQVZ491OcudK1iBwP5OnQ6kPe2DYuIpO+8TtynLhTl+RTrccc/8LrvOqSzS5AkaLz/TZFolKZWdfdsDA/cA6MKGwFN5ZCyhJRAFXM7oatqCHvhsmLlVeepOt7TgPEHpACNhnAOt+U5hb5dqDAh7iKOIAsq+ZYhy1+NYMOiWNKa8Ry0XjvxnbVdfmbC1gJDM7UorD7076jbe6Oa8GX92eDUQeQN/izJPpJpuoiTIH/y7DNXg/hEllEQ/9K1QjtA29E0qGdSrwBQIYFBTzQZFzYk0DBKmsmXltoh5IZWE6KcuqQ8fabPsJVYuiF40KPAIB0Vis9UB1ef7iRhLJaP5RR3pZgw+MDN9fPFIl/ibA0ANkf9Tdj5koteJHdxkyO7aPl9eF0ELu+psQgH2eBWdyOfNOdYOT7+Xkkb3SyrkDFYMeop2qJgDXSWzkmD1pNJg6vWFUdezISTspfMSzO0fhvdFnNa1h9u+m5My7jRHXz+8ch3FTq9dIY203f2WDpUmGXgHSjlMSQfqSWseJsQHLjwuPq5aRuMzpC9QGQEv2v1Ja4tz3QYugbeEFDxX0SHoMypdghlY+eE5SxYNcce+oSwcerja2vx4KOWkiZF0H2TCkV3oQCNX91nWDXqQXAovvTI2Ekni53fV2fcdhxkKcXJFL6RTSENbQBXlySEzLD6ZYJlYpygSEM5DqZnpvxemaKZWZV37NbddjScA+0tYS+7JYwrHeeIvmnBSD1q7YD1cI95ZxfQLqsVCxsLmlywMkBiKZnoblhEhn6R/HPlYVvVAVkZqFBLei0dlclFwNAK/HFcqKe3aU5v9i+EcwWAt57DVLuMRB1RHeeAIzhVV87FENueTkBda0VH8c2GeMa90ka9jmtVNhKZtDGLwki0mYcAO6n1WEmVYFevcaD5IIfpzbqZmIgan9M+LmJNCQeNnjV4PR1RcsHul3v1CJv+MWyqQ5fBZLWFvMWsudwtKrl/89dvSaADg8wYFt3lgzfsLV42ilr1LJ17M8EaRIqKR0qsq3DsE523tsqfAIFUyiknJwG53IKMnUVfdQUpPn/IXgAJYihwIbxSFscfipwgPTJH6MbxO0jELZLccin9mmCXjddBIliDEMKjHEF98N2SWT26V3O3ylSjinJhcOt7gIDQrK4XbUqbgOjCCZaVO/+Y/Fgxpg2C7wdKiSx6RXsx0R58G3T/KjO/jKT/cB6WFNkDX0Rxu7kPQrhv0HCfZumSFMT1crCH/Jz14041Bm0FtE+wL29L1tBPEYpnVVXRTWsLrN0zdIYKc0ZFs3GnLZSIdI0qsp6KN5oiYGJ4cox22WN6w1uQfRkTtcVYjbfYX/b4+icaUxsysTpc94adxu+Vu0CXUpx0Ri35Q8091Vkli8AoNBuwMnK1YjCXCNnw/PZ4FR0ipE2QzihgE51L+vMU6kKJMX797q0Y8rMCbe/uhBgP3y/pj0z4if2MOZPROpzBJLpTD0cGAQx8n3T83XgeYGQb0lMv/IEKsFhhezcwAJSA/W3VuSKwXkE0ournJKRMf09Voz/prd8hxn5WtsjAlABZ9QfoQNGFcyWhFigUE7DbyQZ+Kd6L+erYkIA12wmPy7ibUc3iD1J0rhBCCIu4K7uYg1QlqhGzEf/lbFWSXgvx8pMkqe7S41ne7gPe3h+/feX4OuVY3b7tnVONkOr3K9y4guJ753BUSm8UOFcdojNnnHXnnvjAAPe4VMpOHk9qornSnm/p/ovcD9b3qugdZYq2/e3hHfMOHLTE4OBIzUmN8z23uuwsZvkFqzV8mIPSAdHjDnRGzr4sisoXXDV3gFk29r2Rylle7d2Oxk4IDuL/BdCOk0CUwZPJjFN6ZEcz9WGoX+RO76x4b0aXms6m75/wnYVFcy55nTnP5/ELcrEnH9FikQBxAqQK8JA1AARb3t28fau6ZpQa4cZ3V1WU5fUQ1dlj96uvL4nFY49klCrvWp4rF2g1gEZxlxubf2ZGGIv9HAhCWOCyRCkiiAYMGYh72dEqm0MFhYVdCENSLBDtG8W+BEkeG+DTgllFh2rznm0WdrgVlquNtOklWHG6X3oS71DWQf+FnOPytb9+gHdgukhZnO7iCBPAsoZbhoaVY26wS8NIeYLiZTpiKIkcOU9E08ed4Vqp94K6fQeNEcMTcaq+zLnRwOQtX5j8OHZWbaCqTM5/4SuD1hqUYAF8uwIW620WZaYsq+w7BslCodetZZEv7PB74AuTwE4eQwbEo+j7OeG40QgxluUyf1Bh9xqjgC2lunYkcrKssyJqU/SB8kSUwGcCGA8m5dOy0WkOPN8DoPGOZxSGDZ4Va9oHoMOsPt+vV4SerxIXES/Gh+EgTWIKjOugPRbC8McZmQRU2sbiiabo8HKnE+P/qGzs+Ci2WSAqfbJK0aLT30xtEkUW0/5n4yS+p2/iDDyoniyAvqLK6Dp251T1k0HmeUOFmt/jRqmMZ6Wv04rfWoeGkbBegotmbHql7GLM2p4Cx2ifuAQQBJ/sBOOa7aXb3yuWf6y3lFyvN7DZQ7X1os3BCuPzIo/xFb5NHxMHItYTGJf+7wgxl+Tcyyu0O3SmgfECDeZ2USTrriDEFkvpiWQLOeVXMEDbpk44UzKoQT/RCcAQgo7XalwhiwEC1KJMmqBGMzos5zVQHrLniOgZrjkC7rIqJtk7voGHOkifFhsaL6odSQ4um1MaGNkTA5WeMeJqM2Pn8GN+049h9gWw3BdUsDtlKa5UvPWkqNMGsTuL5G9mMQ06tNNvI5FODT/Yc2qPsdrOidxSAu8B5gZMLw4th7t6UA1ORllZl7NG+6lBm6Jk2INPlGGipuUubc5e7I4Pb6Vd+/9eFgCXKt+wlmXj29V8G/51OK5KCDmOBkDuWmbNTzrY8jAa7TO15eiNn9G5XBXuOe3fgktSTqAcc2sxQ0SWPeDp73lrNbbnZYirs9o1lV6qRJGsktETMnSnOgtTiRAQBWhpkacKenEvz2HwibutDKbHIFFKYbv0dR6uP0MTTrkMv6jAV2yaTa+5Y+/4DHscv+3aI7AKIGtiNug7VDnZmfgSe1sTvvNeFhrKjZwKZ8bvR69I+Haxggz8FlOtwuXrphT10HZmbxakXL4XrQdSyRhNTMQqUYMEPssT2lPj7q6kUFbXwmL9POAAjVM5HrjqaRWiU+URujdLvJHuQ6UWxTCYv0Z2AAGz/vKzkZBiH8DpMSqG2c++0ce1mbyB3tsJJew4+pcI1mL5FR40fNH0Qs42719WI/3aB8JejaJkXmTA8ICALUHNBQrSLimpFdkLs9CSfVKPoph2fQ2kNsN47fE8seFyDgIKdF7W15zajGo6KDKNWa8ez1L/27zd3q5xABT7cz6U8x6moGu9F69YUbEnbOssBuvwnA15scDaslF85ks7xfPxLU2/33/tSK9IkTJBsNGGmFg6xPi74H2MF1b+49z8KKr16GKnpnz8vi+TiVrhfZfCRucNxNkPPQxX5rpSRGvMi2ORKMRyxjc1A6lzAj24RA4sWUXEvX7Kg/q0J7AXwG35sLnqtizzVegL2gRFxcSbJ+IHwo4Prn3cOj8dGOBuCQnYjlP5gZhSPXHg6tldEr/Oo11ylcS0jJotLvcJPgKq+SSUzh/8i7uXnUgy8tVWoQvhduGMn41jL8ssTntXLOThFkmrMK/a/nJLngKe6I2xqNBHV+cB78H6GD+JUpoqhkmqq5aBFVcQuT8E5VxMvGIPhzvhixnsW3zvkZ4U3bmEQP3K4pS/TtqjOcBgBSAB41Xyi9OAe5u2/VDGAt0IgFx6d6Id05jrEXKLEmgkYCxj2d1UlfHLDsxjH+hJnBnp0lvLW1HYzBnQysUzqPpc1vs8B+D091paemhyWC3v/E8FT6LRcr/YDDq1GURUMGI3WhiAd6hD8ygMJfxrjacF7tVu1CORtA2XrkttXhgIc4OMU4MbDgCSWGWUVKm+pY1ZZaBmgdrADN6f3tHH80gVCAY1/We1Zn6Yw8z63fite9lI+eezuO/FlyFANf+dA5WjKMEmn+OfPmOYpCxqdSvXfUVLupAR+c+05159Z6sb762KhJobvGF7ICQ742HwhiZgIyZpyq6pRbk3KuQvLpL9YAZr/IWrSng5kd9A2/iASVEO/LuT5hjH9NZDfGu3BDhf1CA0JTgoq1ws5GhonjxDN/Y07So1XtoT79J81UkQOOkqZIbPU3rSK65wJEK59H0dvGlKXUucsw5gjbRvNQx8whPhRXucJ+w1DBGbOtAQh2hvTrEwoiiLy0xQ7Uut4lIy0J9SNyrjhUOhlArnswlHmZmKk6xDxBy2h4WXTPOHfRqwMPnSWa1XfZ4qUu8ws4xGmYls8AWKklr65B0HEr0VjfyVz6ReiCzdn5QBcR+ehaDrnjDnwI6OcXz6QBkgfoPgyk+8l66Ig+rvBA8QQtEigUHEUiNvZcaprRPYNLXK0IXaN/nt65EGTwBfcTJcgvXzJjtkCQU7jYLSRmRPynDv9AF20aNiHolX7RhWjcFqhn67CDQOz8nFeB8RszsTxbd7/U1PIAFmjLi6g9eOOrb7XRZmxx1FtKJ5PAqrk7oFxTmwdNUR6oNoeF6eRobfBARudofEoFODZr0ck80SdPOAMP9FkuIHR9HF+pA7rK6+3qk8ZNt507mG/QS9UZwJDmP05HhFQHr8nKp+6d3W4ar/QeWRGTV9y91UlwB2mw7MiHZdANN7jw1rES0GjAtHDJbIAQjtJMRdkdNW0gm5ZtQ5BbFe0AgNv/LuWqys/n4uLxPL7qWRP4VzdZAvN5iNuYsxb4uvsulKwjE7VzHGmStE1RhhodqP9e6LLBvplFweDuzH3sFqRWQ3Byji1kKy9uvhq5dgvrxN8yzI2jwfh41Qi7UYp0M8MJR4fjDbX8oHYcq/5WTlG85FJ9LV8SM0aW07H1jxpNJU91PvlIq3BNEKdROBuPp6GjSQkeWDTAaWiUqrOVvFCsP/XHLJRqvT98d12f60EbNyByJeH6XoxNovsSHKZrPyKM9GYBAc+/+tNVcc/XKCG3rHBj8Syo4uOU8DQEEKvnyvRX19ChmzMTAbqkMynxu9pvgAuwcaWxKrFgAAA="
 	},
 	"settings": {
 		"page": {
-			"paper_size": "letter",
+			"paper_size": "a4",
 			"orientation": "portrait",
 			"top_margin": "0.25 in",
 			"left_margin": "0.25 in",
@@ -429,7 +429,7 @@
 					"calc": {
 						"roll_range": "11",
 						"dr": {
-							"all": 0
+							"all": 1
 						}
 					}
 				},
@@ -519,12 +519,14 @@
 			]
 		},
 		"damage_progression": "basic_set",
-		"default_length_units": "ft_in",
-		"default_weight_units": "lb",
-		"user_description_display": "tooltip",
+		"default_length_units": "m",
+		"default_weight_units": "kg",
+		"user_description_display": "inline_and_tooltip",
 		"modifiers_display": "inline",
 		"notes_display": "inline",
-		"skill_level_adj_display": "tooltip",
+		"skill_level_adj_display": "inline_and_tooltip",
+		"show_trait_modifier_adj": true,
+		"show_equipment_modifier_adj": true,
 		"show_spell_adj": true,
 		"exclude_unspent_points_from_total": false
 	},
@@ -1428,7 +1430,7 @@
 				{
 					"id": "9e4510ee-c8a7-45e7-9279-46f75ac3197c",
 					"type": "trait",
-					"name": "Threshold Magery",
+					"name": "Magery",
 					"reference": "Th76",
 					"tags": [
 						"Advantage",
@@ -1512,6 +1514,12 @@
 							"cost": -40,
 							"affects": "levels_only",
 							"disabled": true
+						},
+						{
+							"id": "d7730465-27a8-4261-9980-3601fdc3da47",
+							"type": "modifier",
+							"name": "Threshold-based Magic",
+							"notes": "Needs Threshold Attributes file!"
 						},
 						{
 							"id": "8cffcc39-a19c-4aa2-8a65-f270534b6ad7",
@@ -3908,6 +3916,148 @@
 					"cost": 40,
 					"cost_type": "points",
 					"disabled": true
+				}
+			],
+			"features": [
+				{
+					"type": "weapon_bonus",
+					"selection_type": "weapons_with_required_skill",
+					"name": {
+						"compare": "is",
+						"qualifier": "Bow"
+					},
+					"level": {
+						"compare": "at_least",
+						"qualifier": 2
+					},
+					"amount": 2,
+					"per_level": true
+				},
+				{
+					"type": "weapon_bonus",
+					"selection_type": "weapons_with_required_skill",
+					"name": {
+						"compare": "is",
+						"qualifier": "Staff"
+					},
+					"level": {
+						"compare": "at_least",
+						"qualifier": 2
+					},
+					"amount": 2,
+					"per_level": true
+				},
+				{
+					"type": "weapon_bonus",
+					"selection_type": "weapons_with_required_skill",
+					"name": {
+						"compare": "is",
+						"qualifier": "Two-handed Sword"
+					},
+					"level": {
+						"compare": "at_least",
+						"qualifier": 2
+					},
+					"amount": 2,
+					"per_level": true
+				},
+				{
+					"type": "weapon_bonus",
+					"selection_type": "weapons_with_required_skill",
+					"name": {
+						"compare": "is",
+						"qualifier": "Smallsword"
+					},
+					"level": {
+						"compare": "at_least",
+						"qualifier": 2
+					},
+					"amount": 2,
+					"per_level": true
+				},
+				{
+					"type": "weapon_bonus",
+					"selection_type": "weapons_with_required_skill",
+					"name": {
+						"compare": "is",
+						"qualifier": "Knife"
+					},
+					"level": {
+						"compare": "at_least",
+						"qualifier": 2
+					},
+					"amount": 2,
+					"per_level": true
+				},
+				{
+					"type": "weapon_bonus",
+					"selection_type": "weapons_with_required_skill",
+					"name": {
+						"compare": "is",
+						"qualifier": "Knife"
+					},
+					"level": {
+						"compare": "at_least",
+						"qualifier": 1
+					},
+					"amount": 1,
+					"per_level": true
+				},
+				{
+					"type": "weapon_bonus",
+					"selection_type": "weapons_with_required_skill",
+					"name": {
+						"compare": "is",
+						"qualifier": "Smallsword"
+					},
+					"level": {
+						"compare": "at_least",
+						"qualifier": 1
+					},
+					"amount": 1,
+					"per_level": true
+				},
+				{
+					"type": "weapon_bonus",
+					"selection_type": "weapons_with_required_skill",
+					"name": {
+						"compare": "is",
+						"qualifier": "Two-handed Sword"
+					},
+					"level": {
+						"compare": "at_least",
+						"qualifier": 1
+					},
+					"amount": 1,
+					"per_level": true
+				},
+				{
+					"type": "weapon_bonus",
+					"selection_type": "weapons_with_required_skill",
+					"name": {
+						"compare": "is",
+						"qualifier": "Staff"
+					},
+					"level": {
+						"compare": "at_least",
+						"qualifier": 1
+					},
+					"amount": 1,
+					"per_level": true
+				},
+				{
+					"type": "weapon_bonus",
+					"selection_type": "weapons_with_required_skill",
+					"name": {
+						"compare": "contains",
+						"qualifier": "Bow"
+					},
+					"level": {
+						"compare": "at_least",
+						"qualifier": 1
+					},
+					"amount": 1,
+					"per_level": true
 				}
 			],
 			"calc": {
@@ -7616,8 +7766,7278 @@
 			"name": "Techniques - Herb Lore Potions"
 		}
 	],
+	"spells": [
+		{
+			"id": "f7bcfe57-8238-47c8-8ff8-2fe6fe6b9cbd",
+			"type": "spell",
+			"name": "Analyze Magic",
+			"reference": "M102",
+			"tags": [
+				"Knowledge"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Knowledge"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Info",
+			"resist": "Spells that conceal magic",
+			"casting_cost": "8",
+			"maintenance_cost": "-",
+			"casting_time": "1 hr",
+			"duration": "Instant",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "identify spell"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			},
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "306ba706-db74-41a8-b3d5-91bf5b9da499",
+			"type": "spell",
+			"name": "Animate Plant",
+			"reference": "M164",
+			"notes": "Double casting cost if plant moves",
+			"tags": [
+				"Plant"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Plant"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "3",
+			"maintenance_cost": "Half",
+			"casting_time": "5 secs",
+			"duration": "1 min",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "college",
+						"has": true,
+						"qualifier": {
+							"compare": "contains",
+							"qualifier": "Plant"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 7
+						}
+					}
+				]
+			},
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "b2fdfff2-0e4e-4a82-9848-176451c9c76d",
+			"type": "spell",
+			"name": "Apportation",
+			"reference": "M142",
+			"tags": [
+				"Movement"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Movement"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"resist": "Will",
+			"casting_cost": "Varies",
+			"casting_time": "1 sec",
+			"duration": "1 min",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								},
+								"notes": {
+									"compare": "does_not_contain",
+									"qualifier": "one college"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (movement)"
+								}
+							}
+						]
+					}
+				]
+			},
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "49b2a7ab-e93e-4d27-b44b-5b6fbafc944a",
+			"type": "spell",
+			"name": "Armor",
+			"reference": "M167",
+			"tags": [
+				"Protection \u0026 Warning"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Protection \u0026 Warning"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "2 per DR",
+			"maintenance_cost": "Half",
+			"casting_time": "1 sec",
+			"duration": "1 min",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "shield"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			},
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "5b340078-a0dd-4c20-a0cd-5ff7eec31642",
+			"type": "spell",
+			"name": "Aura",
+			"reference": "M101",
+			"tags": [
+				"Knowledge"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Knowledge"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Info",
+			"casting_cost": "3",
+			"maintenance_cost": "-",
+			"casting_time": "1 sec",
+			"duration": "Instant",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "detect magic"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			},
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "bfe2545e-4825-4668-83e0-e59d4e53a5db",
+			"type": "spell",
+			"name": "Beast Soother",
+			"reference": "M29",
+			"tags": [
+				"Animal"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Animal"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "1 to 3",
+			"maintenance_cost": "-",
+			"casting_time": "1 sec",
+			"duration": "Permanent",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": false,
+				"prereqs": [
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "animal friend"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "persuasion"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "animal empathy"
+						}
+					}
+				]
+			},
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "686966e9-222e-427c-9b98-3427f317fd47",
+			"type": "spell",
+			"name": "Blade of Grass",
+			"reference": "MPS10",
+			"tags": [
+				"Plant"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Plant"
+			],
+			"power_source": "Arkan",
+			"spell_class": "Regular",
+			"casting_cost": "1 per 12\" of length",
+			"maintenance_cost": "Half",
+			"casting_time": "1 Sec.",
+			"duration": "1 Min.",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Shape Plant"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			},
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "5f747ee3-7a6e-4272-988a-e0010b8de9ee",
+			"type": "spell",
+			"name": "Bless Plants",
+			"reference": "M161",
+			"tags": [
+				"Plant"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Plant"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Area",
+			"casting_cost": "1 minimum",
+			"maintenance_cost": "-",
+			"casting_time": "5 min",
+			"duration": "1 Crop or Season",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "heal plant"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			},
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "7df24567-0b4a-4f8f-8c83-57ea42da4f54",
+			"type": "spell",
+			"name": "Block",
+			"reference": "M166",
+			"tags": [
+				"Protection \u0026 Warning"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Protection \u0026 Warning"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Blocking",
+			"casting_cost": "1 per DB",
+			"maintenance_cost": "-",
+			"casting_time": "1 sec",
+			"duration": "Instant",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": false,
+				"prereqs": [
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "magery"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 1
+						},
+						"notes": {
+							"compare": "does_not_contain",
+							"qualifier": "one college"
+						}
+					},
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "magery"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 1
+						},
+						"notes": {
+							"compare": "contains",
+							"qualifier": "one college (protection \u0026 warning)"
+						}
+					}
+				]
+			},
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "37451257-6ecd-4204-8b39-928ffb3c83d4",
+			"type": "spell",
+			"name": "Blossom",
+			"reference": "M162",
+			"tags": [
+				"Plant"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Plant"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Area",
+			"casting_cost": "2",
+			"maintenance_cost": "-",
+			"casting_time": "5 min",
+			"duration": "1 hour",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "plant growth"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			},
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "d18d4373-91d6-4810-be9d-6267d0673832",
+			"type": "spell",
+			"name": "Breakfall Plants",
+			"reference": "MPS13",
+			"tags": [
+				"Movement",
+				"Plant"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Movement",
+				"Plant"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "1 per 50 lbs",
+			"maintenance_cost": "Half",
+			"casting_time": "1 sec",
+			"duration": "1 min",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								},
+								"notes": {
+									"compare": "does_not_contain",
+									"qualifier": "one college"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (movement)"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (plant)"
+								}
+							}
+						]
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Walk Through Plants"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "apportation"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			},
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "f0a3cdd9-16e9-4a2e-91ac-f7523a6ac971",
+			"type": "spell",
+			"name": "Command",
+			"reference": "M136",
+			"tags": [
+				"Mind Control"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Mind Control"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Blocking",
+			"resist": "Will",
+			"casting_cost": "2",
+			"maintenance_cost": "-",
+			"casting_time": "1 sec",
+			"duration": "Instant",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "forgetfulness"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 2
+								},
+								"notes": {
+									"compare": "does_not_contain",
+									"qualifier": "one college"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 2
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (mind control)"
+								}
+							}
+						]
+					}
+				]
+			},
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "c79425dc-bb83-43fa-943a-aca0f2a65454",
+			"type": "spell",
+			"name": "Complex Illusion",
+			"reference": "M96",
+			"tags": [
+				"Illusion \u0026 Creation"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Illusion \u0026 Creation"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Area",
+			"casting_cost": "2",
+			"maintenance_cost": "Half",
+			"casting_time": "1 sec",
+			"duration": "1 min",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "sound"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "simple illusion"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			},
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "ff823681-6093-4b4c-9e9a-dee586c6302d",
+			"type": "spell",
+			"name": "Conceal",
+			"reference": "M162",
+			"tags": [
+				"Plant"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Plant"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Area",
+			"casting_cost": "Varies",
+			"maintenance_cost": "-",
+			"casting_time": "4 sec",
+			"duration": "1 hour",
+			"points": 1,
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "48caa598-ddbd-4416-87ca-d4f464b347fa",
+			"type": "spell",
+			"name": "Continual Light",
+			"reference": "M110",
+			"tags": [
+				"Light \u0026 Darkness"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Light \u0026 Darkness"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "2 moon, 4 torch, 6 day",
+			"maintenance_cost": "-",
+			"casting_time": "1 sec",
+			"duration": "2d days",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "light"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			},
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "ced219de-6ebd-4b77-9838-5bb5af93ed5e",
+			"type": "spell",
+			"name": "Counterspell",
+			"reference": "M121",
+			"tags": [
+				"Meta"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Meta"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"resist": "Subject spell",
+			"casting_cost": "Half countered spell",
+			"casting_time": "5 sec",
+			"duration": "Instant",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": false,
+				"prereqs": [
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "magery"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 1
+						},
+						"notes": {
+							"compare": "does_not_contain",
+							"qualifier": "one college"
+						}
+					},
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "magery"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 1
+						},
+						"notes": {
+							"compare": "contains",
+							"qualifier": "one college (meta)"
+						}
+					}
+				]
+			},
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "6c29df4f-ad28-4b74-9580-0cca632bdf8e",
+			"type": "spell",
+			"name": "Create Air",
+			"reference": "M23",
+			"tags": [
+				"Air"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Air"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Area",
+			"casting_cost": "1",
+			"maintenance_cost": "-",
+			"casting_time": "1 sec",
+			"duration": "5 sec",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": false,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "purify air"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "seek air"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			},
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "873eea68-d05d-433a-87f5-05b8cd1b41fa",
+			"type": "spell",
+			"name": "Create Earth",
+			"reference": "M51",
+			"tags": [
+				"Earth"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Earth"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "2/25 cu ft",
+			"maintenance_cost": "-",
+			"casting_time": "1 sec",
+			"duration": "Permanent",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "earth to stone"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			},
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "ac10b57e-369c-4a29-8700-343a03e92d4f",
+			"type": "spell",
+			"name": "Create Object",
+			"reference": "M98",
+			"tags": [
+				"Illusion \u0026 Creation"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Illusion \u0026 Creation"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "2/5 lbs",
+			"maintenance_cost": "-",
+			"casting_time": "1 sec/cost",
+			"duration": "While touching someone",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "create earth"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "perfect illusion"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 2
+								},
+								"notes": {
+									"compare": "does_not_contain",
+									"qualifier": "one college"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 2
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (illusion \u0026 creation)"
+								}
+							}
+						]
+					}
+				]
+			},
+			"calc": {
+				"level": 14,
+				"rsl": "IQ+0"
+			}
+		},
+		{
+			"id": "576f7bdb-20c0-4483-ba96-390eb29e66e6",
+			"type": "spell",
+			"name": "Create Paper",
+			"reference": "MPS12",
+			"tags": [
+				"Plant"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Plant"
+			],
+			"power_source": "Arkan",
+			"spell_class": "Regular",
+			"casting_cost": "Varies",
+			"maintenance_cost": "-",
+			"casting_time": "4 Min.",
+			"duration": "Permanent",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 2
+								},
+								"notes": {
+									"compare": "does_not_contain",
+									"qualifier": "one college"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 2
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (plant)"
+								}
+							}
+						]
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Heal Plant"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			},
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "90c71929-2029-4afb-9940-f7490ae7e93f",
+			"type": "spell",
+			"name": "Create Spring",
+			"reference": "M190",
+			"tags": [
+				"Water"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Water"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "Varies",
+			"maintenance_cost": "-",
+			"casting_time": "1 min",
+			"duration": "Permanent",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "shape water"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "dry spring"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			},
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "6fba9a84-2545-4b3c-90e0-725b82bf2e9a",
+			"type": "spell",
+			"name": "Create Water",
+			"reference": "M184",
+			"tags": [
+				"Water"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Water"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "2/gal",
+			"maintenance_cost": "-",
+			"casting_time": "1 sec",
+			"duration": "Permanent",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "purify water"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			},
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "d4c2bb61-12db-4520-9837-bd02abb2b988",
+			"type": "spell",
+			"name": "Cure Disease",
+			"reference": "M91",
+			"tags": [
+				"Healing"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Healing"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "4",
+			"maintenance_cost": "-",
+			"casting_time": "10 min",
+			"duration": "Permanent",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "relieve sickness"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "major healing"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			},
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "fc6f62a6-4288-4d0d-84bf-baa2729106c7",
+			"type": "spell",
+			"name": "Daze",
+			"reference": "M134",
+			"tags": [
+				"Mind Control"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Mind Control"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"resist": "HT",
+			"casting_cost": "3",
+			"maintenance_cost": "2",
+			"casting_time": "2 sec",
+			"duration": "1 min",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "foolishness"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			},
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "432a0a2c-f67f-4262-a923-4185291f4a58",
+			"type": "spell",
+			"name": "Destroy Water",
+			"reference": "M185",
+			"tags": [
+				"Water"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Water"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Area",
+			"casting_cost": "3",
+			"maintenance_cost": "Same",
+			"casting_time": "1 sec",
+			"duration": "Permanent",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "create water"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			},
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "3b4e23c2-e2ff-47de-9edf-fb7b8e4418fc",
+			"type": "spell",
+			"name": "Detect Magic",
+			"reference": "M101",
+			"tags": [
+				"Knowledge"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Knowledge"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "2",
+			"maintenance_cost": "-",
+			"casting_time": "5 sec",
+			"duration": "Instant",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": false,
+				"prereqs": [
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "magery"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 1
+						},
+						"notes": {
+							"compare": "does_not_contain",
+							"qualifier": "one college"
+						}
+					},
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "magery"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 1
+						},
+						"notes": {
+							"compare": "contains",
+							"qualifier": "one college (knowledge)"
+						}
+					}
+				]
+			},
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "073e0495-3da4-48d6-b06d-6ac1f5da72ad",
+			"type": "spell",
+			"name": "Disorient",
+			"reference": "M135",
+			"tags": [
+				"Mind Control"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Mind Control"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Area",
+			"resist": "Will",
+			"casting_cost": "1",
+			"maintenance_cost": "-",
+			"casting_time": "10 sec",
+			"duration": "Varies",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "foolishness"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			},
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "ac127330-4267-4e55-8e2f-acdbdfb561ec",
+			"type": "spell",
+			"name": "Dream Sending",
+			"reference": "M45",
+			"tags": [
+				"Communication \u0026 Empathy"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Communication \u0026 Empathy"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"resist": "Will",
+			"casting_cost": "3",
+			"maintenance_cost": "-",
+			"casting_time": "1 min",
+			"duration": "1 hr",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": false,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "dream viewing"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "sleep"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			},
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "582260b5-09f3-42d4-95ed-e48bfc5c6c6e",
+			"type": "spell",
+			"name": "Dry Spring",
+			"reference": "M188",
+			"tags": [
+				"Water"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Water"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "Varies",
+			"maintenance_cost": "-",
+			"casting_time": "1 min",
+			"duration": "Permanent",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "shape earth"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "destroy water"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			},
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "2603ede2-eeee-4ce3-b034-9931cfd7a31a",
+			"type": "spell",
+			"name": "Earth to Air",
+			"reference": "M25",
+			"tags": [
+				"Air",
+				"Earth"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Air",
+				"Earth"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "5/25 cu ft#",
+			"maintenance_cost": "-",
+			"casting_time": "2 sec",
+			"duration": "Permanent",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "shape earth"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "create air"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			},
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "7206e13b-5992-408f-b8af-9549a5c484eb",
+			"type": "spell",
+			"name": "Earth to Stone",
+			"reference": "M51",
+			"tags": [
+				"Earth"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Earth"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "3/25 cu ft #",
+			"maintenance_cost": "-",
+			"casting_time": "1 sec",
+			"duration": "Permanent",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								},
+								"notes": {
+									"compare": "does_not_contain",
+									"qualifier": "one college"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (earth)"
+								}
+							}
+						]
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "shape earth"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			},
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "06e4de02-292d-4f00-bd79-8252d1c8d4e8",
+			"type": "spell",
+			"name": "Earth Vision",
+			"reference": "M51",
+			"tags": [
+				"Earth",
+				"Knowledge"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Earth",
+				"Knowledge"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "2/10 yds#",
+			"maintenance_cost": "Same",
+			"casting_time": "1 sec",
+			"duration": "30 sec",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "shape earth"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			},
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "bda4e22e-6520-4741-8c00-6ee802bf3995",
+			"type": "spell",
+			"name": "Enchant",
+			"reference": "M56",
+			"tags": [
+				"Enchantment"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Enchantment"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Enchantment",
+			"casting_cost": "Varies",
+			"maintenance_cost": "-",
+			"casting_time": "Varies",
+			"duration": "Permanent",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "college_count",
+						"has": true,
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 10
+						}
+					},
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 2
+								},
+								"notes": {
+									"compare": "does_not_contain",
+									"qualifier": "one college"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 2
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (enchantment)"
+								}
+							}
+						]
+					}
+				]
+			},
+			"calc": {
+				"level": 14,
+				"rsl": "IQ+0"
+			}
+		},
+		{
+			"id": "7d171940-181d-4932-9626-16f65ef64ac1",
+			"type": "spell",
+			"name": "Essential Earth",
+			"reference": "M53",
+			"tags": [
+				"Earth"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Earth"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "8 per cubic yard",
+			"maintenance_cost": "-",
+			"casting_time": "30 sec",
+			"duration": "Permanent",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "college",
+						"has": true,
+						"qualifier": {
+							"compare": "contains",
+							"qualifier": "Earth"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 6
+						}
+					}
+				]
+			},
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "cec6cea1-03bf-46fd-a648-2ab4ae0c1295",
+			"type": "spell",
+			"name": "Essential Water",
+			"reference": "M189",
+			"tags": [
+				"Water"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Water"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "3/gal",
+			"maintenance_cost": "-",
+			"casting_time": "1 sec",
+			"duration": "Permanent",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "college",
+						"has": true,
+						"qualifier": {
+							"compare": "contains",
+							"qualifier": "Water"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 6
+						}
+					}
+				]
+			},
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "2d08159e-3356-4d76-b50c-b47e4a7c239c",
+			"type": "spell",
+			"name": "Essential Wood",
+			"reference": "M164",
+			"tags": [
+				"Plant"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Plant"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "8 per cubic yard",
+			"maintenance_cost": "-",
+			"casting_time": "30 sec",
+			"duration": "Permanent",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "college",
+						"has": true,
+						"qualifier": {
+							"compare": "contains",
+							"qualifier": "Plant"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 6
+						}
+					}
+				]
+			},
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "ffb83fbe-8ec6-4cf1-8635-5acd886645fa",
+			"type": "spell",
+			"name": "False Memory",
+			"reference": "M139",
+			"tags": [
+				"Mind Control"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Mind Control"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"resist": "Will",
+			"casting_cost": "Varies",
+			"maintenance_cost": "Varies",
+			"casting_time": "5 sec",
+			"duration": "Varies",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "forgetfulness"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "college",
+						"has": true,
+						"qualifier": {
+							"compare": "contains",
+							"qualifier": "Mind Control"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 7
+						}
+					}
+				]
+			},
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "3f2558d6-c543-4c23-8db2-707ec93a8942",
+			"type": "spell",
+			"name": "Fear",
+			"reference": "M134",
+			"tags": [
+				"Mind Control"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Mind Control"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Area",
+			"resist": "Will",
+			"casting_cost": "1",
+			"maintenance_cost": "-",
+			"casting_time": "1 sec",
+			"duration": "10 min",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": false,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "sense emotion"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "empathy"
+						}
+					}
+				]
+			},
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "78cde742-ba2a-44f2-adef-45d4d0c65a0c",
+			"type": "spell",
+			"name": "Foolishness",
+			"reference": "M134",
+			"tags": [
+				"Mind Control"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Mind Control"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"resist": "Will",
+			"casting_cost": "1-5",
+			"maintenance_cost": "Half",
+			"casting_time": "1 sec",
+			"duration": "1 min",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "attribute_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_least",
+							"qualifier": 12
+						},
+						"which": "iq"
+					}
+				]
+			},
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "b02783b0-674a-4e62-a05f-b52445edeed1",
+			"type": "spell",
+			"name": "Forest Defense",
+			"reference": "MPS13",
+			"tags": [
+				"Plant"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Plant"
+			],
+			"power_source": "Arkan",
+			"spell_class": "Blocking",
+			"casting_cost": "1-3",
+			"maintenance_cost": "-",
+			"casting_time": "1 Sek.",
+			"duration": "Sofort",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Animate Plant"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			},
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "e5d376ba-db42-4d90-83ce-1c17ae7c49f5",
+			"type": "spell",
+			"name": "Forest Warning",
+			"reference": "M162",
+			"tags": [
+				"Plant"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Plant"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Area",
+			"casting_cost": "2",
+			"maintenance_cost": "Same",
+			"casting_time": "1 sec",
+			"duration": "10 hours",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": false,
+				"prereqs": [
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Sense Danger"
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "college",
+						"has": true,
+						"qualifier": {
+							"compare": "contains",
+							"qualifier": "Plant"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 4
+						}
+					}
+				]
+			},
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "13d27dcd-9978-4cf5-b791-aa4dd1dba524",
+			"type": "spell",
+			"name": "Forgetfulness",
+			"reference": "M135",
+			"tags": [
+				"Mind Control"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Mind Control"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"resist": "Will or skill",
+			"casting_cost": "3",
+			"maintenance_cost": "3",
+			"casting_time": "10 sec",
+			"duration": "1 hr",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "foolishness"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								},
+								"notes": {
+									"compare": "does_not_contain",
+									"qualifier": "one college"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (mind control)"
+								}
+							}
+						]
+					}
+				]
+			},
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "06f75f39-a706-448b-bccf-ce75e489f43b",
+			"type": "spell",
+			"name": "Green Telurgy",
+			"reference": "MPS14",
+			"tags": [
+				"Plant"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Plant"
+			],
+			"power_source": "Arkan",
+			"spell_class": "Regular",
+			"casting_cost": "1/SM (min 2)",
+			"maintenance_cost": "1",
+			"casting_time": "30 Sec.",
+			"duration": "5 Min.",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Plant Speech"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			},
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "240e1e56-0702-4065-8a83-9e66e2d289b4",
+			"type": "spell",
+			"name": "Hardiness",
+			"reference": "M167",
+			"tags": [
+				"Protection \u0026 Warning"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Protection \u0026 Warning"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Blocking",
+			"casting_cost": "1 per DR",
+			"maintenance_cost": "-",
+			"casting_time": "1 sec",
+			"duration": "Instant",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "block"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			},
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "1cccfbda-ee37-4b2f-ba49-2ae334856e1a",
+			"type": "spell",
+			"name": "Heal Plant",
+			"reference": "M161",
+			"tags": [
+				"Plant"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Plant"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Area",
+			"casting_cost": "3",
+			"maintenance_cost": "-",
+			"casting_time": "1 Min",
+			"duration": "Permanent",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "identify plant"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			},
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "a1d454e4-00b1-4487-b27d-167980d4cb93",
+			"type": "spell",
+			"name": "Hide Path",
+			"reference": "M162",
+			"tags": [
+				"Plant"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Plant"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "2",
+			"maintenance_cost": "1",
+			"casting_time": "1 sec",
+			"duration": "1 min",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Heal Plant"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			},
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "ef3e2a2b-ce3d-41f6-9cf9-17b74ad6eb78",
+			"type": "spell",
+			"name": "Hideaway",
+			"reference": "M61",
+			"tags": [
+				"Enchantment"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Enchantment"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Enchantment",
+			"casting_cost": "50#",
+			"maintenance_cost": "-",
+			"casting_time": "-",
+			"duration": "Permanent",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "enchant"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "create object"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "lighten"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			},
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "9a5d5c32-0622-437b-8c06-e28bb66f445a",
+			"type": "spell",
+			"name": "History",
+			"reference": "M106",
+			"tags": [
+				"Knowledge"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Knowledge"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Info",
+			"casting_cost": "Varies",
+			"casting_time": "1 sec/pt",
+			"duration": "Instant",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "trace"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			},
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "cce86b12-6fe2-4338-9d42-29018b8fecd6",
+			"type": "spell",
+			"name": "Hypnotic Leaves",
+			"reference": "MPS15",
+			"tags": [
+				"Plant"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Plant"
+			],
+			"power_source": "Arkan",
+			"spell_class": "Area",
+			"casting_cost": "2",
+			"maintenance_cost": "Half",
+			"casting_time": "4 Sec.",
+			"duration": "1 Min.",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								},
+								"notes": {
+									"compare": "does_not_contain",
+									"qualifier": "one college"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (plant)"
+								}
+							}
+						]
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Plant Sense"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Daze"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			},
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "28c6b43c-355c-447e-9418-843380aac7e7",
+			"type": "spell",
+			"name": "Identify Plant",
+			"reference": "M161",
+			"tags": [
+				"Plant"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Plant"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Info",
+			"casting_cost": "2",
+			"maintenance_cost": "-",
+			"casting_time": "1 sec",
+			"duration": "Instant",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "seek plant"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			},
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "4b3ef0a5-1ab1-49cf-8442-27838135f5a5",
+			"type": "spell",
+			"name": "Identify Spell",
+			"reference": "M102",
+			"tags": [
+				"Knowledge"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Knowledge"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Info",
+			"casting_cost": "2",
+			"maintenance_cost": "-",
+			"casting_time": "1 sec",
+			"duration": "Instant",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "detect magic"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			},
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "65efdf38-1f5e-45f7-8b37-4ae04dfeb4c8",
+			"type": "spell",
+			"name": "Ignite Fire",
+			"reference": "M72",
+			"tags": [
+				"Fire"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Fire"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "1-4",
+			"maintenance_cost": "Same",
+			"casting_time": "1 sec",
+			"duration": "1 sec",
+			"points": 1,
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "82754913-2ea9-42a4-8755-c38140a03358",
+			"type": "spell",
+			"name": "Illusion Disguise",
+			"reference": "M96",
+			"tags": [
+				"Illusion \u0026 Creation"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Illusion \u0026 Creation"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "3",
+			"maintenance_cost": "-",
+			"casting_time": "1 sec",
+			"duration": "Until illusion ends",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "simple illusion"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			},
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "fc1a8eae-7a3d-4993-a866-acb76c257eb1",
+			"type": "spell",
+			"name": "Illusion Shell",
+			"reference": "M96",
+			"tags": [
+				"Illusion \u0026 Creation"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Illusion \u0026 Creation"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "1 or 2",
+			"maintenance_cost": "Half",
+			"casting_time": "1 sec",
+			"duration": "1 min",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "simple illusion"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			},
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "2ae2cc94-0176-4e07-b1b2-dc0bc4d7317f",
+			"type": "spell",
+			"name": "Images of the Past",
+			"reference": "M107",
+			"tags": [
+				"Knowledge",
+				"Light \u0026 Darkness"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Knowledge",
+				"Light \u0026 Darkness"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "3 + Time modifier",
+			"maintenance_cost": "Same",
+			"casting_time": "10 sec",
+			"duration": "1 min",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "history"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "simple illusion"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 2
+								},
+								"notes": {
+									"compare": "does_not_contain",
+									"qualifier": "one college"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 2
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (knowledge)"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 2
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (light \u0026 darkness)"
+								}
+							}
+						]
+					}
+				]
+			},
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "26505d2f-c91e-4ede-9f57-677afc4f51a5",
+			"type": "spell",
+			"name": "Itch",
+			"reference": "M35",
+			"tags": [
+				"Body Control"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Body Control"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"resist": "HT",
+			"casting_cost": "2",
+			"maintenance_cost": "-",
+			"casting_time": "1 sec",
+			"duration": "Until scratched",
+			"points": 1,
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "15ceb73e-4c5c-407c-bfba-3642dc554411",
+			"type": "spell",
+			"name": "Know Illusion",
+			"reference": "M97",
+			"tags": [
+				"Illusion \u0026 Creation"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Illusion \u0026 Creation"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Info",
+			"casting_cost": "2",
+			"maintenance_cost": "-",
+			"casting_time": "1 sec",
+			"duration": "Instant",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "simple illusion"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			},
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "ddd23724-c18f-4e10-93cb-cf10b1860970",
+			"type": "spell",
+			"name": "Lend Energy",
+			"reference": "M89",
+			"tags": [
+				"Healing"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Healing"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "1/pt",
+			"maintenance_cost": "-",
+			"casting_time": "1 sec",
+			"duration": "Permanent",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": false,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								},
+								"notes": {
+									"compare": "does_not_contain",
+									"qualifier": "one college"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (healing)"
+								}
+							}
+						]
+					},
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "empathy"
+						}
+					}
+				]
+			},
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "4f22a324-9e86-44a1-858b-a80b3501e72d",
+			"type": "spell",
+			"name": "Lend Language",
+			"reference": "M46",
+			"tags": [
+				"Communication \u0026 Empathy"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Communication \u0026 Empathy"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "3",
+			"maintenance_cost": "1",
+			"casting_time": "3 sec",
+			"duration": "1 min",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": false,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "college",
+						"has": true,
+						"qualifier": {
+							"compare": "contains",
+							"qualifier": "Communication \u0026 Empathy"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 3
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "beast speech"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			},
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "a01a84df-f04b-46e5-b2a8-4767fad31431",
+			"type": "spell",
+			"name": "Lend Vitality",
+			"reference": "M89",
+			"tags": [
+				"Healing"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Healing"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "1/pt",
+			"maintenance_cost": "-",
+			"casting_time": "1 sec",
+			"duration": "1 hour",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "lend energy"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			},
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "06eda4d0-914d-4cea-9635-c5f0183db363",
+			"type": "spell",
+			"name": "Light",
+			"reference": "M110",
+			"tags": [
+				"Light \u0026 Darkness"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Light \u0026 Darkness"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "1",
+			"maintenance_cost": "1",
+			"casting_time": "1 sec",
+			"duration": "1 min",
+			"points": 1,
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "580aa37c-dbc2-4921-95eb-5d2510af9b5b",
+			"type": "spell",
+			"name": "Lighten",
+			"reference": "M67",
+			"tags": [
+				"Armor Enchantment"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Enchantment"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Enchantment",
+			"casting_cost": "Varies",
+			"maintenance_cost": "-",
+			"casting_time": "-",
+			"duration": "Permanent",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "enchant"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			},
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "392706a1-d67b-4bf1-ba49-249e38ccf33e",
+			"type": "spell",
+			"name": "Mage Sight",
+			"reference": "M102",
+			"tags": [
+				"Knowledge"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Knowledge"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "3",
+			"maintenance_cost": "2",
+			"casting_time": "1 sec",
+			"duration": "1 min",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "detect magic"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			},
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "45200e3d-1513-4be8-85d7-54b7367a6cf4",
+			"type": "spell",
+			"name": "Major Healing",
+			"reference": "M91",
+			"tags": [
+				"Healing"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Healing"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "1-4",
+			"maintenance_cost": "-",
+			"casting_time": "1 sec",
+			"duration": "Permanent",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								},
+								"notes": {
+									"compare": "does_not_contain",
+									"qualifier": "one college"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (healing)"
+								}
+							}
+						]
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "minor healing"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			},
+			"calc": {
+				"level": 14,
+				"rsl": "IQ+0"
+			}
+		},
+		{
+			"id": "214f988b-cd39-43ae-89c2-9cb23e89e4b0",
+			"type": "spell",
+			"name": "Mature",
+			"reference": "M78",
+			"tags": [
+				"Food"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Food"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "1/lb",
+			"maintenance_cost": "-",
+			"casting_time": "10 sec",
+			"duration": "Permanent",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": false,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "decay"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "season"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			},
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "b005068d-72fb-4253-8968-731f7d4c0f94",
+			"type": "spell",
+			"name": "Mind-Reading",
+			"reference": "M46",
+			"tags": [
+				"Communication \u0026 Empathy"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Communication \u0026 Empathy"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"resist": "Will",
+			"casting_cost": "4",
+			"maintenance_cost": "2",
+			"casting_time": "10 sec",
+			"duration": "1 min",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": false,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "truthsayer"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "borrow language"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			},
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "fcd631b1-ca11-4c8c-a7a4-eb0a76e537bf",
+			"type": "spell",
+			"name": "Mind-Sending",
+			"reference": "M47",
+			"tags": [
+				"Communication \u0026 Empathy"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Communication \u0026 Empathy"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "4",
+			"maintenance_cost": "4",
+			"casting_time": "4 sec",
+			"duration": "1 min",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "mind-reading"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			},
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "e40105e1-4cf3-4d3f-8bab-00c75ccf4605",
+			"type": "spell",
+			"name": "Minor Healing",
+			"reference": "M91",
+			"tags": [
+				"Healing"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Healing"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "1-3",
+			"maintenance_cost": "-",
+			"casting_time": "1 sec",
+			"duration": "Permanent",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "lend vitality"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			},
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "1662cc00-cde8-409f-8bbb-a8b8794ff7f6",
+			"type": "spell",
+			"name": "Neutralize Poison",
+			"reference": "M92",
+			"tags": [
+				"Healing"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Healing"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "5",
+			"maintenance_cost": "-",
+			"casting_time": "30 sec",
+			"duration": "Permanent",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": false,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "poisons"
+						}
+					},
+					{
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "spell_prereq",
+								"sub_type": "name",
+								"has": true,
+								"qualifier": {
+									"compare": "is",
+									"qualifier": "test food"
+								},
+								"quantity": {
+									"compare": "at_least",
+									"qualifier": 1
+								}
+							},
+							{
+								"type": "prereq_list",
+								"all": false,
+								"prereqs": [
+									{
+										"type": "trait_prereq",
+										"has": true,
+										"name": {
+											"compare": "is",
+											"qualifier": "magery"
+										},
+										"level": {
+											"compare": "at_least",
+											"qualifier": 3
+										},
+										"notes": {
+											"compare": "does_not_contain",
+											"qualifier": "one college"
+										}
+									},
+									{
+										"type": "trait_prereq",
+										"has": true,
+										"name": {
+											"compare": "is",
+											"qualifier": "magery"
+										},
+										"level": {
+											"compare": "at_least",
+											"qualifier": 3
+										},
+										"notes": {
+											"compare": "contains",
+											"qualifier": "one college (healing)"
+										}
+									}
+								]
+							}
+						]
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "cure disease"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			},
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "4cf4210a-dd51-4fae-83fc-4382dde52a99",
+			"type": "spell",
+			"name": "No-Smell",
+			"reference": "M24",
+			"tags": [
+				"Air"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Air"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "2",
+			"maintenance_cost": "2",
+			"casting_time": "1 sec",
+			"duration": "1 hr",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "purify air"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			},
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "96b01826-d262-4c7c-9f38-262385ba9db6",
+			"type": "spell",
+			"name": "Panic",
+			"reference": "M134",
+			"tags": [
+				"Mind Control"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Mind Control"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Area",
+			"resist": "Will",
+			"casting_cost": "4",
+			"maintenance_cost": "2",
+			"casting_time": "1 sec",
+			"duration": "1 min",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "fear"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			},
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "fd24edd3-b021-44a7-984b-79bc0b8a3c21",
+			"type": "spell",
+			"name": "Perfect Illusion",
+			"reference": "M96",
+			"tags": [
+				"Illusion \u0026 Creation"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Illusion \u0026 Creation"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Area",
+			"casting_cost": "3",
+			"maintenance_cost": "Half",
+			"casting_time": "1 sec",
+			"duration": "1 min",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "complex illusion"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								},
+								"notes": {
+									"compare": "does_not_contain",
+									"qualifier": "one college"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (illusion \u0026 creation)"
+								}
+							}
+						]
+					}
+				]
+			},
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "179fbc7e-cd6b-4caa-9723-e84e0327efb8",
+			"type": "spell",
+			"name": "Persuasion",
+			"reference": "M45",
+			"tags": [
+				"Communication \u0026 Empathy"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Communication \u0026 Empathy"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"resist": "Will",
+			"casting_cost": "Varies",
+			"maintenance_cost": "Same",
+			"casting_time": "1 sec",
+			"duration": "1 min",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "sense emotion"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			},
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "79ea366a-823b-4e16-afa9-e3ded689305d",
+			"type": "spell",
+			"name": "Plant Growth",
+			"reference": "M162",
+			"tags": [
+				"Plant"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Plant"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Area",
+			"casting_cost": "3",
+			"maintenance_cost": "2",
+			"casting_time": "10 sec",
+			"duration": "1 min",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "heal plant"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			},
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "9c706c82-df6b-43ee-ae18-9ea6700b8416",
+			"type": "spell",
+			"name": "Plant Sense",
+			"reference": "M163",
+			"tags": [
+				"Plant"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Plant"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"resist": "Hide Path",
+			"casting_cost": "3",
+			"maintenance_cost": "2",
+			"casting_time": "1 sec",
+			"duration": "1 min",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "forest warning"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "hide path"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			},
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "3d3493f9-addd-4865-a4f3-6d029e86c57d",
+			"type": "spell",
+			"name": "Plant Speech",
+			"reference": "M164",
+			"tags": [
+				"Plant"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Plant"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "3",
+			"maintenance_cost": "2",
+			"casting_time": "1 sec",
+			"duration": "1 min",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								},
+								"notes": {
+									"compare": "does_not_contain",
+									"qualifier": "one college"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (plant)"
+								}
+							}
+						]
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "plant sense"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			},
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "ab592d3b-7efa-4e49-bc1e-9b5d1823cb49",
+			"type": "spell",
+			"name": "Purify Air",
+			"reference": "M23",
+			"tags": [
+				"Air"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Air"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Area",
+			"casting_cost": "1",
+			"maintenance_cost": "-",
+			"casting_time": "1 sec",
+			"duration": "Instant",
+			"points": 1,
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "c93d6133-3e91-479a-ada2-e510697b7e0b",
+			"type": "spell",
+			"name": "Purify Water",
+			"reference": "M184",
+			"tags": [
+				"Water"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Water"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Special",
+			"casting_cost": "1/gal",
+			"maintenance_cost": "-",
+			"casting_time": "5-10/gal#",
+			"duration": "Permanent",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "seek water"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			},
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "793749ae-e4fa-4087-8ead-680bbe8560ba",
+			"type": "spell",
+			"name": "Rain of Nuts",
+			"reference": "M165",
+			"tags": [
+				"Plant"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Plant"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Area",
+			"casting_cost": "1 per 10 yds",
+			"maintenance_cost": "Same",
+			"casting_time": "1 sec",
+			"duration": "1 min",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "shape plant"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "college",
+						"has": true,
+						"qualifier": {
+							"compare": "contains",
+							"qualifier": "Plant"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 5
+						}
+					},
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								},
+								"notes": {
+									"compare": "does_not_contain",
+									"qualifier": "one college"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (plant)"
+								}
+							}
+						]
+					}
+				]
+			},
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "06318afd-e531-4bd1-961d-93801c14dac6",
+			"type": "spell",
+			"name": "Razor Grass",
+			"reference": "MPS16",
+			"tags": [
+				"Plant"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Plant"
+			],
+			"power_source": "Arkan",
+			"spell_class": "Area",
+			"casting_cost": "1",
+			"maintenance_cost": "Same",
+			"casting_time": "10 Sec.",
+			"duration": "10 Min.",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								},
+								"notes": {
+									"compare": "does_not_contain",
+									"qualifier": "one college"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (plant)"
+								}
+							}
+						]
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Plant Growth"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Essential Wood"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			},
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "621656a6-85e4-4eb4-8486-f4bd98c6c6a4",
+			"type": "spell",
+			"name": "Rejuvenate Plant",
+			"reference": "M163",
+			"tags": [
+				"Plant"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Plant"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "3",
+			"maintenance_cost": "-",
+			"casting_time": "1 sec",
+			"duration": "Permanent",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "plant growth"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								},
+								"notes": {
+									"compare": "does_not_contain",
+									"qualifier": "one college"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (plant)"
+								}
+							}
+						]
+					}
+				]
+			},
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "97be46eb-1a7d-4f0e-9805-addf6796888b",
+			"type": "spell",
+			"name": "Relieve Sickness",
+			"reference": "M90",
+			"tags": [
+				"Healing"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Healing"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"resist": "Subject spell",
+			"casting_cost": "2",
+			"maintenance_cost": "-",
+			"casting_time": "10 sec",
+			"duration": "10 min",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "lend vitality"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			},
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "c38214d8-d860-4596-a286-92c708c37111",
+			"type": "spell",
+			"name": "Season",
+			"reference": "M77",
+			"tags": [
+				"Food"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Food"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "2/meal",
+			"maintenance_cost": "-",
+			"casting_time": "10 sec",
+			"duration": "Permanent",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "test food"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			},
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "7c4881c0-4d56-47ba-8a95-68e472bb7a45",
+			"type": "spell",
+			"name": "See Plant Health",
+			"reference": "MPS19",
+			"tags": [
+				"Plant"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Plant"
+			],
+			"power_source": "Arkan",
+			"spell_class": "Area",
+			"casting_cost": "1",
+			"maintenance_cost": "Same",
+			"casting_time": "1 Sek.",
+			"duration": "30 Sec.",
+			"points": 1,
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "90c2a6a0-6d06-4f47-b9fd-ed6fed5da474",
+			"type": "spell",
+			"name": "Seek Earth",
+			"reference": "M50",
+			"tags": [
+				"Earth"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Earth"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Info",
+			"casting_cost": "3",
+			"maintenance_cost": "-",
+			"casting_time": "10 sec",
+			"duration": "Instant",
+			"points": 1,
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "20779c7c-3bbe-4a78-9941-7ab4340d7676",
+			"type": "spell",
+			"name": "Seek Plant",
+			"reference": "M161",
+			"tags": [
+				"Plant"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Plant"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Info",
+			"casting_cost": "2",
+			"maintenance_cost": "-",
+			"casting_time": "1 sec",
+			"duration": "Instant",
+			"points": 1,
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "574cd0a5-66d0-43c1-aded-40f95210244a",
+			"type": "spell",
+			"name": "Seek Water",
+			"reference": "M184",
+			"tags": [
+				"Water"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Water"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Info",
+			"casting_cost": "2",
+			"maintenance_cost": "-",
+			"casting_time": "1 sec",
+			"duration": "Instant",
+			"points": 1,
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "dd4eccaa-2d67-4b04-9cd5-8117175792ff",
+			"type": "spell",
+			"name": "Seeker",
+			"reference": "M105",
+			"tags": [
+				"Knowledge"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Knowledge"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Info",
+			"casting_cost": "3",
+			"maintenance_cost": "-",
+			"casting_time": "1 sec",
+			"duration": "Instant",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "attribute_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_least",
+							"qualifier": 12
+						},
+						"which": "iq"
+					},
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								},
+								"notes": {
+									"compare": "does_not_contain",
+									"qualifier": "one college"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (knowledge)"
+								}
+							}
+						]
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "contains",
+							"qualifier": "seek"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 2
+						}
+					}
+				]
+			},
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "fc839741-64b3-49f2-90a3-13757936a685",
+			"type": "spell",
+			"name": "Sense Emotion",
+			"reference": "M45",
+			"tags": [
+				"Communication \u0026 Empathy"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Communication \u0026 Empathy"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "2",
+			"maintenance_cost": "-",
+			"casting_time": "1 sec",
+			"duration": "Instant",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "sense foes"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			},
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "597da40a-5065-4f4d-9ca7-095564ef817f",
+			"type": "spell",
+			"name": "Sense Foes",
+			"reference": "M44",
+			"tags": [
+				"Communication \u0026 Empathy"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Communication \u0026 Empathy"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Info/Area",
+			"casting_cost": "1/area, min 2",
+			"maintenance_cost": "-",
+			"casting_time": "1 sec",
+			"duration": "Instant",
+			"points": 1,
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "e0950e87-1795-4fe6-8d7a-dae1d318ed97",
+			"type": "spell",
+			"name": "Shape Air",
+			"reference": "M24",
+			"tags": [
+				"Air"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Air"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "1-10",
+			"maintenance_cost": "-",
+			"casting_time": "1 sec",
+			"duration": "1 min",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "create air"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			},
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "2cae8f8b-0ddc-4e09-8fc3-437beb691f9d",
+			"type": "spell",
+			"name": "Shape Earth",
+			"reference": "M50",
+			"tags": [
+				"Earth"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Earth"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "1 per 25 cu yard",
+			"maintenance_cost": "Half",
+			"casting_time": "1 sec",
+			"duration": "1 min",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "seek earth"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			},
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "7e9d4e34-6c25-40ce-bc04-c84b02e2a51d",
+			"type": "spell",
+			"name": "Shape Plant",
+			"reference": "M161",
+			"tags": [
+				"Plant"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Plant"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "3",
+			"maintenance_cost": "1",
+			"casting_time": "10 sec",
+			"duration": "1 min",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "identify plant"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			},
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "8fbd4f41-fe6a-4c90-8815-2b70a0a99aca",
+			"type": "spell",
+			"name": "Shape Water",
+			"reference": "M185",
+			"tags": [
+				"Water"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Water"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "1#",
+			"maintenance_cost": "1",
+			"casting_time": "2 sec",
+			"duration": "1 min",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "create water"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			},
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "13b3d2aa-a2c2-49e9-a318-66c584fd9a3f",
+			"type": "spell",
+			"name": "Shield",
+			"reference": "M167",
+			"tags": [
+				"Protection \u0026 Warning"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Protection \u0026 Warning"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "2 per DB",
+			"maintenance_cost": "Half",
+			"casting_time": "1 sec",
+			"duration": "1 min",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": false,
+				"prereqs": [
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "magery"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 2
+						},
+						"notes": {
+							"compare": "does_not_contain",
+							"qualifier": "one college"
+						}
+					},
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "magery"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 2
+						},
+						"notes": {
+							"compare": "contains",
+							"qualifier": "one college (protection \u0026 warning)"
+						}
+					}
+				]
+			},
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "ef80ea60-c88d-4ef9-a931-82c971c53e99",
+			"type": "spell",
+			"name": "Shuriken Leaf",
+			"reference": "MPS19",
+			"tags": [
+				"Plant"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Plant"
+			],
+			"power_source": "Arkan",
+			"spell_class": "Regular",
+			"casting_cost": "1/3",
+			"maintenance_cost": "-",
+			"casting_time": "1 Sek.",
+			"duration": "Sofort",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								},
+								"notes": {
+									"compare": "does_not_contain",
+									"qualifier": "one college"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (plant)"
+								}
+							}
+						]
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Blade of Grass"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			},
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "46058718-8069-4b3b-a5cc-b675b9f8ec1a",
+			"type": "spell",
+			"name": "Simple Illusion",
+			"reference": "M95",
+			"tags": [
+				"Illusion \u0026 Creation"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Illusion \u0026 Creation"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Area",
+			"casting_cost": "1",
+			"maintenance_cost": "Half",
+			"casting_time": "1 sec",
+			"duration": "1 min",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "trait_prereq",
+						"has": false,
+						"name": {
+							"compare": "starts_with",
+							"qualifier": "blind"
+						}
+					},
+					{
+						"type": "attribute_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_least",
+							"qualifier": 11
+						},
+						"which": "iq"
+					}
+				]
+			},
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "1dd54174-daa7-4f34-907f-04f361a9a9f8",
+			"type": "spell",
+			"name": "Sleep",
+			"reference": "M135",
+			"tags": [
+				"Mind Control"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Mind Control"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"resist": "HT",
+			"casting_cost": "4",
+			"maintenance_cost": "-",
+			"casting_time": "3 sec",
+			"duration": "Until awakened",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "daze"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			},
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "81d1f050-761b-48cb-9ec8-db69b603266d",
+			"type": "spell",
+			"name": "Sound",
+			"reference": "M171",
+			"tags": [
+				"Sound"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Sound"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "Varies",
+			"maintenance_cost": "1/ min",
+			"casting_time": "1 sec",
+			"duration": "Varies",
+			"points": 1,
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "4987e231-e580-4b3f-a832-f147241e03cb",
+			"type": "spell",
+			"name": "Spasm",
+			"reference": "M35",
+			"tags": [
+				"Body Control"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Body Control"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"resist": "HT",
+			"casting_cost": "2",
+			"maintenance_cost": "-",
+			"casting_time": "1 sec",
+			"duration": "Instant",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "itch"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			},
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "c8b4ffdc-5c88-4305-9038-382b3a96f0b9",
+			"type": "spell",
+			"name": "Spying Blossom",
+			"reference": "MPS19",
+			"tags": [
+				"Plant"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Plant"
+			],
+			"power_source": "Arkan",
+			"spell_class": "Regular",
+			"casting_cost": "3",
+			"maintenance_cost": "1/2",
+			"casting_time": "10 Sec.",
+			"duration": "5 Min.",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Plant Sense"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			},
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "77e61e6c-7743-426f-9d1d-0d1c9fba6237",
+			"type": "spell",
+			"name": "Stone to Earth",
+			"reference": "M51",
+			"tags": [
+				"Earth"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Earth"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "6 per 25 cu ft",
+			"maintenance_cost": "-",
+			"casting_time": "1 sec",
+			"duration": "Permanent",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": false,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "college",
+						"has": true,
+						"qualifier": {
+							"compare": "contains",
+							"qualifier": "Earth"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 4
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "earth to stone"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			},
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "68d486c1-a9ae-43a4-aa90-c08821d6356a",
+			"type": "spell",
+			"name": "Summon Earth Elemental",
+			"reference": "M27",
+			"tags": [
+				"Earth"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Earth"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Special",
+			"casting_cost": "4#",
+			"maintenance_cost": "-",
+			"casting_time": "30 sec",
+			"duration": "1 hr",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "prereq_list",
+								"all": true,
+								"prereqs": [
+									{
+										"type": "prereq_list",
+										"all": false,
+										"prereqs": [
+											{
+												"type": "spell_prereq",
+												"sub_type": "name",
+												"has": true,
+												"qualifier": {
+													"compare": "is",
+													"qualifier": "summon fire elemental"
+												},
+												"quantity": {
+													"compare": "at_least",
+													"qualifier": 1
+												}
+											},
+											{
+												"type": "spell_prereq",
+												"sub_type": "name",
+												"has": true,
+												"qualifier": {
+													"compare": "is",
+													"qualifier": "summon air elemental"
+												},
+												"quantity": {
+													"compare": "at_least",
+													"qualifier": 1
+												}
+											},
+											{
+												"type": "spell_prereq",
+												"sub_type": "name",
+												"has": true,
+												"qualifier": {
+													"compare": "is",
+													"qualifier": "summon water elemental"
+												},
+												"quantity": {
+													"compare": "at_least",
+													"qualifier": 1
+												}
+											}
+										]
+									},
+									{
+										"type": "spell_prereq",
+										"sub_type": "college",
+										"has": true,
+										"qualifier": {
+											"compare": "contains",
+											"qualifier": "Earth"
+										},
+										"quantity": {
+											"compare": "at_least",
+											"qualifier": 4
+										}
+									}
+								]
+							},
+							{
+								"type": "spell_prereq",
+								"sub_type": "college",
+								"has": true,
+								"qualifier": {
+									"compare": "contains",
+									"qualifier": "Earth"
+								},
+								"quantity": {
+									"compare": "at_least",
+									"qualifier": 8
+								}
+							}
+						]
+					},
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								},
+								"notes": {
+									"compare": "does_not_contain",
+									"qualifier": "one college"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (earth)"
+								}
+							}
+						]
+					}
+				]
+			},
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "17140344-f6cd-4d7e-a561-209e843d03ca",
+			"type": "spell",
+			"name": "Telepathy",
+			"reference": "M47",
+			"tags": [
+				"Communication \u0026 Empathy"
+			],
+			"difficulty": "iq/vh",
+			"college": [
+				"Communication \u0026 Empathy"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "4",
+			"maintenance_cost": "4",
+			"casting_time": "4 sec",
+			"duration": "1 min",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "mind-sending"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			},
+			"calc": {
+				"level": 14,
+				"rsl": "IQ+0"
+			}
+		},
+		{
+			"id": "1e13a03d-ca9c-4d08-9052-8d18fdf486b3",
+			"type": "spell",
+			"name": "Test Food",
+			"reference": "M77",
+			"tags": [
+				"Food"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Food"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Info",
+			"casting_cost": "1 or 3",
+			"maintenance_cost": "-",
+			"casting_time": "1 sec",
+			"duration": "Instant",
+			"points": 1,
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "cf01b91b-33fe-48cf-9f26-6b27d8510102",
+			"type": "spell",
+			"name": "Thunderclap",
+			"reference": "M171",
+			"tags": [
+				"Sound"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Sound"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "2",
+			"maintenance_cost": "-",
+			"casting_time": "1 sec",
+			"duration": "Instant",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "sound"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			},
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "cfb02855-8ad8-4e53-96ed-5c5d4e80319f",
+			"type": "spell",
+			"name": "Trace",
+			"reference": "M106",
+			"tags": [
+				"Knowledge"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Knowledge"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "3",
+			"maintenance_cost": "1",
+			"casting_time": "1 min",
+			"duration": "1 hr",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "seeker"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			},
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "acd43cea-4adb-45e0-9ef6-224afa7186f3",
+			"type": "spell",
+			"name": "Tree Bark Armor",
+			"reference": "MPS20",
+			"tags": [
+				"Plant"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Plant"
+			],
+			"power_source": "Arkan",
+			"spell_class": "Regular",
+			"casting_cost": "4",
+			"maintenance_cost": "3",
+			"casting_time": "4 Sec.",
+			"duration": "10 Min.",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								},
+								"notes": {
+									"compare": "does_not_contain",
+									"qualifier": "one college"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (plant)"
+								}
+							}
+						]
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Essential Wood"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "Shape Plant"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			},
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "72017980-a49e-4e1c-9c04-7f294bdc0765",
+			"type": "spell",
+			"name": "Truthsayer",
+			"reference": "M45",
+			"tags": [
+				"Communication \u0026 Empathy"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Communication \u0026 Empathy"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Info",
+			"resist": "Will",
+			"casting_cost": "2",
+			"maintenance_cost": "-",
+			"casting_time": "1 sec",
+			"duration": "Instant",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "sense emotion"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			},
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "a74f40ae-84d9-45de-abe9-7bd2f7009ce6",
+			"type": "spell",
+			"name": "Voices",
+			"reference": "M172",
+			"tags": [
+				"Sound"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Sound"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "3",
+			"maintenance_cost": "2",
+			"casting_time": "1 sec",
+			"duration": "1 min",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "sound"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			},
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "57525fae-3d7d-4f80-adb6-2a35ed019de1",
+			"type": "spell",
+			"name": "Walk Through Earth",
+			"reference": "M52",
+			"tags": [
+				"Earth"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Earth"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "3#",
+			"maintenance_cost": "Same",
+			"casting_time": "1 sec",
+			"duration": "10 sec",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "college",
+						"has": true,
+						"qualifier": {
+							"compare": "contains",
+							"qualifier": "Earth"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 4
+						}
+					}
+				]
+			},
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "4d8c3ec4-598e-4748-b752-fdeebebf80a2",
+			"type": "spell",
+			"name": "Walk Through Plants",
+			"reference": "M163",
+			"tags": [
+				"Plant"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Plant"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "3",
+			"maintenance_cost": "1",
+			"casting_time": "1 sec",
+			"duration": "1 min",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "hide path"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "shape plant"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			},
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "e6b9634a-6c31-4753-834e-8ac498a654da",
+			"type": "spell",
+			"name": "Walk Through Wood",
+			"reference": "M164",
+			"tags": [
+				"Plant"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Plant"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "3",
+			"maintenance_cost": "2",
+			"casting_time": "1 sec",
+			"duration": "1 sec",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "walk through plants"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			},
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "a2ec7209-cce7-44fe-b14e-5205371e3b53",
+			"type": "spell",
+			"name": "Wall of Wind",
+			"reference": "M25",
+			"tags": [
+				"Air"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Air"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Area",
+			"casting_cost": "2",
+			"maintenance_cost": "Half",
+			"casting_time": "Instant",
+			"duration": "1 min",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "shape air"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					}
+				]
+			},
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "eaab7b62-9b8c-426c-9526-d6032be2e587",
+			"type": "spell",
+			"name": "Weaken Will",
+			"reference": "M136",
+			"tags": [
+				"Mind Control"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Mind Control"
+			],
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"resist": "Will",
+			"casting_cost": "2/pt of Will decrease",
+			"maintenance_cost": "Half",
+			"casting_time": "1 sec",
+			"duration": "1 min",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "spell_prereq",
+						"sub_type": "name",
+						"has": true,
+						"qualifier": {
+							"compare": "is",
+							"qualifier": "foolishness"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 1
+						}
+					},
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								},
+								"notes": {
+									"compare": "does_not_contain",
+									"qualifier": "one college"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (mind control)"
+								}
+							}
+						]
+					}
+				]
+			},
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "7fd58817-2579-45a1-9130-c53db867207f",
+			"type": "spell",
+			"name": "Wooden Arm",
+			"reference": "MPS21",
+			"tags": [
+				"Plant"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Plant"
+			],
+			"power_source": "Arkan",
+			"spell_class": "Regular",
+			"casting_cost": "3/4",
+			"maintenance_cost": "2",
+			"casting_time": "1 Sek.",
+			"duration": "5 Min.",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								},
+								"notes": {
+									"compare": "does_not_contain",
+									"qualifier": "one college"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (plant)"
+								}
+							}
+						]
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "college",
+						"has": true,
+						"qualifier": {
+							"compare": "contains",
+							"qualifier": "Plant"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 6
+						}
+					}
+				]
+			},
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		},
+		{
+			"id": "8e4ac9a7-4a71-449d-ac9b-be9d59a5d482",
+			"type": "spell",
+			"name": "Wooden Leg",
+			"reference": "MPS21",
+			"tags": [
+				"Plant"
+			],
+			"difficulty": "iq/h",
+			"college": [
+				"Plant"
+			],
+			"power_source": "Arkan",
+			"spell_class": "Regular",
+			"casting_cost": "3/4",
+			"maintenance_cost": "2",
+			"casting_time": "1 Sek.",
+			"duration": "5 Min.",
+			"points": 1,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "prereq_list",
+						"all": false,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								},
+								"notes": {
+									"compare": "does_not_contain",
+									"qualifier": "one college"
+								}
+							},
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "magery"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								},
+								"notes": {
+									"compare": "contains",
+									"qualifier": "one college (plant)"
+								}
+							}
+						]
+					},
+					{
+						"type": "spell_prereq",
+						"sub_type": "college",
+						"has": true,
+						"qualifier": {
+							"compare": "contains",
+							"qualifier": "Plant"
+						},
+						"quantity": {
+							"compare": "at_least",
+							"qualifier": 6
+						}
+					}
+				]
+			},
+			"calc": {
+				"level": 15,
+				"rsl": "IQ+1"
+			}
+		}
+	],
+	"equipment": [
+		{
+			"id": "2cb70b9b-f44a-4dd0-9d1e-6a0e5be00dc8",
+			"type": "equipment",
+			"description": "Quarterstaff",
+			"reference": "B273",
+			"notes": "Atherisauva - Schlangenblattstab",
+			"tech_level": "0",
+			"tags": [
+				"Melee Weapon"
+			],
+			"modifiers": [
+				{
+					"id": "205782bb-6bde-43c7-8673-a05eba18c653",
+					"type": "eqp_modifier",
+					"name": "Fine Quality",
+					"reference": "B274",
+					"notes": "-1 to break; for non-blades that do only crushing or impaling damage",
+					"cost_type": "to_base_cost",
+					"cost": "+2 CF"
+				}
+			],
+			"quantity": 1,
+			"value": 434,
+			"weight": "4 lb",
+			"weapons": [
+				{
+					"id": "ad65dc1c-caf5-4c71-a880-84587832d8ea",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cr",
+						"st": "sw",
+						"base": "2"
+					},
+					"strength": "7†",
+					"usage": "Swung",
+					"usage_notes": "Staff",
+					"reach": "1,2",
+					"parry": "+2",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Staff"
+						},
+						{
+							"type": "skill",
+							"name": "Polearm",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Spear",
+							"modifier": -2
+						}
+					],
+					"calc": {
+						"level": 19,
+						"parry": "15",
+						"block": "No",
+						"damage": "1d+6 cr"
+					}
+				},
+				{
+					"id": "0f333350-cfd8-4fba-a202-b2bf19773be5",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cr",
+						"st": "thr",
+						"base": "2"
+					},
+					"strength": "7†",
+					"usage": "Thrust",
+					"usage_notes": "Staff",
+					"reach": "1,2",
+					"parry": "+2",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Staff"
+						},
+						{
+							"type": "skill",
+							"name": "Polearm",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Spear",
+							"modifier": -2
+						}
+					],
+					"calc": {
+						"level": 19,
+						"parry": "15",
+						"block": "No",
+						"damage": "1d+4 cr"
+					}
+				},
+				{
+					"id": "cbc835a1-cf24-479a-bd41-0e8a7b4b8c37",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cr",
+						"st": "sw",
+						"base": "2"
+					},
+					"strength": "9†",
+					"usage": "Swung",
+					"usage_notes": "Two-Handed Sword",
+					"reach": "1,2",
+					"parry": "0",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Sword"
+						},
+						{
+							"type": "skill",
+							"name": "Broadsword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Force Sword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Sword!"
+						}
+					],
+					"calc": {
+						"level": 15,
+						"parry": "11",
+						"block": "No",
+						"damage": "1d+4 cr"
+					}
+				},
+				{
+					"id": "3cb8cfdd-ea36-4144-b25e-406f4a105764",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cr",
+						"st": "thr",
+						"base": "1"
+					},
+					"strength": "9†",
+					"usage": "Thrust",
+					"usage_notes": "Two-Handed Sword",
+					"reach": "2",
+					"parry": "0",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Sword"
+						},
+						{
+							"type": "skill",
+							"name": "Broadsword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Force Sword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Sword!"
+						}
+					],
+					"calc": {
+						"level": 15,
+						"parry": "11",
+						"block": "No",
+						"damage": "1d+1 cr"
+					}
+				}
+			],
+			"equipped": true,
+			"calc": {
+				"extended_value": 1302,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "0b86eb4e-61c5-4609-a234-8a79f6f71ed7",
+			"type": "equipment",
+			"description": "Composite Bow",
+			"reference": "B275",
+			"tech_level": "1",
+			"tags": [
+				"Missile Weapon"
+			],
+			"modifiers": [
+				{
+					"id": "d863c778-3860-4ff0-8ca4-cff2073e3aec",
+					"type": "eqp_modifier",
+					"name": "Fine Quality",
+					"reference": "B277",
+					"notes": "Increase 1/2D and Max range by 20%",
+					"cost_type": "to_base_cost",
+					"cost": "+3 CF"
+				}
+			],
+			"rated_strength": 12,
+			"quantity": 1,
+			"value": 900,
+			"weight": "4 lb",
+			"weapons": [
+				{
+					"id": "c9370537-b8d4-49ea-adb0-89863639cd85",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "3"
+					},
+					"strength": "10†",
+					"accuracy": "3",
+					"range": "x20/x25",
+					"rate_of_fire": "1",
+					"shots": "1(2)",
+					"bulk": "-7",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Bow"
+						}
+					],
+					"calc": {
+						"level": 20,
+						"range": "240/300",
+						"damage": "1d+5 imp"
+					}
+				}
+			],
+			"equipped": true,
+			"calc": {
+				"extended_value": 3600,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "c812af50-e5bf-4426-8035-7be7de7889e2",
+			"type": "equipment",
+			"description": "Fur Loincloth",
+			"reference": "B283",
+			"notes": "Flexible, concealable",
+			"tech_level": "0",
+			"tags": [
+				"Body Armor"
+			],
+			"quantity": 1,
+			"value": 10,
+			"features": [
+				{
+					"type": "dr_bonus",
+					"location": "groin",
+					"amount": 1
+				}
+			],
+			"equipped": true,
+			"calc": {
+				"extended_value": 10,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "292a7c46-b789-4574-bd60-7700a8c8c23b",
+			"type": "equipment",
+			"description": "Large Knife",
+			"reference": "B272",
+			"tech_level": "0",
+			"tags": [
+				"Melee Weapon",
+				"Missile Weapon"
+			],
+			"quantity": 1,
+			"value": 40,
+			"weight": "1 lb",
+			"weapons": [
+				{
+					"id": "6fe06673-89a4-4f1a-a415-51ae243c9cb0",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cut",
+						"st": "sw",
+						"base": "-2"
+					},
+					"strength": "6",
+					"usage": "Swung",
+					"reach": "C,1",
+					"parry": "-1",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Knife"
+						},
+						{
+							"type": "skill",
+							"name": "Force Sword",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Main-Gauche",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Shortsword",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Sword!"
+						}
+					],
+					"calc": {
+						"level": 14,
+						"parry": "10",
+						"block": "No",
+						"damage": "1d-1 cut"
+					}
+				},
+				{
+					"id": "3f42a716-3051-497f-b287-912095dffcd5",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "imp",
+						"st": "thr"
+					},
+					"strength": "6",
+					"usage": "Thrust",
+					"reach": "C",
+					"parry": "-1",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Knife"
+						},
+						{
+							"type": "skill",
+							"name": "Force Sword",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Main-Gauche",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Shortsword",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Sword!"
+						}
+					],
+					"calc": {
+						"level": 14,
+						"parry": "10",
+						"block": "No",
+						"damage": "1d-1 imp"
+					}
+				},
+				{
+					"id": "ce852649-71ad-4350-b4c7-7d71931c4971",
+					"type": "ranged_weapon",
+					"damage": {
+						"type": "imp",
+						"st": "thr"
+					},
+					"strength": "6",
+					"usage": "Thrown",
+					"accuracy": "+0",
+					"range": "x0.8/x1.5",
+					"rate_of_fire": "1",
+					"shots": "T(1)",
+					"bulk": "-2",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Thrown Weapon",
+							"specialization": "Knife"
+						}
+					],
+					"calc": {
+						"level": 10,
+						"range": "8/16",
+						"damage": "1d-1 imp"
+					}
+				}
+			],
+			"equipped": true,
+			"calc": {
+				"extended_value": 40,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "4923f65c-5492-4b3e-9220-36cbda7de2f1",
+			"type": "equipment_container",
+			"open": true,
+			"children": [
+				{
+					"id": "1e973805-8fa9-40f3-b7c3-933919af9eb1",
+					"type": "equipment",
+					"description": "Arrow, hunting",
+					"reference": "B276",
+					"tech_level": "0",
+					"tags": [
+						"AmmoType:Arrow",
+						"Ammunition",
+						"Missile Weapon"
+					],
+					"quantity": 4,
+					"value": 2,
+					"weight": "0.1 lb",
+					"max_uses": 4,
+					"equipped": true,
+					"calc": {
+						"extended_value": 8,
+						"extended_weight": "0.4 lb"
+					}
+				},
+				{
+					"id": "91f5c7db-b0c5-4ef6-acc8-564a79c81966",
+					"type": "equipment",
+					"description": "Arrow, blunt",
+					"reference": "B276",
+					"notes": "Converts damage to cr.",
+					"tech_level": "0",
+					"tags": [
+						"AmmoType:Arrow",
+						"Ammunition",
+						"Missile Weapon"
+					],
+					"quantity": 12,
+					"value": 2,
+					"weight": "0.1 lb",
+					"max_uses": 12,
+					"equipped": true,
+					"calc": {
+						"extended_value": 24,
+						"extended_weight": "1.2 lb"
+					}
+				}
+			],
+			"description": "Shoulder Quiver",
+			"reference": "B289",
+			"notes": "Holds 16 arrows or bolts",
+			"tech_level": "0",
+			"tags": [
+				"Weapon and Combat Accessories"
+			],
+			"quantity": 1,
+			"value": 12,
+			"weight": "0.6 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 44,
+				"extended_weight": "2.2 lb"
+			}
+		},
+		{
+			"id": "342e4d3a-f35d-4d68-9f9b-672b091c5b6d",
+			"type": "equipment_container",
+			"open": true,
+			"children": [
+				{
+					"id": "153ed455-5d42-4e1d-9ef0-899f144fab3c",
+					"type": "equipment",
+					"description": "Water (1 Quart)",
+					"reference": "LT37",
+					"tech_level": "1",
+					"tags": [
+						"Drink",
+						"Food"
+					],
+					"quantity": 1,
+					"weight": "2 lb",
+					"equipped": true,
+					"calc": {
+						"extended_value": 0,
+						"extended_weight": "2 lb"
+					}
+				}
+			],
+			"description": "Waterskin",
+			"reference": "B288",
+			"tech_level": "0",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"quantity": 1,
+			"value": 10,
+			"weight": "0.25 lb",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "8 lb"
+						}
+					}
+				]
+			},
+			"equipped": true,
+			"calc": {
+				"extended_value": 10,
+				"extended_weight": "2.25 lb"
+			}
+		},
+		{
+			"id": "a3b9ad46-a090-49ab-868d-7c74c881d7bb",
+			"type": "equipment_container",
+			"open": true,
+			"children": [
+				{
+					"id": "9d3ded50-4ca2-472c-91d2-5770699a21a1",
+					"type": "equipment",
+					"description": "Blanket",
+					"reference": "B288",
+					"tech_level": "1",
+					"tags": [
+						"Camping and Survival Gear"
+					],
+					"quantity": 1,
+					"value": 20,
+					"weight": "4 lb",
+					"equipped": true,
+					"calc": {
+						"extended_value": 20,
+						"extended_weight": "4 lb"
+					}
+				},
+				{
+					"id": "82dad893-6a8a-420f-af8b-7b0c3a0c36ee",
+					"type": "equipment",
+					"description": "Rope, 3/8\", 20 yards",
+					"reference": "B288",
+					"notes": "Supports 300 lbs.",
+					"tech_level": "0",
+					"tags": [
+						"Camping and Survival Gear"
+					],
+					"quantity": 1,
+					"value": 10,
+					"weight": "3 lb",
+					"equipped": true,
+					"calc": {
+						"extended_value": 10,
+						"extended_weight": "3 lb"
+					}
+				},
+				{
+					"id": "1c3a9246-1d05-412e-b2d8-ac07c03294a2",
+					"type": "equipment",
+					"description": "Herbs and Herbal Treatments",
+					"tags": [
+						"Concoctions",
+						"Concoctions:Natural Preparations"
+					],
+					"quantity": 1,
+					"value": 2000,
+					"weight": "1 lb",
+					"max_uses": 20,
+					"equipped": true,
+					"calc": {
+						"extended_value": 2000,
+						"extended_weight": "1 lb"
+					}
+				}
+			],
+			"description": "Pouch, Medium",
+			"reference": "B288",
+			"notes": "Otter bag",
+			"tech_level": "1",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"quantity": 1,
+			"value": 20,
+			"weight": "0.8 lb",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "8 lb"
+						}
+					}
+				]
+			},
+			"equipped": true,
+			"calc": {
+				"extended_value": 2050,
+				"extended_weight": "8.8 lb"
+			}
+		}
+	],
+	"other_equipment": [
+		{
+			"id": "962cab17-01c3-4a08-8907-cae82f24fc77",
+			"type": "equipment",
+			"description": "Quarterstaff",
+			"reference": "B273",
+			"tech_level": "0",
+			"tags": [
+				"Melee Weapon"
+			],
+			"modifiers": [
+				{
+					"id": "d41a041c-0b66-41b1-b610-e3e0313be17e",
+					"type": "eqp_modifier",
+					"name": "Balanced",
+					"reference": "LT59",
+					"cost_type": "to_base_cost",
+					"tech_level": "0",
+					"cost": "+4 CF",
+					"features": [
+						{
+							"type": "skill_bonus",
+							"selection_type": "this_weapon",
+							"amount": 1
+						}
+					]
+				}
+			],
+			"quantity": 1,
+			"value": 10,
+			"weight": "4 lb",
+			"weapons": [
+				{
+					"id": "ad65dc1c-caf5-4c71-a880-84587832d8ea",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cr",
+						"st": "sw",
+						"base": "2"
+					},
+					"strength": "7†",
+					"usage": "Swung",
+					"usage_notes": "Staff",
+					"reach": "1,2",
+					"parry": "+2",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Staff"
+						},
+						{
+							"type": "skill",
+							"name": "Polearm",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Spear",
+							"modifier": -2
+						}
+					],
+					"calc": {
+						"level": 20,
+						"parry": "16",
+						"block": "No",
+						"damage": "1d+6 cr"
+					}
+				},
+				{
+					"id": "0f333350-cfd8-4fba-a202-b2bf19773be5",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cr",
+						"st": "thr",
+						"base": "2"
+					},
+					"strength": "7†",
+					"usage": "Thrust",
+					"usage_notes": "Staff",
+					"reach": "1,2",
+					"parry": "+2",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Staff"
+						},
+						{
+							"type": "skill",
+							"name": "Polearm",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Spear",
+							"modifier": -2
+						}
+					],
+					"calc": {
+						"level": 20,
+						"parry": "16",
+						"block": "No",
+						"damage": "1d+4 cr"
+					}
+				},
+				{
+					"id": "cbc835a1-cf24-479a-bd41-0e8a7b4b8c37",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cr",
+						"st": "sw",
+						"base": "2"
+					},
+					"strength": "9†",
+					"usage": "Swung",
+					"usage_notes": "Two-Handed Sword",
+					"reach": "1,2",
+					"parry": "0",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Sword"
+						},
+						{
+							"type": "skill",
+							"name": "Broadsword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Force Sword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Sword!"
+						}
+					],
+					"calc": {
+						"level": 16,
+						"parry": "12",
+						"block": "No",
+						"damage": "1d+4 cr"
+					}
+				},
+				{
+					"id": "3cb8cfdd-ea36-4144-b25e-406f4a105764",
+					"type": "melee_weapon",
+					"damage": {
+						"type": "cr",
+						"st": "thr",
+						"base": "1"
+					},
+					"strength": "9†",
+					"usage": "Thrust",
+					"usage_notes": "Two-Handed Sword",
+					"reach": "2",
+					"parry": "0",
+					"block": "No",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Sword"
+						},
+						{
+							"type": "skill",
+							"name": "Broadsword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Force Sword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Sword!"
+						}
+					],
+					"calc": {
+						"level": 16,
+						"parry": "12",
+						"block": "No",
+						"damage": "1d+1 cr"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 50,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "5b6d6375-1714-44e2-a5ea-fded398c9cca",
+			"type": "equipment",
+			"description": "Personal Basics",
+			"reference": "B288",
+			"notes": "Minimum gear for camping: -2 to any Survival roll without it. Includes utensils, tinderbox or flint and steel, towel, etc., as TL permits.",
+			"tech_level": "0",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"quantity": 1,
+			"value": 5,
+			"weight": "1 lb",
+			"calc": {
+				"extended_value": 5,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "5bf6d409-7890-41a3-a746-656cc9effc91",
+			"type": "equipment_container",
+			"open": true,
+			"children": [
+				{
+					"id": "634b2dfe-a2a1-4f9d-ba9f-12d78b80181d",
+					"type": "equipment",
+					"description": "Arrow, Bodkin",
+					"reference": "B276",
+					"notes": "-1 damage/die, armor divisor DR(2)",
+					"tech_level": "0",
+					"tags": [
+						"AmmoType:Arrow",
+						"Ammunition",
+						"Missile Weapon"
+					],
+					"quantity": 10,
+					"value": 4,
+					"weight": "0.1 lb",
+					"max_uses": 10,
+					"calc": {
+						"extended_value": 40,
+						"extended_weight": "1 lb"
+					}
+				},
+				{
+					"id": "9a802a4f-fa51-417b-af80-d65c6dedf3b3",
+					"type": "equipment",
+					"description": "Arrow, coldsilver-tipped",
+					"reference": "B276",
+					"notes": "-1 damage/die, ignores defensive magic",
+					"tech_level": "0",
+					"tags": [
+						"AmmoType:Arrow",
+						"Ammunition",
+						"Missile Weapon"
+					],
+					"quantity": 10,
+					"value": 12,
+					"weight": "0.1 lb",
+					"max_uses": 10,
+					"calc": {
+						"extended_value": 120,
+						"extended_weight": "1 lb"
+					}
+				}
+			],
+			"description": "Hip Quiver",
+			"reference": "B289",
+			"notes": "Holds 20 arrows or bolts",
+			"tech_level": "0",
+			"tags": [
+				"Weapon and Combat Accessories"
+			],
+			"quantity": 1,
+			"value": 15,
+			"weight": "1 lb",
+			"calc": {
+				"extended_value": 175,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "750378ca-2d0c-4a69-989b-d6dcdc7a8e8d",
+			"type": "equipment",
+			"description": "Scribe's Kit",
+			"reference": "DF1:24",
+			"notes": "Pens, ink sticks, color crayons, notebook, loose paper",
+			"tags": [
+				"Writing Equipment"
+			],
+			"quantity": 1,
+			"value": 50,
+			"weight": "2 lb",
+			"equipped": true,
+			"calc": {
+				"extended_value": 50,
+				"extended_weight": "2 lb"
+			}
+		}
+	],
 	"created_date": "2023-05-29T19:11:58+02:00",
-	"modified_date": "2023-05-31T01:42:07+02:00",
+	"modified_date": "2023-06-03T00:45:39+02:00",
 	"calc": {
 		"swing": "1d+1",
 		"thrust": "1d-1",
