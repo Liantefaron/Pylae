@@ -434,6 +434,63 @@
 					}
 				},
 				{
+					"id": "c3d44cec-85ae-4fbd-8d79-02673a5a5abb",
+					"type": "trait",
+					"name": "Chameleon",
+					"reference": "B41,P43",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "00059922-c93e-4c7e-a116-67b0748e7e9b",
+							"type": "modifier",
+							"name": "Extended",
+							"reference": "B41",
+							"notes": "@Sense@",
+							"cost": 20
+						},
+						{
+							"id": "45abbec3-81d7-4e37-a2e8-54f6b5006379",
+							"type": "modifier",
+							"name": "Always On",
+							"reference": "B41",
+							"cost": -10,
+							"disabled": true
+						},
+						{
+							"id": "4e939794-d937-4c17-9f2b-1049b58dd80f",
+							"type": "modifier",
+							"name": "Controllable",
+							"reference": "P43",
+							"cost": 20,
+							"disabled": true
+						},
+						{
+							"id": "3322a029-d9a2-4fcd-b414-82df0832319c",
+							"type": "modifier",
+							"name": "Dynamic",
+							"reference": "P43",
+							"cost": 40,
+							"disabled": true
+						},
+						{
+							"id": "edd6a63b-913b-49b1-a6ec-3354624ef675",
+							"type": "modifier",
+							"name": "Accessibility: Only in natural environment",
+							"cost": -20
+						}
+					],
+					"levels": 1,
+					"points_per_level": 5,
+					"can_level": true,
+					"calc": {
+						"points": 5
+					}
+				},
+				{
 					"id": "85c28b8f-2238-4611-af9b-5ba1a55a1e0d",
 					"type": "trait",
 					"name": "Increased Dexterity",
@@ -607,9 +664,9 @@
 					}
 				},
 				{
-					"id": "250dfd65-f518-40ce-b578-1e19996980cf",
+					"id": "963acd48-64aa-4377-967a-2eda01f93b3a",
 					"type": "trait",
-					"name": "Threshold Magery",
+					"name": "Magery",
 					"reference": "Th76",
 					"tags": [
 						"Advantage",
@@ -750,6 +807,12 @@
 							"cost": -40,
 							"affects": "levels_only",
 							"disabled": true
+						},
+						{
+							"id": "65fb448e-c6c6-4d71-8101-e8603a90bd36",
+							"type": "modifier",
+							"name": "Threshold-based magic",
+							"notes": "Needs Threshold Attributes file!"
 						}
 					],
 					"base_points": 5,
@@ -1259,7 +1322,7 @@
 			"ancestry": "Taipuisa - Hallapuisa",
 			"container_type": "race",
 			"calc": {
-				"points": 36
+				"points": 41
 			}
 		}
 	]

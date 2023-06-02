@@ -79,6 +79,184 @@
 					}
 				},
 				{
+					"id": "b71b016c-ee14-4abd-8d12-4a7f6c9bfaac",
+					"type": "trait",
+					"name": "Magery",
+					"reference": "Th76",
+					"tags": [
+						"Advantage",
+						"Mental",
+						"Supernatural"
+					],
+					"modifiers": [
+						{
+							"id": "1abd7bb3-c38e-4e46-b640-63972315b88f",
+							"type": "modifier",
+							"name": "Reduced Threshold",
+							"reference": "Th79",
+							"notes": "You are less in tune with the universe and become dissonant earlier when casting spells. Decreases Thresh by 20% of campaign default.",
+							"tags": [
+								"Limitation",
+								"Mental",
+								"Supernatural"
+							],
+							"cost": -10,
+							"affects": "levels_only",
+							"disabled": true,
+							"features": [
+								{
+									"type": "attribute_bonus",
+									"attribute": "tm_calamity_bonus",
+									"amount": -1,
+									"per_level": true
+								}
+							]
+						},
+						{
+							"id": "30741ea4-edba-4fc2-a635-ca8114bf7ce5",
+							"type": "modifier",
+							"name": "Seriously Calamity-Prone",
+							"reference": "Th79",
+							"notes": "You are less in tune with the universe and become dissonant earlier when casting spells. Decreases Thresh by -20% of campaign default.",
+							"tags": [
+								"Limitation",
+								"Mental",
+								"Supernatural"
+							],
+							"cost": -10,
+							"affects": "levels_only",
+							"disabled": true,
+							"features": [
+								{
+									"type": "attribute_bonus",
+									"attribute": "tm_calamity_bonus",
+									"amount": -1,
+									"per_level": true
+								}
+							]
+						},
+						{
+							"id": "1b4c6c8e-d6b3-4b24-a727-4f768120d79c",
+							"type": "modifier",
+							"name": "Slower Magical Recovery",
+							"reference": "Th79",
+							"notes": "You have difficulties cleansing yourself from dissonance and regaining balance. Each level subtracts -25% from your Recharge Rate.",
+							"tags": [
+								"Limitation",
+								"Mental",
+								"Supernatural"
+							],
+							"cost": -10,
+							"affects": "levels_only",
+							"disabled": true,
+							"features": [
+								{
+									"type": "attribute_bonus",
+									"attribute": "tm_rr",
+									"amount": -2,
+									"per_level": true
+								}
+							]
+						},
+						{
+							"id": "10b7c609-d742-473c-a229-fd39e10a948f",
+							"type": "modifier",
+							"name": "Dance",
+							"cost": -40,
+							"affects": "levels_only",
+							"disabled": true
+						},
+						{
+							"id": "8cffcc39-a19c-4aa2-8a65-f270534b6ad7",
+							"type": "modifier",
+							"name": "Dark-Aspected",
+							"cost": -50,
+							"affects": "levels_only",
+							"disabled": true
+						},
+						{
+							"id": "9a43b6eb-5fca-4b3b-9475-9c8922652001",
+							"type": "modifier",
+							"name": "Day-Aspected",
+							"cost": -40,
+							"affects": "levels_only",
+							"disabled": true
+						},
+						{
+							"id": "1db3c1d2-12b8-4d9f-aaec-8a1f58f99922",
+							"type": "modifier",
+							"name": "Musical",
+							"cost": -50,
+							"affects": "levels_only",
+							"disabled": true
+						},
+						{
+							"id": "7ef63d35-934c-4046-8b55-22208f7a99b6",
+							"type": "modifier",
+							"name": "Night-Aspected",
+							"cost": -40,
+							"affects": "levels_only",
+							"disabled": true
+						},
+						{
+							"id": "0f92e868-30bd-4a88-8dd7-d1929eb47c0e",
+							"type": "modifier",
+							"name": "One College",
+							"notes": "@College@",
+							"cost": -40,
+							"affects": "levels_only",
+							"disabled": true
+						},
+						{
+							"id": "7a67c4c3-2454-43a0-acd4-aac1265bd79a",
+							"type": "modifier",
+							"name": "Solitary",
+							"cost": -40,
+							"affects": "levels_only",
+							"disabled": true
+						},
+						{
+							"id": "162576be-563f-43f2-9bd3-91db2defc569",
+							"type": "modifier",
+							"name": "Song",
+							"cost": -40,
+							"affects": "levels_only",
+							"disabled": true
+						},
+						{
+							"id": "65fb448e-c6c6-4d71-8101-e8603a90bd36",
+							"type": "modifier",
+							"name": "Threshold-based magic",
+							"notes": "Needs Threshold Attributes file!"
+						}
+					],
+					"base_points": 5,
+					"levels": 1,
+					"points_per_level": 10,
+					"features": [
+						{
+							"type": "spell_bonus",
+							"match": "all_colleges",
+							"amount": 1,
+							"per_level": true
+						},
+						{
+							"type": "skill_bonus",
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "thaumatology"
+							},
+							"amount": 1,
+							"per_level": true
+						}
+					],
+					"can_level": true,
+					"calc": {
+						"points": 15
+					}
+				},
+				{
 					"id": "ad32997e-a4f1-457d-bde8-1b4f8e7d14e1",
 					"type": "trait",
 					"name": "KEF Wizard Rank",
@@ -165,27 +343,6 @@
 					],
 					"levels": 1,
 					"points_per_level": 5,
-					"can_level": true,
-					"calc": {
-						"points": 10
-					}
-				},
-				{
-					"id": "169e8353-62e6-42c1-abdd-5bab12641797",
-					"type": "trait",
-					"name": "Threshold Magery 0",
-					"base_points": 5,
-					"calc": {
-						"points": 5
-					}
-				},
-				{
-					"id": "1e134e28-b01b-4992-8e5f-e97b9eb140bd",
-					"type": "trait",
-					"name": "Threshold Magery",
-					"reference": "Th77",
-					"levels": 1,
-					"points_per_level": 10,
 					"can_level": true,
 					"calc": {
 						"points": 10

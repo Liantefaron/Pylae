@@ -205,7 +205,7 @@
 		{
 			"id": "2e0f4d74-13d6-4783-8d38-db4e982252f3",
 			"type": "trait",
-			"name": "Threshold Magery",
+			"name": "Magery",
 			"reference": "Th76",
 			"tags": [
 				"Advantage",
@@ -346,6 +346,12 @@
 					"cost": -40,
 					"affects": "levels_only",
 					"disabled": true
+				},
+				{
+					"id": "65fb448e-c6c6-4d71-8101-e8603a90bd36",
+					"type": "modifier",
+					"name": "Threshold-based magic",
+					"notes": "Needs Threshold Attributes file!"
 				}
 			],
 			"base_points": 5,
@@ -395,7 +401,22 @@
 						"has": true,
 						"name": {
 							"compare": "is",
-							"qualifier": "Threshold Magery"
+							"qualifier": "Magery"
+						},
+						"level": {
+							"compare": "at_least"
+						},
+						"notes": {
+							"compare": "contains",
+							"qualifier": "Threshold-based magic"
+						}
+					},
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Magery"
 						},
 						"level": {
 							"compare": "at_least",
@@ -434,6 +455,42 @@
 			],
 			"levels": 1,
 			"points_per_level": 10,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Magery"
+						},
+						"level": {
+							"compare": "at_least"
+						},
+						"notes": {
+							"compare": "does_not_contain",
+							"qualifier": "Seriously Calamity-Prone"
+						}
+					},
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Magery"
+						},
+						"level": {
+							"compare": "at_least"
+						},
+						"notes": {
+							"compare": "contains",
+							"qualifier": "Threshold-based magic"
+						}
+					}
+				]
+			},
 			"can_level": true,
 			"calc": {
 				"points": 10
@@ -452,6 +509,42 @@
 			],
 			"levels": 1,
 			"points_per_level": 5,
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Magery"
+						},
+						"level": {
+							"compare": "at_least"
+						},
+						"notes": {
+							"compare": "contains",
+							"qualifier": "Threshold-based magic"
+						}
+					},
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Magery"
+						},
+						"level": {
+							"compare": "at_least"
+						},
+						"notes": {
+							"compare": "does_not_contain",
+							"qualifier": "Slower Magical Recovery"
+						}
+					}
+				]
+			},
 			"features": [
 				{
 					"type": "attribute_bonus",

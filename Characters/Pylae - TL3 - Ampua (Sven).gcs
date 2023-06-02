@@ -1240,6 +1240,64 @@
 					}
 				},
 				{
+					"id": "068f1234-484d-4291-8bc2-6d9b16ae9dda",
+					"type": "trait",
+					"name": "Chameleon",
+					"reference": "B41,P43",
+					"tags": [
+						"Advantage",
+						"Exotic",
+						"Physical"
+					],
+					"modifiers": [
+						{
+							"id": "00059922-c93e-4c7e-a116-67b0748e7e9b",
+							"type": "modifier",
+							"name": "Extended",
+							"reference": "B41",
+							"notes": "@Sense@",
+							"cost": 20,
+							"disabled": true
+						},
+						{
+							"id": "4881885d-f553-4ac7-a8b8-73b4a8a15950",
+							"type": "modifier",
+							"name": "Accessibility: Only in natural environment",
+							"cost": -20
+						},
+						{
+							"id": "45abbec3-81d7-4e37-a2e8-54f6b5006379",
+							"type": "modifier",
+							"name": "Always On",
+							"reference": "B41",
+							"cost": -10,
+							"disabled": true
+						},
+						{
+							"id": "4e939794-d937-4c17-9f2b-1049b58dd80f",
+							"type": "modifier",
+							"name": "Controllable",
+							"reference": "P43",
+							"cost": 20,
+							"disabled": true
+						},
+						{
+							"id": "3322a029-d9a2-4fcd-b414-82df0832319c",
+							"type": "modifier",
+							"name": "Dynamic",
+							"reference": "P43",
+							"cost": 40,
+							"disabled": true
+						}
+					],
+					"levels": 3,
+					"points_per_level": 5,
+					"can_level": true,
+					"calc": {
+						"points": 12
+					}
+				},
+				{
 					"id": "bb6b9d8d-14a0-48f6-a99e-5aa71db2d062",
 					"type": "trait",
 					"name": "Code of Honor (Taipuisa)",
@@ -2085,7 +2143,7 @@
 			"ancestry": "Taipuisa - Hallapuisa",
 			"container_type": "race",
 			"calc": {
-				"points": 66
+				"points": 78
 			}
 		},
 		{
@@ -3413,64 +3471,6 @@
 			}
 		},
 		{
-			"id": "068f1234-484d-4291-8bc2-6d9b16ae9dda",
-			"type": "trait",
-			"name": "Chameleon",
-			"reference": "B41,P43",
-			"tags": [
-				"Advantage",
-				"Exotic",
-				"Physical"
-			],
-			"modifiers": [
-				{
-					"id": "00059922-c93e-4c7e-a116-67b0748e7e9b",
-					"type": "modifier",
-					"name": "Extended",
-					"reference": "B41",
-					"notes": "@Sense@",
-					"cost": 20,
-					"disabled": true
-				},
-				{
-					"id": "4881885d-f553-4ac7-a8b8-73b4a8a15950",
-					"type": "modifier",
-					"name": "Accessibility: Only in natural environment",
-					"cost": -20
-				},
-				{
-					"id": "45abbec3-81d7-4e37-a2e8-54f6b5006379",
-					"type": "modifier",
-					"name": "Always On",
-					"reference": "B41",
-					"cost": -10,
-					"disabled": true
-				},
-				{
-					"id": "4e939794-d937-4c17-9f2b-1049b58dd80f",
-					"type": "modifier",
-					"name": "Controllable",
-					"reference": "P43",
-					"cost": 20,
-					"disabled": true
-				},
-				{
-					"id": "3322a029-d9a2-4fcd-b414-82df0832319c",
-					"type": "modifier",
-					"name": "Dynamic",
-					"reference": "P43",
-					"cost": 40,
-					"disabled": true
-				}
-			],
-			"levels": 3,
-			"points_per_level": 5,
-			"can_level": true,
-			"calc": {
-				"points": 12
-			}
-		},
-		{
 			"id": "4def1f0c-4deb-4db3-abfd-b187a9c96d23",
 			"type": "trait",
 			"name": "Charisma",
@@ -3668,7 +3668,23 @@
 						"has": true,
 						"name": {
 							"compare": "is",
-							"qualifier": "Threshold Magery"
+							"qualifier": "Magery"
+						},
+						"level": {
+							"compare": "at_least",
+							"qualifier": 1
+						},
+						"notes": {
+							"compare": "contains",
+							"qualifier": "Threshold-based magic"
+						}
+					},
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Magery"
 						},
 						"level": {
 							"compare": "at_least",
@@ -15037,7 +15053,7 @@
 		}
 	],
 	"created_date": "2023-05-29T19:11:58+02:00",
-	"modified_date": "2023-06-03T00:45:39+02:00",
+	"modified_date": "2023-06-03T01:00:00+02:00",
 	"calc": {
 		"swing": "1d+1",
 		"thrust": "1d-1",
