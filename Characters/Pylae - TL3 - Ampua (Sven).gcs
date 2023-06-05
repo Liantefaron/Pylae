@@ -2,8 +2,13 @@
 	"type": "character",
 	"version": 4,
 	"id": "ad259f9c-d085-4b46-b91e-77c745b3bb31",
-	"total_points": 963,
+	"total_points": 964,
 	"points_record": [
+		{
+			"when": "2023-06-05T23:32:01+02:00",
+			"points": 1,
+			"reason": "Session #241"
+		},
 		{
 			"when": "2023-05-29T19:17:19+02:00",
 			"points": 713,
@@ -323,7 +328,7 @@
 				"type": "integer",
 				"name": "Excess PT",
 				"full_name": "Excess Power Tally",
-				"attribute_base": "$tm_pt - $tm_threshold"
+				"attribute_base": "if($tm_pt \u003e $tm_threshold, floor($tm_pt - $tm_threshold), 0)"
 			},
 			{
 				"id": "tm_calamity_bonus",
@@ -690,7 +695,7 @@
 			"attr_id": "tm_excess",
 			"adj": 0,
 			"calc": {
-				"value": -36,
+				"value": 0,
 				"points": 0
 			}
 		},
@@ -698,7 +703,7 @@
 			"attr_id": "tm_calamity_bonus",
 			"adj": 0,
 			"calc": {
-				"value": -7,
+				"value": 0,
 				"points": 0
 			}
 		}
@@ -15053,7 +15058,7 @@
 		}
 	],
 	"created_date": "2023-05-29T19:11:58+02:00",
-	"modified_date": "2023-06-03T01:00:00+02:00",
+	"modified_date": "2023-06-05T22:58:51+02:00",
 	"calc": {
 		"swing": "1d+1",
 		"thrust": "1d-1",
