@@ -246,17 +246,17 @@
 			"type": "pool",
 			"name": "PT",
 			"full_name": "Power Tally",
-			"attribute_base": "0",
+			"attribute_base": "$tm_threshold",
 			"thresholds": [
 				{
-					"state": "Balanced",
-					"expression": "0",
-					"explanation": "The Threshold Mage is in balance with the world and can cast normally."
+					"state": "Dissonant",
+					"expression": "-1",
+					"explanation": "The Threshold mage has cast too many spells and is in dissonance with the world. Further casting will lead to Calamity rolls."
 				},
 				{
-					"state": "Dissonant",
-					"expression": "$mana_threshold",
-					"explanation": "The Threshold mage has cast too many spells and is in dissonance with the world. Further casting will lead to Calamity rolls."
+					"state": "Balanced",
+					"expression": "$tm_threshold",
+					"explanation": "The Threshold Mage is in balance with the world and can cast normally."
 				}
 			]
 		},
@@ -272,7 +272,7 @@
 			"type": "integer",
 			"name": "Excess PT",
 			"full_name": "Excess Power Tally",
-			"attribute_base": "if($tm_pt > $tm_threshold, floor($tm_pt - $tm_threshold), 0)"
+			"attribute_base": "$tm_threshold - $tm_pt"
 		},
 		{
 			"id": "tm_calamity_bonus",
