@@ -246,17 +246,17 @@
 			"type": "pool",
 			"name": "PT",
 			"full_name": "Power Tally",
-			"attribute_base": "0",
+			"attribute_base": "$tm_threshold",
 			"thresholds": [
 				{
-					"state": "Balanced",
-					"expression": "0",
-					"explanation": "The Threshold Mage is in balance with the world and can cast normally."
+					"state": "Dissonant",
+					"expression": "-1",
+					"explanation": "The Threshold mage has cast too many spells and is in dissonance with the world. Further casting will lead to Calamity rolls."
 				},
 				{
-					"state": "Dissonant",
-					"expression": "$mana_threshold",
-					"explanation": "The Threshold mage is in dissonance with the world. Further casting will lead to Calamity rolls."
+					"state": "Balanced",
+					"expression": "$tm_threshold",
+					"explanation": "The Threshold Mage is in balance with the world and can cast normally."
 				}
 			]
 		},
@@ -268,18 +268,11 @@
 			"attribute_base": "8"
 		},
 		{
-			"id": "tm_excess",
-			"type": "integer",
-			"name": "Excess PT",
-			"full_name": "Excess Power Tally",
-			"attribute_base": "if($tm_pt > $tm_threshold, floor($tm_pt - $tm_threshold), 0)"
-		},
-		{
 			"id": "tm_calamity_bonus",
 			"type": "integer",
 			"name": "Calamity Bonus",
 			"full_name": "Calamity Roll Bonus",
-			"attribute_base": "signed(floor($tm_excess / if(trait_level(Safer Magical Excess) >= 1, round(5*pow(2,trait_level(Safer Magical Excess))), 5)))"
+			"attribute_base": "if($tm_pt < 0, signed(floor(-1 * $tm_pt / if(trait_level(Safer Magical Excess) >= 1, round(5*pow(2,trait_level(Safer Magical Excess))), 5))), 0)"
 		}
 	]
 }
